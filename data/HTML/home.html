@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Movies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel='icon' href="../Images/Logo.png">
+    <style>
+        body {
+            background-image: url('../Images/Movies/Background.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sagas infinity-saga">
+            <h1 class="title">Infinity Saga</h1>
+            <div class="saga-container">
+                <div class="row">
+                    <div class="col-1">
+                        <div class="arrow-container">
+                            <i class="fa fa-arrow-left arrow" id="infinity-left"></i>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <!-- Swiper -->
+                        <div class="swiper infinitySwiper">
+                            <div class="swiper-wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <div class="arrow-container">
+                            <i class="fa fa-arrow-right arrow" id="infinity-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sagas multiverse-saga">
+            <h1 class="title">Multiverse Saga</h1>
+            <div class="saga-container">
+                <div class="row">
+                    <div class="col-1">
+                        <div class="arrow-container">
+                            <i class="fa fa-arrow-left arrow" id="multiverse-left"></i>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <!-- Swiper -->
+                        <div class="swiper multiverseSwiper">
+                            <div class="swiper-wrapper">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <div class="arrow-container">
+                            <i class="fa fa-arrow-right arrow" id="multiverse-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <section class="footer-top">
+            <div class="container footer-header">
+                <div class="row">
+                    <div class="col-4">
+                        <a href="movies.html" style="text-decoration: none;">
+                            <div class="footer-image-link" style="background-image: url(../Images/Footer/movies.png);">
+                                Movies
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href="home.html" style="text-decoration: none;">
+                            <div class="footer-image-link active"
+                                style="background-image: url(../Images/Footer/hub.png);">
+                                Home
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href="characters.html" style="text-decoration: none;">
+                            <div class="footer-image-link"
+                                style="background-image: url(../Images/Footer/characters.png);">
+                                Characters
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="../../index.html" class="footer-logo-div">
+                            <img src="../Images/Footer/logo.png" class="footer-logo-link">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10.3.1/swiper-bundle.min.js"></script>
+    <script src="../js/home.js"></script>
+</body>
+
+</html>

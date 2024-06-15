@@ -1,0 +1,90 @@
+
+.footer{
+    background: #303036;
+    color: white;
+    /* text-align: center; */
+    text-align: justify;
+    font-size: 17px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-header{
+    padding: 1% 2% 1% 2%;
+}
+
+.footer-content{
+    padding: 2% 2% 0% 2%;
+}
+
+
+.footer-title{
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.footer-bottom{
+    background-color: #242428;
+    text-align: center;
+    font-size: medium;
+}
+
+.logo-footer{
+    height: 50px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.link:hover{
+    color: rgb(219, 40, 40);
+}
+
+.footer-legend{
+    padding: 0% 2% 0% 2%;
+}
+
+.footer-image-link{
+    color: white;
+    text-decoration: none;
+    height: 35vh; 
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    filter: grayscale(100%); 
+    -webkit-text-stroke: 2px black;
+}
+
+.footer-image-link.active,
+.footer-image-link:hover{
+    background-size: 135%;
+    filter: grayscale(0%);
+}
+
+.footer-image-link.active:hover{
+    background-size: 145%;
+}
+
+
+.footer-logo-div{
+    height: 75px;
+    display: flex;
+    align-items: end; 
+    /* justify-content: center; */
+}
+
+.footer-logo-link{
+    height: 50px;
+}
+
