@@ -52,10 +52,10 @@
 .footer-image-link{
     color: white;
     text-decoration: none;
-    height: 35vh; 
-    background-size: 125%;
+    height: 30vh; 
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     transition: all 0.5s;
     display: flex;
     align-items: center; 
@@ -66,14 +66,20 @@
     -webkit-text-stroke: 2px black;
 }
 
+@media (max-width: 576px) {
+    .footer-image-link{
+        height: 20vh; 
+    }
+}
+
 .footer-image-link.active,
 .footer-image-link:hover{
-    background-size: 135%;
+    background-size: 110%;
     filter: grayscale(0%);
 }
 
 .footer-image-link.active:hover{
-    background-size: 145%;
+    background-size: 120%;
 }
 
 
