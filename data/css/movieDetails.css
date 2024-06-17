@@ -136,6 +136,9 @@ body {
         width: 40vw;
     }
 
+    .actor-name {
+        font-size: 16px;
+    }
     .character-name {
         font-size: 14px;
     }
