@@ -12,7 +12,6 @@ body {
 }
 
 
-
 .card {
     font-size: 20px;
 }
@@ -23,8 +22,10 @@ body {
 }
 
 .card-text {
-    font-size: 18px;
+    font-size: 1.25vw;
 }
+
+
 
 .swiper {
     width: 100%;
@@ -42,7 +43,6 @@ body {
     display: block;
     width: 100%;
 }
-
 
 .actor-name {
     font-size: 14px;
@@ -63,7 +63,6 @@ body {
     font-size: 10px;
     text-align: center;
     color: black;
-    /* margin-top: 2px; */
 }
 
 .arrows{
@@ -81,8 +80,67 @@ body {
     text-decoration: none;
     color: black;
     padding: 10px;
-    backdrop-filter: blur(5px); 
+    backdrop-filter: blur(5px);
 }
 
+@media (max-width: 992px) {
+    .jumbotron {
+        height: 40vh;
+    }
 
+    .movie-info {
+        display: flex;
+    }
+
+    .movie-poster {
+        padding: 0 25%;
+    }
+
+    .card-text {
+        font-size: 24px;
+    }
+
+    .swiper-slide {
+        width: 30vw;
+    }
+
+    .actor-name {
+        font-size: 20px;
+    }
+    .character-name {
+        font-size: 18px;
+    }
+    .character-special {
+        font-size: 16px;
+    }
+
+    .arrow {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .jumbotron {
+        height: 30vh;
+    }
+
+    .movie-poster {
+        padding: 0 15%;
+    }
+
+    .card-text {
+        font-size: 16px;
+    }
+
+    .swiper-slide {
+        width: 40vw;
+    }
+
+    .character-name {
+        font-size: 14px;
+    }
+    .character-special {
+        font-size: 12px;
+    }
+}
 

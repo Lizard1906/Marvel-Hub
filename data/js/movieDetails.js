@@ -171,7 +171,7 @@ if (moviesToWatch.length != 0) {
         link.href = 'movieDetails.html?id=' + movieID;
 
         const poster = document.createElement("img");
-        poster.classList.add("poster-img");
+        // poster.classList.add("poster-img");
         poster.src = "../Images/Movies/MovieDetails/Poster/" + movieID + ".png";
 
         link.appendChild(poster);
@@ -196,7 +196,7 @@ var swiper = new Swiper(".moviesSwiper", {
         stretch: 0,
         depth: 300,
         modifier: 1,
-        slideShadows: true,
+        slideShadows: false,
     },
 });
 
