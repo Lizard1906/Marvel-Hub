@@ -50,7 +50,7 @@ function createMovieElements(moviesStack, reverse, newType, newProduction) {
 
 
             const movieElement = document.createElement("div");
-            movieElement.classList.add("col-2");
+            movieElement.classList.add("col-lg-2", "col-md-4", "col-6");
             movieElement.classList.add("img-card");
 
             const movieLink = document.createElement("a");

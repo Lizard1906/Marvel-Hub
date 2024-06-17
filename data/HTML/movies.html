@@ -27,7 +27,7 @@
     <div class="container">
         <div id="movies-filters">
             <div class="row filter-bar">
-                <div class="col-3">
+                <div class="col-lg-3 col-12 p-2">
                     <label for="sort-by">Sort by</label>
                     <select id="sort-by" onchange="submitFilters()">
                         <option value="default">Default</option>
@@ -37,13 +37,13 @@
                         <option value="length">Length</option>
                     </select>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-3 col-12 p-2">
                     <div id="sort-order" class="d-none" style="font-size: large" onchange="submitFilters()">
                         <input type="radio" name="sort-order" value="asc"> <i class="fas fa-arrow-up"></i>
                         <input type="radio" name="sort-order" value="desc"> <i class="fas fa-arrow-down"></i>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-12 p-2">
                     <label for="type">Type</label>
                     <select id="type" onchange="submitFilters()">
                         <option value="all">All</option>
@@ -51,7 +51,7 @@
                         <option value="series">Series</option>
                     </select>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-12 p-2">
                     <label for="productor">Productor</label>
                     <select id="productor" onchange="submitFilters()">
                         <option value="all">All</option>
@@ -61,7 +61,7 @@
                         <option value="netflix">Netflix</option>
                     </select>
                 </div>
-                <div class="col-2 text-end">
+                <div class="col-lg-1 col-12 p-2">
                     <button class="btn btn-dark" id="reset-filters" onclick="resetFilters()">Reset</button>
                     <!-- <button class="btn btn-danger button-submit" id="submit-filters" onclick="submitFilters()">Submit</button> -->
                 </div>
