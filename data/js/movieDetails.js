@@ -1,4 +1,4 @@
-data = JSON.parse(localStorage.getItem('data'))
+data = JSON.parse(localStorage.getItem('marvel-hub'))
 
 var url = window.location.href;
 var id = url.split('?id=')[1];

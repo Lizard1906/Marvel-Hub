@@ -1,8 +1,8 @@
-data = JSON.parse(localStorage.getItem('data'))
+data = JSON.parse(localStorage.getItem('marvel-hub'))
 
 if (data.activeMovieStack === "mainStack" || data.activeMovieStack === null) {
     data.activeMovieStack = "defaultStack";
-    localStorage.setItem('data', JSON.stringify(data));
+    localStorage.setItem('marvel-hub', JSON.stringify(data));
 } 
 
 if (data.activeMovieStack === "defaultStack") {
@@ -83,7 +83,7 @@ sortBySelect.addEventListener("change", function () {
     }
 
     data.activeMovieStack = selectedValue + "Stack";
-    localStorage.setItem('data', JSON.stringify(data));
+    localStorage.setItem('marvel-hub', JSON.stringify(data));
     console.log("active " + data.activeMovieStack);
 
 });
@@ -121,7 +121,7 @@ function resetFilters() {
     createMovieElements(data.stacks.movies.defaultStack, false, "all", "all");
 
     data.activeMovieStack = "defaultStack";
-    localStorage.setItem('data', JSON.stringify(data));
+    localStorage.setItem('marvel-hub', JSON.stringify(data));
 
 }
 

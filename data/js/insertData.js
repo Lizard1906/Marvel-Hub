@@ -1970,8 +1970,8 @@ totalStacks = {}
 totalStacks.movies = { mainStack, defaultStack, chronologicalStack, ratingStack, lengthStack, releaseStack }
 
 data.stacks = totalStacks
-if (localStorage.getItem('data')) {
-    const savedData = JSON.parse(localStorage.getItem('data'));
+if (localStorage.getItem('marvel-hub')) {
+    const savedData = JSON.parse(localStorage.getItem('marvel-hub'));
     if (savedData.activeMovieStack) {
         data.activeMovieStack = savedData.activeMovieStack;
     } else {
@@ -1982,5 +1982,5 @@ if (localStorage.getItem('data')) {
 }
 
 localStorage.clear();
-localStorage.setItem('data', JSON.stringify(data))
+localStorage.setItem('marvel-hub', JSON.stringify(data))
 console.log(data)

@@ -1,4 +1,4 @@
-data = JSON.parse(localStorage.getItem('data'))
+data = JSON.parse(localStorage.getItem('marvel-hub'))
 
 console.log(data)
 const charactersStack = data.characters

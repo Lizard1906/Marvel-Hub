@@ -1,6 +1,6 @@
-data = JSON.parse(localStorage.getItem('data'));
+data = JSON.parse(localStorage.getItem('marvel-hub'));
 data.activeMovieStack = "mainStack";
-localStorage.setItem('data', JSON.stringify(data));
+localStorage.setItem('marvel-hub', JSON.stringify(data));
 
 const infinityMovies = data.movies.infinitySaga;
 const multiverseMovies = data.movies.multiverseSaga;
