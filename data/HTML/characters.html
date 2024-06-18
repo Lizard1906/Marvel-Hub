@@ -16,7 +16,7 @@
     <style>
         body {
             background-image: url('../Images/Movies/Background.png');
-            background-repeat: no-repeat;
+            /* background-repeat: no-repeat; */
             background-size: 100%;
         }
     </style>
@@ -26,51 +26,7 @@
 
 
     <div class="container">
-        <div id="characters-filters">
-            <div class="row filter-bar">
-                <div class="col-3">
-                    <label for="sort-by">Sort by</label>
-                    <select id="sort-by">
-                        <option value="default">Default</option>
-                        <option value="release">Release Date</option>
-                        <option value="rating">Rating</option>
-                        <option value="chronological">Chronology</option>
-                        <option value="length">Length</option>
-                    </select>
-                </div>
-                <div class="col-2">
-                    <div id="sort-order" class="d-none" style="font-size: large">
-                        <input type="radio" name="sort-order" value="asc"> <i class="fas fa-arrow-up"></i>
-                        <input type="radio" name="sort-order" value="desc"> <i class="fas fa-arrow-down"></i>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <label for="type">Type</label>
-                    <select id="type">
-                        <option value="all">All</option>
-                        <option value="movies">Movies</option>
-                        <option value="series">Series</option>
-                    </select>
-                </div>
-                <div class="col-3">
-                    <label for="productor">Productor</label>
-                    <select id="productor">
-                        <option value="all">All</option>
-                        <option value="marvel">Marvel</option>
-                        <option value="fox">Fox</option>
-                        <option value="sony">Sony</option>
-                        <option value="netflix">Netflix</option>
-                    </select>
-                </div>
-                <div class="col-2 text-end">
-                    <button class="btn btn-primary button-reset" id="reset-filters"
-                        onclick="resetFilters()">Reset</button>
-                    <button class="btn btn-danger button-submit" id="submit-filters"
-                        onclick="submitFilters()">Submit</button>
-                </div>
-            </div>
-        </div>
-        <div id="movies-container" class="row line"></div>
+        <div id="characters-container" class="row line"></div>
     </div>
 
     <!-- Footer -->
@@ -82,6 +38,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="../js/characters.js"></script>
+
 </body>
 
 </html>

@@ -211,7 +211,7 @@ movies.infinitySaga =
                 { "name": "Thor", "actor": "Chris Hemsworth", "id": "thor" },
                 { "name": "Jane Foster", "actor": "Natalie Portman", "id": "jane-foster" },
                 { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
-				{ "name": "Captain America", "actor": "Chris Evans", "id": "steve-rogers", "special": "uncredited" },
+                { "name": "Captain America", "actor": "Chris Evans", "id": "steve-rogers", "special": "uncredited" },
             ]
         },
         {
@@ -1089,7 +1089,8 @@ movies.multiverseSaga =
                 { "id": "loki" }
             ],
             "mainCharacters": [
-                { "name": "Deadpool", "actor": "Ryan Reynolds", "id": "deadpool" },
+                { "name": "Deadpool", "actor": "Ryan Reynolds", "id": "wade-wilson" },
+                { "name": "Wolverine", "actor": "Hugh Jackman", "id": "logan" },
             ]
         }
     ]
@@ -1567,6 +1568,42 @@ characters = {
             ]
         },
         {
+            "id": "doctor-strange",
+            "name": "Doctor Strange",
+            "actor": [
+                {
+                    "name": "Benedict Cumberbatch",
+                    "birth": "19/07/1976",
+                    "originCountry": "England",
+                    "info": "https://en.wikipedia.org/wiki/Benedict_Cumberbatch"
+                }
+            ]
+        },
+        {
+            "id": "wong",
+            "name": "Wong",
+            "actor": [
+                {
+                    "name": "Benedict Wong",
+                    "birth": "03/06/1971",
+                    "originCountry": "England",
+                    "info": "https://en.wikipedia.org/wiki/Benedict_Wong"
+                }
+            ]
+        },
+        {
+            "id": "peter-parker",
+            "name": "Peter Parker",
+            "actor": [
+                {
+                    "name": "Tom Holland",
+                    "birth": "01/06/1996",
+                    "originCountry": "England",
+                    "info": "https://en.wikipedia.org/wiki/Tom_Holland"
+                }
+            ]
+        },
+        {
             "id": "t-challa",
             "name": "T'Challa",
             "actor": [
@@ -1591,14 +1628,14 @@ characters = {
             ]
         },
         {
-            "id": "peter-parker",
-            "name": "Peter Parker",
+            "id": "valkyrie",
+            "name": "Valkyrie",
             "actor": [
                 {
-                    "name": "Tom Holland",
-                    "birth": "01/06/1996",
-                    "originCountry": "England",
-                    "info": "https://en.wikipedia.org/wiki/Tom_Holland"
+                    "name": "Tessa Thompson",
+                    "birth": "03/10/1983",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Tessa_Thompson"
                 }
             ]
         },
@@ -1614,7 +1651,282 @@ characters = {
                 }
             ]
         },
-
+        {
+            "id": "monica-rambeau",
+            "name": "Monica Rambeau",
+            "actor": [
+                {
+                    "name": "Teyonah Parris",
+                    "birth": "22/09/1987",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Teyonah_Parris"
+                },
+            ]
+        },
+        {
+            "id": "kamala-khan",
+            "name": "Kamala Khan",
+            "actor": [
+                {
+                    "name": "Iman Vellani",
+                    "birth": "12/08/2002",
+                    "originCountry": "Pakistan",
+                    "info": "https://en.wikipedia.org/wiki/Iman_Vellani"
+                }
+            ]
+        },
+        {
+            "id": "kate-bishop",
+            "name": "Kate Bishop",
+            "actor": [
+                {
+                    "name": "Hailee Steinfeld",
+                    "birth": "11/12/1996",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Hailee_Steinfeld"
+                }
+            ]
+        },
+        {
+            "id": "yelena-belova",
+            "name": "Yelena Belova",
+            "actor": [
+                {
+                    "name": "Florence Pugh",
+                    "birth": "03/01/1996",
+                    "originCountry": "England",
+                    "info": "https://en.wikipedia.org/wiki/Florence_Pugh"
+                }
+            ]
+        },
+        {
+            "id": "maya-lopez",
+            "name": "Maya Lopez",
+            "actor": [
+                {
+                    "name": "Alaqua Cox",
+                    "birth": "30/11/2000",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Alaqua_Cox"
+                }
+            ]
+        },
+        {
+            "id": "jennifer-walters",
+            "name": "Jennifer Walters",
+            "actor": [
+                {
+                    "name": "Tatiana Maslany",
+                    "birth": "22/09/1985",
+                    "originCountry": "Canada",
+                    "info": "https://en.wikipedia.org/wiki/Tatiana_Maslany"
+                }
+            ]
+        },
+        {
+            "id": "matt-murdock",
+            "name": "Matt Murdock",
+            "actor": [
+                {
+                    "name": "Charlie Cox",
+                    "birth": "15/12/1982",
+                    "originCountry": "England",
+                    "info": "https://en.wikipedia.org/wiki/Charlie_Cox"
+                }
+            ]
+        },
+        {
+            "id": "peter-parker-sm",
+            "name": "Peter Parker",
+            "actor": [
+                {
+                    "name": "Tobey Maguire",
+                    "birth": "27/06/1975",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Tobey_Maguire"
+                }
+            ]
+        },
+        {
+            "id": "peter-parker-asm",
+            "name": "Peter Parker",
+            "actor": [
+                {
+                    "name": "Andrew Garfield",
+                    "birth": "20/08/1983",
+                    "originCountry": "England",
+                    "info": "https://en.wikipedia.org/wiki/Andrew_Garfield"
+                }
+            ]
+        },
+        {
+            "id": "america-chavez",
+            "name": "America Chavez",
+            "actor": [
+                {
+                    "name": "Xochitl Gomez",
+                    "birth": "29/04/2006",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Xochitl_Gomez"
+                }
+            ]
+        },
+        {
+            "id": "shang-chi",
+            "name": "Shang-Chi",
+            "actor": [
+                {
+                    "name": "Simu Liu",
+                    "birth": "19/04/1989",
+                    "originCountry": "China",
+                    "info": "https://en.wikipedia.org/wiki/Simu_Liu"
+                }
+            ]
+        },
+        {
+            "id": "sersi",
+            "name": "Sersi",
+            "actor": [
+                {
+                    "name": "Gemma Chan",
+                    "birth": "29/11/1982",
+                    "originCountry": "England",
+                    "info": "https://en.wikipedia.org/wiki/Gemma_Chan"
+                }
+            ]
+        },
+        {
+            "id": "thena",
+            "name": "Thena",
+            "actor": [
+                {
+                    "name": "Angelina Jolie",
+                    "birth": "04/06/1975",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Angelina_Jolie"
+                }
+            ]
+        },
+        {
+            "id": "kingo",
+            "name": "Kingo",
+            "actor": [
+                {
+                    "name": "Kumail Nanjiani",
+                    "birth": "21/02/1978",
+                    "originCountry": "Pakistan",
+                    "info": "https://en.wikipedia.org/wiki/Kumail_Nanjiani"
+                }
+            ]
+        },
+        {
+            "id": "druig",
+            "name": "Druig",
+            "actor": [
+                {
+                    "name": "Barry Keoghan",
+                    "birth": "18/10/1992",
+                    "originCountry": "Ireland",
+                    "info": "https://en.wikipedia.org/wiki/Barry_Keoghan"
+                }
+            ]
+        },
+        {
+            "id": "makkari",
+            "name": "Makkari",
+            "actor": [
+                {
+                    "name": "Lauren Ridloff",
+                    "birth": "06/07/1978",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Lauren_Ridloff"
+                }
+            ]
+        },
+        {
+            "id": "phastos",
+            "name": "Phastos",
+            "actor": [
+                {
+                    "name": "Brian Tyree Henry",
+                    "birth": "31/03/1982",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Brian_Tyree_Henry"
+                }
+            ]
+        },
+        {
+            "id": "marc-spector",
+            "name": "Marc Spector",
+            "actor": [
+                {
+                    "name": "Oscar Isaac",
+                    "birth": "09/03/1979",
+                    "originCountry": "Guatemala",
+                    "info": "https://en.wikipedia.org/wiki/Oscar_Isaac"
+                }
+            ]
+        },
+        {
+            "id": "riri-williams",
+            "name": "Riri Williams",
+            "actor": [
+                {
+                    "name": "Dominique Thorne",
+                    "birth": "01/11/1998",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
+                }
+            ]
+        },
+        {
+            "id": "talos",
+            "name": "Talos",
+            "actor": [
+                {
+                    "name": "Ben Mendelsohn",
+                    "birth": "03/04/1969",
+                    "originCountry": "Australia",
+                    "info": "https://en.wikipedia.org/wiki/Ben_Mendelsohn"
+                }
+            ]
+        },
+        {
+            "id": "giah",
+            "name": "G'iah",
+            "actor": [
+                {
+                    "name": "Emilia Clarke",
+                    "birth": "23/10/1986",
+                    "originCountry": "England",
+                    "info": "https://en.wikipedia.org/wiki/Emilia_Clarke"
+                }
+            ]
+        },
+        {
+            "id": "wade-wilson",
+            "name": "Wade Wilson",
+            "actor": [
+                {
+                    "name": "Ryan Reynolds",
+                    "birth": "23/10/1976",
+                    "originCountry": "Canada",
+                    "info": "https://en.wikipedia.org/wiki/Ryan_Reynolds"
+                }
+            ]
+        },
+        {
+            "id": "logan",
+            "name": "Logan",
+            "actor": [
+                {
+                    "name": "Hugh Jackman",
+                    "birth": "12/10/1968",
+                    "originCountry": "Australia",
+                    "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
+                }
+            ]
+        }
     ]
 }
 
@@ -1661,14 +1973,14 @@ data.stacks = totalStacks
 if (localStorage.getItem('data')) {
     const savedData = JSON.parse(localStorage.getItem('data'));
     if (savedData.activeMovieStack) {
-      data.activeMovieStack = savedData.activeMovieStack;
+        data.activeMovieStack = savedData.activeMovieStack;
     } else {
-      data.activeMovieStack = null;
+        data.activeMovieStack = null;
     }
-  } else {
+} else {
     data.activeMovieStack = null;
-  }
-  
-// localStorage.clear();
+}
+
+localStorage.clear();
 localStorage.setItem('data', JSON.stringify(data))
 console.log(data)
