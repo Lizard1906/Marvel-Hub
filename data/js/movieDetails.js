@@ -55,76 +55,12 @@ Object.entries(data.movies).forEach(([sagaName, movies]) => {
 });
 
 
-
-/*
-Object.entries(data.movies).forEach(([sagaName, movies]) => {
-    movies.forEach(movie => {
-        if (movie.id == id) {
-            foundMovie = movie;
-            movieIndex = movies.findIndex(movie => movie.id === id);
-            console.log(movies);
-            if (sagaName === "infinitySaga") {
-                if (movieIndex === 0) {
-                    prevMovie = null;
-                } else {
-                    prevMovie = movies[movieIndex - 1].id;
-                }
-                if (movieIndex === movies.length - 1) {
-                    nextMovie = data.movies.multiverseSaga[0].id;
-                } else {
-                    nextMovie = movies[movieIndex + 1].id;
-                }
-            } else if (sagaName === "multiverseSaga") {
-                if (movieIndex === 0) {
-                    prevMovie = data.movies.infinitySaga[data.movies.infinitySaga.length - 1].id;
-                } else {
-                    prevMovie = movies[movieIndex - 1].id;
-                }
-                if (movieIndex === movies.length - 1) {
-                    nextMovie = null;
-                } else {
-                    nextMovie = movies[movieIndex + 1].id;
-                }
-            } else {
-                if (movieIndex === 0) {
-                    prevMovie = null;
-                } else {
-                    prevMovie = movies[movieIndex - 1].id;
-                }
-                if (movieIndex === movies.length - 1) {
-                    nextMovie = null;
-                } else {
-                    nextMovie = movies[movieIndex + 1].id;
-                }
-            }
-
-            console.log(prevMovie)
-            console.log(nextMovie)
-
-            if (prevMovie != null) {
-                document.getElementById('prev-arrow').setAttribute('href', 'movieDetails.html?id=' + prevMovie);
-                document.getElementById('prev-arrow').classList.remove('d-none');
-            }
-            if (nextMovie != null) {
-                document.getElementById('next-arrow').setAttribute('href', 'movieDetails.html?id=' + nextMovie);
-                document.getElementById('next-arrow').classList.remove('d-none');
-            }
-        }
-    });
-});
-*/
-
-
 console.log(foundMovie)
 
-// mainColor = foundMovie.colors.main;
-// secondaryColor = foundMovie.colors.secondary;
 
 //Styles
-// document.body.style.backgroundColor = mainColor;
 document.getElementById('movie-img').setAttribute('src', '../Images/Movies/MovieDetails/Poster/' + id + '.png');
 document.getElementById('movie-img').setAttribute('alt', id);
-// document.getElementById('movie-card').style.borderColor = secondaryColor;
 
 //Data
 function formatDate(dateString) {
@@ -144,7 +80,7 @@ if (foundMovie.data.episodes) {
     document.getElementById('movie-length').innerHTML = Math.floor(foundMovie.data.length / 60) + "h " + foundMovie.data.length % 60 + "min";
 }
 document.getElementById('movie-director').innerHTML = foundMovie.data.director;
-document.getElementById('movie-rating').innerHTML = foundMovie.data.imdb;
+document.getElementById('movie-rating').innerHTML = parseFloat(foundMovie.data.imdb).toFixed(1);
 if (foundMovie.data.streaming != null) {
     document.getElementById('movie-streaming').setAttribute('src', '../Images/Movies/MovieDetails/Logos/' + foundMovie.data.streaming + '.png');
 } else {
@@ -206,7 +142,6 @@ var swiper = new Swiper(".moviesSwiper", {
 const mainCharacters = foundMovie.mainCharacters;
 console.log(mainCharacters)
 if (mainCharacters.length != 0) {
-    // document.getElementById('characters-title').style.marginBottom = "-50px";
     const swiperWrapperMovies = document.querySelector(".charactersSwiper .swiper-wrapper");
 
     function createSwiperSlide(characterID, characterActor, character, special) {
