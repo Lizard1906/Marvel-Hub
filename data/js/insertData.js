@@ -438,7 +438,7 @@ movies.infinitySaga =
                 { "id": "captain-america-3" }
             ],
             "mainCharacters": [
-                { "name": "Black Panther", "actor": "Chadwick Boseman", "id": "tchalla" },
+                { "name": "Black Panther", "actor": "Chadwick Boseman", "id": "t-challa" },
                 { "name": "Shuri", "actor": "Letitia Wright", "id": "shuri" },
                 { "name": "Winter Soldier", "actor": "Sebastian Stan", "id": "bucky-barnes", "special": "uncredited" },
             ]
@@ -1272,7 +1272,7 @@ characters = {
             "name": "Tony Stark",
             "actor": [
                 {
-                    "name": "Robert Downey Jr.",
+                    "name": "Robert Downey Jr",
                     "birth": "04/04/1965",
                     "originCountry": "USA",
                     "info": "https://en.wikipedia.org/wiki/Robert_Downey_Jr."
@@ -1932,7 +1932,7 @@ characters = {
 
 data = {}
 data.movies = movies
-data.characters = characters
+
 
 
 //stacks
@@ -1980,6 +1980,28 @@ if (localStorage.getItem('marvel-hub')) {
 } else {
     data.activeMovieStack = null;
 }
+
+
+// characters
+
+
+Object.entries(characters).forEach(([characterType, characters_]) => {
+    characters_.forEach(character => {
+        console.log(character.name)
+        releaseStack.forEach(movie => {
+            if (movie.mainCharacters.some(mainCharacter => mainCharacter.id === character.id && mainCharacter.special !== "uncredited" )) {
+                console.log(movie)
+                if (!character.movies) {
+                    character.movies = [];
+                }
+                character.movies.push(movie);
+            }
+        })
+    })  
+})
+
+data.characters = characters
+
 
 localStorage.clear();
 localStorage.setItem('marvel-hub', JSON.stringify(data))

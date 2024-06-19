@@ -1,0 +1,123 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: black;
+
+}
+
+.jumbotron {
+    height: 75vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 15vw;
+    height: 55vh;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.actor-img {
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.actor-label {
+    font-weight: bolder;
+    /* font-size: larger; */
+}
+
+.movie-name {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-bottom: -2px;
+}
+
+.movie-year {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    margin-top: 2px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    background-color: white;
+    font-size: 50px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    /* border: 3px solid black; */
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    backdrop-filter: blur(5px);
+}
+
+@media (max-width: 992px) {
+    .jumbotron {
+        height: 40vh;
+    }
+
+    .character-name {
+        font-size: 40px;
+    }
+
+    .swiper-slide {
+        width: 40vw;
+        height: 45vh;
+    }
+
+    .movie-year {
+        font-size: 28px;
+    }
+
+    .actor-info {
+        font-size: 30px;
+    }
+
+    .arrow {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .jumbotron {
+        height: 30vh;
+    }
+
+    .character-name {
+        font-size: 30px;
+    }
+
+    .swiper-slide {
+        width: 40vw;
+        height: 35vh;
+    }
+
+    .actor-info {
+        font-size: 20px;
+    }
+}
