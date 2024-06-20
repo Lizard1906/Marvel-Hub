@@ -409,7 +409,7 @@ movies.infinitySaga =
                 "length": 133,
                 "director": "Jon Watts",
                 "imdb": 7.4,
-                "streaming": ["hbo", "netflix", "disney+"],
+                "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=U0D3AOldjMU"
             },
             "moviesToWatch": [
@@ -685,7 +685,7 @@ movies.multiverseSaga =
                 "length": 129,
                 "director": "Jon Watts",
                 "imdb": 7.5,
-                "streaming": ["hbo", "disney+"],
+                "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Nt9L1jCKGnE"
             },
             "moviesToWatch": [
