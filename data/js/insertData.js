@@ -1381,7 +1381,7 @@ characters = {
                 {
                     "name": "Tom Hiddleston",
                     "birth": "09/02/1981",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Tom_Hiddleston"
                 }
             ]
@@ -1417,7 +1417,7 @@ characters = {
                 {
                     "name": "Hayley Atwell",
                     "birth": "05/04/1982",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Hayley_Atwell"
                 }
             ]
@@ -1543,7 +1543,7 @@ characters = {
                 {
                     "name": "Paul Bettany",
                     "birth": "27/05/1971",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Paul_Bettany"
                 }
             ]
@@ -1579,7 +1579,7 @@ characters = {
                 {
                     "name": "Benedict Cumberbatch",
                     "birth": "19/07/1976",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Benedict_Cumberbatch"
                 }
             ]
@@ -1591,7 +1591,7 @@ characters = {
                 {
                     "name": "Benedict Wong",
                     "birth": "03/06/1971",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Benedict_Wong"
                 }
             ]
@@ -1603,7 +1603,7 @@ characters = {
                 {
                     "name": "Tom Holland",
                     "birth": "01/06/1996",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Tom_Holland"
                 }
             ]
@@ -1699,7 +1699,7 @@ characters = {
                 {
                     "name": "Florence Pugh",
                     "birth": "03/01/1996",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Florence_Pugh"
                 }
             ]
@@ -1735,7 +1735,7 @@ characters = {
                 {
                     "name": "Charlie Cox",
                     "birth": "15/12/1982",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Charlie_Cox"
                 }
             ]
@@ -1759,7 +1759,7 @@ characters = {
                 {
                     "name": "Andrew Garfield",
                     "birth": "20/08/1983",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Andrew_Garfield"
                 }
             ]
@@ -1795,7 +1795,7 @@ characters = {
                 {
                     "name": "Gemma Chan",
                     "birth": "29/11/1982",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Gemma_Chan"
                 }
             ]
@@ -1903,7 +1903,7 @@ characters = {
                 {
                     "name": "Emilia Clarke",
                     "birth": "23/10/1986",
-                    "originCountry": "England",
+                    "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Emilia_Clarke"
                 }
             ]
