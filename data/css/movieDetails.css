@@ -50,6 +50,7 @@ body {
     font-weight: bold;
     color: black;
     margin-bottom: -2px;
+    white-space: nowrap; /* garantir que náo faz paragrafo se náo houver espaço */
 }
 
 .character-name {
@@ -65,7 +66,7 @@ body {
     color: black;
 }
 
-.arrows{
+.arrows {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,9 +108,11 @@ body {
     .actor-name {
         font-size: 20px;
     }
+
     .character-name {
         font-size: 18px;
     }
+
     .character-special {
         font-size: 16px;
     }
@@ -139,11 +142,12 @@ body {
     .actor-name {
         font-size: 16px;
     }
+
     .character-name {
         font-size: 14px;
     }
+
     .character-special {
         font-size: 12px;
     }
 }
-
