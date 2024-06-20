@@ -459,7 +459,7 @@ movies.infinitySaga =
             "moviesToWatch": [
             ],
             "mainCharacters": [
-                { "name": "Doctor Strange", "actor": "Ben Cumberbatch", "id": "stephen-strange" },
+                { "name": "Doctor Strange", "actor": "Benedict Cumberbatch", "id": "doctor-strange" },
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
                 { "name": "Thor", "actor": "Chris Hemsworth", "id": "thor", "special": "uncredited" },
             ]
@@ -485,7 +485,7 @@ movies.infinitySaga =
                 { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
                 { "name": "Valkyrie", "actor": "Tessa Thompson", "id": "valkyrie" },
                 { "name": "Hulk", "actor": "Mark Ruffalo", "id": "bruce-banner" },
-                { "name": "Doctor Strange", "actor": "Ben Cumberbatch", "id": "stephen-strange" },
+                { "name": "Doctor Strange", "actor": "Benedict Cumberbatch", "id": "doctor-strange" },
             ]
         },
         {
@@ -536,7 +536,7 @@ movies.infinitySaga =
                 { "name": "Bucky Barnes", "actor": "Sebastian Stan", "id": "bucky-barnes" },
                 { "name": "Black Panther", "actor": "Chadwick Boseman", "id": "tchalla" },
                 { "name": "Spider-Man", "actor": "Tom Holland", "id": "spider-man" },
-                { "name": "Doctor Strange", "actor": "Ben Cumberbatch", "id": "stephen-strange" },
+                { "name": "Doctor Strange", "actor": "Benedict Cumberbatch", "id": "doctor-strange" },
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
                 { "name": "Scarlet Witch", "actor": "Elizabeth Olsen", "id": "wanda-maximoff" },
                 { "name": "Vision", "actor": "Paul Bettany", "id": "vision" },
@@ -548,6 +548,7 @@ movies.infinitySaga =
                 { "name": "Rocket", "actor": "Bradley Cooper", "id": "rocket", "special": "voice" },
                 { "name": "Groot", "actor": "Vin Diesel", "id": "groot", "special": "voice" },
                 { "name": "Nebula", "actor": "Karen Gillan", "id": "nebula" },
+                { "name": "Shuri", "actor": "Letitia Wright", "id": "shuri" },
                 { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury", "special": "uncredited" },
                 { "name": "Maria Hill", "actor": "Cobie Smulders", "id": "maria-hill", "special": "uncredited" },
             ]
@@ -582,7 +583,7 @@ movies.infinitySaga =
                 { "name": "Bucky Barnes", "actor": "Sebastian Stan", "id": "bucky-barnes" },
                 { "name": "Black Panther", "actor": "Chadwick Boseman", "id": "tchalla" },
                 { "name": "Spider-Man", "actor": "Tom Holland", "id": "spider-man" },
-                { "name": "Doctor Strange", "actor": "Ben Cumberbatch", "id": "stephen-strange" },
+                { "name": "Doctor Strange", "actor": "Benedict Cumberbatch", "id": "doctor-strange" },
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
                 { "name": "Scarlet Witch", "actor": "Elizabeth Olsen", "id": "wanda-maximoff" },
                 { "name": "Wasp", "actor": "Evangeline Lilly", "id": "hope-van-dyne" },
@@ -595,7 +596,9 @@ movies.infinitySaga =
                 { "name": "Rocket", "actor": "Bradley Cooper", "id": "rocket", "special": "voice" },
                 { "name": "Groot", "actor": "Vin Diesel", "id": "groot", "special": "voice" },
                 { "name": "Nebula", "actor": "Karen Gillan", "id": "nebula" },
+                { "name": "Shuri", "actor": "Letitia Wright", "id": "shuri" },
                 { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
+                { "name": "Peggy Carter", "actor": "Hayley Atwell", "id": "peggy-carter" },
             ]
         }
     ]
@@ -722,7 +725,7 @@ movies.multiverseSaga =
             ],
             "mainCharacters": [
                 { "name": "Spider-Man", "actor": "Tom Holland", "id": "peter-parker" },
-                { "name": "Doctor Strange", "actor": "Ben Cumberbatch", "id": "stephen-strange" },
+                { "name": "Doctor Strange", "actor": "Benedict Cumberbatch", "id": "doctor-strange" },
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
                 { "name": "Spider-Man", "actor": "Tobey Maguire", "id": "peter-parker-sm" },
                 { "name": "Spider-Man", "actor": "Andrew Garfield", "id": "peter-parker-asm" },
@@ -747,7 +750,7 @@ movies.multiverseSaga =
                 { "id": "wandavision" }
             ],
             "mainCharacters": [
-                { "name": "Doctor Strange", "actor": "Ben Cumberbatch", "id": "stephen-strange" },
+                { "name": "Doctor Strange", "actor": "Benedict Cumberbatch", "id": "doctor-strange" },
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
                 { "name": "Scarlet Witch", "actor": "Elizabeth Olsen", "id": "wanda-maximoff" },
                 { "name": "America Chavez", "actor": "Xochitl Gomez", "id": "america-chavez" },
@@ -822,6 +825,7 @@ movies.multiverseSaga =
                 { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
                 { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
                 { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
+                { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
             ]
         },
         {
@@ -841,7 +845,7 @@ movies.multiverseSaga =
             "moviesToWatch": [
             ],
             "mainCharacters": [
-                { "name": "Moon Knight", "actor": "Oscar Isaac", "id": "moon-knight" },
+                { "name": "Moon Knight", "actor": "Oscar Isaac", "id": "marc-spector" },
             ]
         },
         {
@@ -884,7 +888,7 @@ movies.multiverseSaga =
                 { "id": "daredevil" }
             ],
             "mainCharacters": [
-                { "name": "She-Hulk", "actor": "Tatiana Maslany", "id": "she-hulk" },
+                { "name": "She-Hulk", "actor": "Tatiana Maslany", "id": "jennifer-walters" },
                 { "name": "Hulk", "actor": "Mark Ruffalo", "id": "bruce-banner" },
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
                 { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
@@ -908,7 +912,7 @@ movies.multiverseSaga =
                 { "id": "captain-marvel" }
             ],
             "mainCharacters": [
-                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "ms-marvel" },
+                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
                 { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers", "special": "uncredited" },
             ]
         },
@@ -1040,9 +1044,10 @@ movies.multiverseSaga =
             ],
             "mainCharacters": [
                 { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers" },
-                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "ms-marvel" },
+                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
                 { "name": "Monica Rambeau", "actor": "Teyonah Parris", "id": "monica-rambeau" },
                 { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
+                { "name": "Valkyrie", "actor": "Tessa Thompson", "id": "valkyrie" },
                 { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop", "special": "uncredited" }
             ]
         },
@@ -1434,10 +1439,10 @@ characters = {
             "name": "Gamora",
             "actor": [
                 {
-                    "name": "Zoe Saldana",
+                    "name": "Zoe Saldaña",
                     "birth": "19/06/1978",
                     "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Zoe_Saldana"
+                    "info": "https://en.wikipedia.org/wiki/Zoe_Saldaña"
                 }
             ]
         },
@@ -1490,7 +1495,7 @@ characters = {
             ]
         },
         {
-            "id": "rhodey",
+            "id": "james-rhodes",
             "name": "James Rhodes",
             "actor": [
                 {
