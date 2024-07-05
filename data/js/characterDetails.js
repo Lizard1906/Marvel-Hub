@@ -48,7 +48,18 @@ function updateActorDetails(actor) {
     const actor_img_link = actor.name.toLowerCase().replaceAll(' ', '-')
     document.getElementById('character-img').style.backgroundImage = 'url("../Images/Characters/Actors/' + actor_img_link + '.png")';
     document.getElementById('actor-name').innerText = actor.name;
-    document.getElementById('actor-birthday').innerText = actor.birth;
+    // calculate age
+    const dateParams = actor.birth.split('/')
+    const birthDate = new Date(dateParams[2], dateParams[1] - 1, dateParams[0]);
+    const today = new Date();
+    console.log(today)
+    console.log(birthDate)
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const month = today.getMonth() - birthDate.getMonth();
+    if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    document.getElementById('actor-birthday').innerText = actor.birth + " (" + age + "y)";
     document.getElementById('actor-nationality').setAttribute('src', '../Images/Characters/Flags/' + actor.originCountry + '.png');
     document.getElementById('actor-url').setAttribute('href', actor.info);
     document.title = foundCharacter.name;
