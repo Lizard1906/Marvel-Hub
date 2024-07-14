@@ -19,7 +19,7 @@ function createCharacterElements() {
         characterLink.href = "characterDetails.html?id=" + character.id;
 
         const characterImage = document.createElement("div");
-        characterImage.style.backgroundImage = "url(../Images/Characters/GIF/" + character.id + ".png)";
+        characterImage.style.backgroundImage = "url(data/Images/Characters/GIF/" + character.id + ".png)";
         characterImage.classList.add("img-thumbnail");
 
         characterLink.appendChild(characterImage);

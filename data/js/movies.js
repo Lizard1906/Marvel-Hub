@@ -57,7 +57,7 @@ function createMovieElements(moviesStack, reverse, newType, newProduction) {
             movieLink.href = "movieDetails.html?id=" + movie.id;
 
             const movieImage = document.createElement("img");
-            movieImage.src = "../Images/Movies/MovieDetails/Poster/" + movie.id + ".png";
+            movieImage.src = "data/Images/Movies/MovieDetails/Poster/" + movie.id + ".png";
             movieImage.classList.add("img-thumbnail");
 
             movieLink.appendChild(movieImage);

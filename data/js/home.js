@@ -17,7 +17,7 @@ function createSwiperSlide(movie) {
 
     const poster = document.createElement("img");
     poster.classList.add("poster-img");
-    poster.src = "../Images/Movies/MovieDetails/Poster/" + movie.id + ".png";
+    poster.src = "data/Images/Movies/MovieDetails/Poster/" + movie.id + ".png";
 
     link.appendChild(poster);
     swiperSlide.appendChild(link);

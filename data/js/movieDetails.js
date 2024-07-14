@@ -4,7 +4,7 @@ var url = window.location.href;
 var id = url.split('?id=')[1];
 console.log(id)
 
-document.getElementById('jumbotron').style.backgroundImage = 'url("../Images/Movies/MovieDetails/Jumbotron/' + id + '.png'
+document.getElementById('jumbotron').style.backgroundImage = 'url(data/Images/Movies/MovieDetails/Jumbotron/' + id + '.png'
 
 console.log(data.stacks.movies)
 Object.entries(data.stacks.movies).forEach(([stackName, stack]) => {
@@ -59,7 +59,7 @@ console.log(foundMovie)
 
 
 //Styles
-document.getElementById('movie-img').setAttribute('src', '../Images/Movies/MovieDetails/Poster/' + id + '.png');
+document.getElementById('movie-img').setAttribute('src', 'data/Images/Movies/MovieDetails/Poster/' + id + '.png');
 document.getElementById('movie-img').setAttribute('alt', id);
 
 //Data
@@ -82,7 +82,7 @@ if (foundMovie.data.episodes) {
 document.getElementById('movie-director').innerHTML = foundMovie.data.director;
 document.getElementById('movie-rating').innerHTML = parseFloat(foundMovie.data.imdb).toFixed(1);
 if (foundMovie.data.streaming != null) {
-    document.getElementById('movie-streaming').setAttribute('src', '../Images/Movies/MovieDetails/Logos/' + foundMovie.data.streaming + '.png');
+    document.getElementById('movie-streaming').setAttribute('src', 'data/Images/Movies/MovieDetails/Logos/' + foundMovie.data.streaming + '.png');
 } else {
     document.getElementById('movie-streaming').classList.add('d-none');
 }
@@ -108,7 +108,7 @@ if (moviesToWatch.length != 0) {
 
         const poster = document.createElement("img");
         // poster.classList.add("poster-img");
-        poster.src = "../Images/Movies/MovieDetails/Poster/" + movieID + ".png";
+        poster.src = "data/Images/Movies/MovieDetails/Poster/" + movieID + ".png";
 
         link.appendChild(poster);
         swiperSlide.appendChild(link);
@@ -156,7 +156,7 @@ if (mainCharacters.length != 0) {
 
         const poster = document.createElement("img");
         poster.classList.add("poster-img");
-        poster.src = "../Images/Characters/Actors/" + actorID + ".png";
+        poster.src = "data/Images/Characters/Actors/" + actorID + ".png";
 
         const actorName = document.createElement("p");
         actorName.textContent = characterActor;

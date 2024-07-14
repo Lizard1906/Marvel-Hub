@@ -4,7 +4,7 @@ var url = window.location.href;
 var id = url.split('?id=')[1];
 console.log(id)
 
-document.getElementById('jumbotron').style.backgroundImage = 'url("../Images/Characters/Photo/' + id + '.png';
+document.getElementById('jumbotron').style.backgroundImage = 'url("data/Images/Characters/Photo/' + id + '.png';
 
 const allCharacters = [...data.characters.heroes];
 console.log(allCharacters)
@@ -46,7 +46,7 @@ console.log(foundCharacter)
 function updateActorDetails(actor) {
 
     const actor_img_link = actor.name.toLowerCase().replaceAll(' ', '-')
-    document.getElementById('character-img').style.backgroundImage = 'url("../Images/Characters/Actors/' + actor_img_link + '.png")';
+    document.getElementById('character-img').style.backgroundImage = 'url("data/Images/Characters/Actors/' + actor_img_link + '.png")';
     document.getElementById('actor-name').innerText = actor.name;
     // calculate age
     const dateParams = actor.birth.split('/')
@@ -60,7 +60,7 @@ function updateActorDetails(actor) {
         age--;
     }
     document.getElementById('actor-birthday').innerText = actor.birth + " (" + age + "y)";
-    document.getElementById('actor-nationality').setAttribute('src', '../Images/Characters/Flags/' + actor.originCountry + '.png');
+    document.getElementById('actor-nationality').setAttribute('src', 'data/Images/Characters/Flags/' + actor.originCountry + '.png');
     document.getElementById('actor-url').setAttribute('href', actor.info);
     document.title = foundCharacter.name;
 }
@@ -89,7 +89,7 @@ function createSwiperSlide(movie) {
     link.style.textDecoration = "none";
 
     const poster = document.createElement("img");
-    poster.src = "../Images/Movies/MovieDetails/Poster/" + movie.id + ".png";
+    poster.src = "data/Images/Movies/MovieDetails/Poster/" + movie.id + ".png";
 
     // const movieName = document.createElement("p");
     // movieName.textContent = movie.title;
