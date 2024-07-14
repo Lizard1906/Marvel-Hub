@@ -1,7 +1,7 @@
 data = JSON.parse(localStorage.getItem('marvel-hub'))
 
 var url = window.location.href;
-var id = url.split('?id=')[1];
+var id = url.split('?')[1];
 console.log(id)
 
 document.getElementById('jumbotron').style.backgroundImage = 'url(data/Images/Movies/MovieDetails/Jumbotron/' + id + '.png'
@@ -43,11 +43,11 @@ Object.entries(data.movies).forEach(([sagaName, movies]) => {
             console.log(nextMovie)
 
             if (prevMovie != null) {
-                document.getElementById('prev-arrow').setAttribute('href', 'movieDetails.html?id=' + prevMovie);
+                document.getElementById('prev-arrow').setAttribute('href', 'movieDetails?' + prevMovie);
                 document.getElementById('prev-arrow').classList.remove('d-none');
             }
             if (nextMovie != null) {
-                document.getElementById('next-arrow').setAttribute('href', 'movieDetails.html?id=' + nextMovie);
+                document.getElementById('next-arrow').setAttribute('href', 'movieDetails?' + nextMovie);
                 document.getElementById('next-arrow').classList.remove('d-none');
             }
         }
@@ -104,7 +104,7 @@ if (moviesToWatch.length != 0) {
         swiperSlide.classList.add("swiper-slide");
 
         const link = document.createElement("a");
-        link.href = 'movieDetails.html?id=' + movieID;
+        link.href = 'movieDetails?' + movieID;
 
         const poster = document.createElement("img");
         // poster.classList.add("poster-img");
@@ -151,7 +151,7 @@ if (mainCharacters.length != 0) {
         swiperSlide.classList.add("swiper-slide");
 
         const link = document.createElement("a");
-        link.href = 'characterDetails.html?id=' + characterID;
+        link.href = 'characterDetails?' + characterID;
         link.style.textDecoration = "none";
 
         const poster = document.createElement("img");

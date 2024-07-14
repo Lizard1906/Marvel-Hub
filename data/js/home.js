@@ -13,7 +13,7 @@ function createSwiperSlide(movie) {
     swiperSlide.classList.add("swiper-slide");
 
     const link = document.createElement("a");
-    link.href = 'movieDetails.html?id=' + movie.id;
+    link.href = 'movieDetails?' + movie.id;
 
     const poster = document.createElement("img");
     poster.classList.add("poster-img");

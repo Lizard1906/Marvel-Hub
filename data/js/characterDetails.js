@@ -1,7 +1,7 @@
 data = JSON.parse(localStorage.getItem('marvel-hub'))
 
 var url = window.location.href;
-var id = url.split('?id=')[1];
+var id = url.split('?')[1];
 console.log(id)
 
 document.getElementById('jumbotron').style.backgroundImage = 'url("data/Images/Characters/Photo/' + id + '.png';
@@ -31,11 +31,11 @@ allCharacters.forEach((character, index) => {
 
 
     if (prevCharacter != null) {
-        document.getElementById('prev-arrow').setAttribute('href', 'characterDetails.html?id=' + prevCharacter);
+        document.getElementById('prev-arrow').setAttribute('href', 'characterDetails?' + prevCharacter);
         document.getElementById('prev-arrow').classList.remove('d-none');
     }
     if (nextCharacter != null) {
-        document.getElementById('next-arrow').setAttribute('href', 'characterDetails.html?id=' + nextCharacter);
+        document.getElementById('next-arrow').setAttribute('href', 'characterDetails?' + nextCharacter);
         document.getElementById('next-arrow').classList.remove('d-none');
     }
 });
@@ -85,7 +85,7 @@ function createSwiperSlide(movie) {
     swiperSlide.classList.add("swiper-slide");
 
     const link = document.createElement("a");
-    link.href = 'movieDetails.html?id=' + movie.id;
+    link.href = 'movieDetails?' + movie.id;
     link.style.textDecoration = "none";
 
     const poster = document.createElement("img");
