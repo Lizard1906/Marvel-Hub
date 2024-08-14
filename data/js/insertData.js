@@ -1082,10 +1082,10 @@ movies.multiverseSaga =
             "data": {
                 "releaseDate": "07-25-2024",    //mm-dd-yyyy
                 "movieDate": "2026",
-                "length": null,
+                "length": 128,
                 "director": "David Leitch",
-                "imdb": null,
-                "streaming": null,
+                "imdb": 8.1,
+                "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ZIM1HydF9UA"
             },
             "moviesToWatch": [
