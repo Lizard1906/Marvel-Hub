@@ -759,31 +759,6 @@ movies.multiverseSaga =
         },
         {
             "order": 38,
-            "id": "hawkeye",
-            "title": "Hawkeye",
-            "data": {
-                "releaseDate": "11-24-2021",    //mm-dd-yyyy
-                "movieDate": "2024",
-                "length": 297,
-                "episodes": 6,
-                "director": "Rhys Thomas",
-                "imdb": 7.5,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=5VYb3B1ETlk"
-            },
-            "moviesToWatch": [
-                { "id": "avengers-3" },
-                { "id": "avengers-4" }
-            ],
-            "mainCharacters": [
-                { "name": "Hawkeye", "actor": "Jeremy Renner", "id": "clint-barton" },
-                { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop" },
-                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
-                { "name": "Maya Lopez", "actor": "Alaqua Cox", "id": "maya-lopez" },
-            ]
-        },
-        {
-            "order": 39,
             "id": "shang-chi-1",
             "title": "Shang-Chi and the Legend of the Ten Rings",
             "data": {
@@ -805,7 +780,7 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 40,
+            "order": 39,
             "id": "eternals",
             "title": "Eternals",
             "data": {
@@ -829,7 +804,7 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 41,
+            "order": 40,
             "id": "moon-knight",
             "title": "Moon Knight",
             "data": {
@@ -849,7 +824,7 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 42,
+            "order": 41,
             "id": "black-panther-2",
             "title": "Black Panther: Wakanda Forever",
             "data": {
@@ -867,6 +842,31 @@ movies.multiverseSaga =
             "mainCharacters": [
                 { "name": "Black Panther", "actor": "Letitia Wright", "id": "shuri" },
                 { "name": "Riri Williams", "actor": "Dominique Thorne", "id": "riri-williams" },
+            ]
+        },
+        {
+            "order": 42,
+            "id": "hawkeye",
+            "title": "Hawkeye",
+            "data": {
+                "releaseDate": "11-24-2021",    //mm-dd-yyyy
+                "movieDate": "2024",
+                "length": 297,
+                "episodes": 6,
+                "director": "Rhys Thomas",
+                "imdb": 7.5,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=5VYb3B1ETlk"
+            },
+            "moviesToWatch": [
+                { "id": "avengers-3" },
+                { "id": "avengers-4" }
+            ],
+            "mainCharacters": [
+                { "name": "Hawkeye", "actor": "Jeremy Renner", "id": "clint-barton" },
+                { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop" },
+                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
+                { "name": "Maya Lopez", "actor": "Alaqua Cox", "id": "maya-lopez" },
             ]
         },
         {
@@ -896,6 +896,30 @@ movies.multiverseSaga =
         },
         {
             "order": 44,
+            "id": "echo",
+            "title": "Echo",
+            "data": {
+                "releaseDate": "01-09-2024",    //mm-dd-yyyy
+                "movieDate": "2026",
+                "length": 213,
+                "episodes": 5,
+                "director": "Sydney Freeland",
+                "imdb": 6.0,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=AFUKnherhuw"
+            },
+            "moviesToWatch": [
+                { "id": "hawkeye" },
+                { "id": "daredevil" }
+
+            ],
+            "mainCharacters": [
+                { "name": "Echo", "actor": "Alaqua Cox", "id": "maya-lopez" },
+                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
+            ]
+        },
+        {
+            "order": 45,
             "id": "ms-marvel",
             "title": "Ms. Marvel",
             "data": {
@@ -917,7 +941,58 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 45,
+            "order": 46,
+            "id": "the-marvels",
+            "title": "The Marvels",
+            "data": {
+                "releaseDate": "07-28-2023",    //mm-dd-yyyy
+                "movieDate": "2026",
+                "length": 105,
+                "director": "Nia DaCosta",
+                "imdb": 5.8,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=wS_qbDztgVY&pp=ygUTdGhlIG1hcnZlbHMgdHJhaWxlcg%3D%3D"
+            },
+            "moviesToWatch": [
+                { "id": "captain-marvel" },
+                { "id": "wandavision" },
+                { "id": "ms-marvel" }
+
+            ],
+            "mainCharacters": [
+                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers" },
+                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
+                { "name": "Monica Rambeau", "actor": "Teyonah Parris", "id": "monica-rambeau" },
+                { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
+                { "name": "Valkyrie", "actor": "Tessa Thompson", "id": "valkyrie" },
+                { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop", "special": "uncredited" }
+            ]
+        },
+        {
+            "order": 47,
+            "id": "ant-man-3",
+            "title": "Ant-Man and the Wasp: Quantumania",
+            "data": {
+                "releaseDate": "02-17-2023",    //mm-dd-yyyy
+                "movieDate": "2025",
+                "length": 125,
+                "director": "Peyton Reed",
+                "imdb": 6.1,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=ZlNFpri-Y40"
+            },
+            "moviesToWatch": [
+                { "id": "ant-man-2" },
+                { "id": "loki" }
+            ],
+            "mainCharacters": [
+                { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
+                { "name": "Wasp", "actor": "Evangeline Lilly", "id": "hope-van-dyne" },
+                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki", "special": "uncredited" },
+            ]
+        },
+        {
+            "order": 48,
             "id": "thor-4",
             "title": "Thor: Love and Thunder",
             "data": {
@@ -947,30 +1022,7 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 46,
-            "id": "ant-man-3",
-            "title": "Ant-Man and the Wasp: Quantumania",
-            "data": {
-                "releaseDate": "02-17-2023",    //mm-dd-yyyy
-                "movieDate": "2025",
-                "length": 125,
-                "director": "Peyton Reed",
-                "imdb": 6.1,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=ZlNFpri-Y40"
-            },
-            "moviesToWatch": [
-                { "id": "ant-man-2" },
-                { "id": "loki" }
-            ],
-            "mainCharacters": [
-                { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
-                { "name": "Wasp", "actor": "Evangeline Lilly", "id": "hope-van-dyne" },
-                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki", "special": "uncredited" },
-            ]
-        },
-        {
-            "order": 47,
+            "order": 49,
             "id": "gog-3",
             "title": "Guardians of the Galaxy Vol.3",
             "data": {
@@ -999,7 +1051,7 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 48,
+            "order": 50,
             "id": "secret-invasion",
             "title": "Secret Invasion",
             "data": {
@@ -1021,58 +1073,6 @@ movies.multiverseSaga =
                 { "name": "Colonel Rhodes", "actor": "Don Cheadle", "id": "james-rhodes" },
                 { "name": "G'iah", "actor": "Emilia Clarke", "id": "giah" },
                 { "name": "Talos", "actor": "Ben Mendelsohn", "id": "talos" },
-            ]
-        },
-        {
-            "order": 49,
-            "id": "the-marvels",
-            "title": "The Marvels",
-            "data": {
-                "releaseDate": "07-28-2023",    //mm-dd-yyyy
-                "movieDate": "2026",
-                "length": 105,
-                "director": "Nia DaCosta",
-                "imdb": 5.8,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=wS_qbDztgVY&pp=ygUTdGhlIG1hcnZlbHMgdHJhaWxlcg%3D%3D"
-            },
-            "moviesToWatch": [
-                { "id": "captain-marvel" },
-                { "id": "wandavision" },
-                { "id": "ms-marvel" }
-
-            ],
-            "mainCharacters": [
-                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers" },
-                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
-                { "name": "Monica Rambeau", "actor": "Teyonah Parris", "id": "monica-rambeau" },
-                { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
-                { "name": "Valkyrie", "actor": "Tessa Thompson", "id": "valkyrie" },
-                { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop", "special": "uncredited" }
-            ]
-        },
-        {
-            "order": 50,
-            "id": "echo",
-            "title": "Echo",
-            "data": {
-                "releaseDate": "01-09-2024",    //mm-dd-yyyy
-                "movieDate": "2026",
-                "length": 213,
-                "episodes": 5,
-                "director": "Sydney Freeland",
-                "imdb": 6.0,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=AFUKnherhuw"
-            },
-            "moviesToWatch": [
-                { "id": "hawkeye" },
-                { "id": "daredevil" }
-
-            ],
-            "mainCharacters": [
-                { "name": "Echo", "actor": "Alaqua Cox", "id": "maya-lopez" },
-                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
             ]
         },
         {
