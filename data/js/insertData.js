@@ -241,6 +241,37 @@ movies.infinitySaga =
             ]
         },
         {
+            "id": "captain-america-2",
+            "title": "Captain America: The Winter Soldier",
+            "data": {
+                "releaseDate": "04-04-2014",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2014,
+                    "season" : "early"
+                },
+                "length": 136,
+                "director": "Anthony Russo, Joe Russo",
+                "imdb": 7.7,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=7SlILk2WMTI"
+            },
+            "moviesToWatch": [
+                { "id": "captain-america-1" },
+                { "id": "avengers-1" }
+            ],
+            "mainCharacters": [
+                { "name": "Captain America", "actor": "Chris Evans", "id": "steve-rogers" },
+                { "name": "Black Widow", "actor": "Scarlett Johansson", "id": "natasha-romanoff" },
+                { "name": "Winter Soldier", "actor": "Sebastian Stan", "id": "bucky-barnes" },
+                { "name": "Falcon", "actor": "Anthony Mackie", "id": "sam-wilson" },
+                { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
+                { "name": "Maria Hill", "actor": "Cobie Smulders", "id": "maria-hill" },
+                { "name": "Peggy Carter", "actor": "Hayley Atwell", "id": "peggy-carter" },
+                { "name": "Scarlet Witch", "actor": "Elizabeth Olsen", "id": "wanda-maximoff", "special": "uncredited" },
+            ]
+        },
+        {
             "id": "gog-1",
             "title": "Guardians of the Galaxy Vol.1",
             "data": {
@@ -294,37 +325,6 @@ movies.infinitySaga =
                 { "name": "Rocket", "actor": "Bradley Cooper", "id": "rocket", "special": "voice" },
                 { "name": "Groot", "actor": "Vin Diesel", "id": "groot", "special": "voice" },
                 { "name": "Nebula", "actor": "Karen Gillan", "id": "nebula" }
-            ]
-        },
-        {
-            "id": "captain-america-2",
-            "title": "Captain America: The Winter Soldier",
-            "data": {
-                "releaseDate": "04-04-2014",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2014,
-                    "season" : "early"
-                },
-                "length": 136,
-                "director": "Anthony Russo, Joe Russo",
-                "imdb": 7.7,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=7SlILk2WMTI"
-            },
-            "moviesToWatch": [
-                { "id": "captain-america-1" },
-                { "id": "avengers-1" }
-            ],
-            "mainCharacters": [
-                { "name": "Captain America", "actor": "Chris Evans", "id": "steve-rogers" },
-                { "name": "Black Widow", "actor": "Scarlett Johansson", "id": "natasha-romanoff" },
-                { "name": "Winter Soldier", "actor": "Sebastian Stan", "id": "bucky-barnes" },
-                { "name": "Falcon", "actor": "Anthony Mackie", "id": "sam-wilson" },
-                { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
-                { "name": "Maria Hill", "actor": "Cobie Smulders", "id": "maria-hill" },
-                { "name": "Peggy Carter", "actor": "Hayley Atwell", "id": "peggy-carter" },
-                { "name": "Scarlet Witch", "actor": "Elizabeth Olsen", "id": "wanda-maximoff", "special": "uncredited" },
             ]
         },
         {
@@ -424,29 +424,6 @@ movies.infinitySaga =
             ]
         },
         {
-            "id": "black-widow",
-            "title": "Black Widow",
-            "data": {
-                "releaseDate": "07-07-2021",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2016,
-                    "season" : null
-                },
-                "length": 133,
-                "director": "Cate Shortland",
-                "imdb": 6.7,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=Fp9pNPdNwjI"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                { "name": "Black Widow", "actor": "Scarlett Johansson", "id": "natasha-romanoff" },
-                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
-            ]
-        },
-        {
             "id": "spider-man-1",
             "title": "Spider-Man: Homecoming",
             "data": {
@@ -469,6 +446,29 @@ movies.infinitySaga =
                 { "name": "Spider-Man", "actor": "Tom Holland", "id": "peter-parker" },
                 { "name": "Iron Man", "actor": "Robert Downey Jr", "id": "tony-stark" },
                 { "name": "Captain America", "actor": "Chris Evans", "id": "steve-rogers", "special": "uncredited" },
+            ]
+        },
+        {
+            "id": "black-widow",
+            "title": "Black Widow",
+            "data": {
+                "releaseDate": "07-07-2021",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2016,
+                    "season" : null
+                },
+                "length": 133,
+                "director": "Cate Shortland",
+                "imdb": 6.7,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=Fp9pNPdNwjI"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Black Widow", "actor": "Scarlett Johansson", "id": "natasha-romanoff" },
+                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
             ]
         },
         {
@@ -674,30 +674,6 @@ movies.infinitySaga =
 movies.multiverseSaga =
     [
         {
-            "id": "loki",
-            "title": "Loki",
-            "data": {
-                "releaseDate": "06-09-2021",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2026,
-                    "season" : "early",
-                    "special" : "Out of Time"
-                },
-                "length": 586,
-                "episodes": 12,
-                "director": "Kate Herron",
-                "imdb": 8.2,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=nW948Va-l10"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
-            ]
-        },
-        {
             "id": "wandavision",
             "title": "WandaVision",
             "data": {
@@ -751,6 +727,58 @@ movies.multiverseSaga =
                 { "name": "Falcon", "actor": "Anthony Mackie", "id": "falcon" },
                 { "name": "Winter Soldier", "actor": "Sebastian Stan", "id": "bucky-barnes" },
                 { "name": "General Rhodes", "actor": "Don Cheadle", "id": "james-rhodes" },
+            ]
+        },
+        {
+            "id": "eternals",
+            "title": "Eternals",
+            "data": {
+                "releaseDate": "11-05-2021",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2023,
+                    "season" : "fall"
+                },
+                "length": 157,
+                "director": "Chloé Zhao",
+                "imdb": 6.3,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Sersi", "actor": "Gemma Chan", "id": "sersi" },
+                { "name": "Thena", "actor": "Angelina Jolie", "id": "thena" },
+                { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
+                { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
+                { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
+                { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
+            ]
+        },
+        {
+            "id": "shang-chi-1",
+            "title": "Shang-Chi and the Legend of the Ten Rings",
+            "data": {
+                "releaseDate": "09-03-2021",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2024,
+                    "season" : "spring"
+                },
+                "length": 132,
+                "director": "Destin Cretton",
+                "imdb": 7.4,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=8YjFbMbfXaQ"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Shang-Chi", "actor": "Simu Liu", "id": "shang-chi" },
+                { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
+                { "name": "Bruce Banner", "actor": "Mark Ruffalo", "id": "bruce-banner", "special": "uncredited" },
+                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers", "special": "uncredited" },
             ]
         },
         {
@@ -845,55 +873,86 @@ movies.multiverseSaga =
             ]
         },
         {
-            "id": "shang-chi-1",
-            "title": "Shang-Chi and the Legend of the Ten Rings",
+            "id": "hawkeye",
+            "title": "Hawkeye",
             "data": {
-                "releaseDate": "09-03-2021",    //mm-dd-yyyy
+                "releaseDate": "11-24-2021",    //mm-dd-yyyy
                 "movieDate": 
                 {
                     "year": 2024,
-                    "season" : "spring"
+                    "season" : "christmas"
                 },
-                "length": 132,
-                "director": "Destin Cretton",
-                "imdb": 7.4,
+                "length": 297,
+                "episodes": 6,
+                "director": "Rhys Thomas",
+                "imdb": 7.5,
                 "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=8YjFbMbfXaQ"
+                "trailer": "https://www.youtube.com/watch?v=5VYb3B1ETlk"
             },
             "moviesToWatch": [
+                { "id": "avengers-3" },
+                { "id": "avengers-4" }
             ],
             "mainCharacters": [
-                { "name": "Shang-Chi", "actor": "Simu Liu", "id": "shang-chi" },
-                { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
-                { "name": "Bruce Banner", "actor": "Mark Ruffalo", "id": "bruce-banner", "special": "uncredited" },
-                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers", "special": "uncredited" },
+                { "name": "Hawkeye", "actor": "Jeremy Renner", "id": "clint-barton" },
+                { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop" },
+                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
+                { "name": "Maya Lopez", "actor": "Alaqua Cox", "id": "maya-lopez" },
             ]
         },
         {
-            "id": "eternals",
-            "title": "Eternals",
+            "id": "echo",
+            "title": "Echo",
             "data": {
-                "releaseDate": "11-05-2021",    //mm-dd-yyyy
+                "releaseDate": "01-09-2024",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 2023,
-                    "season" : "fall"
+                    "year": 2025,
+                    "season" : "spring"
                 },
-                "length": 157,
-                "director": "Chloé Zhao",
-                "imdb": 6.3,
+                "length": 213,
+                "episodes": 5,
+                "director": "Sydney Freeland",
+                "imdb": 6.0,
                 "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
+                "trailer": "https://www.youtube.com/watch?v=AFUKnherhuw"
             },
             "moviesToWatch": [
+                { "id": "hawkeye" },
+                { "id": "daredevil" }
+
             ],
             "mainCharacters": [
-                { "name": "Sersi", "actor": "Gemma Chan", "id": "sersi" },
-                { "name": "Thena", "actor": "Angelina Jolie", "id": "thena" },
-                { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
-                { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
-                { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
-                { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
+                { "name": "Echo", "actor": "Alaqua Cox", "id": "maya-lopez" },
+                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
+            ]
+        },
+        {
+            "id": "she-hulk",
+            "title": "She-Hulk",
+            "data": {
+                "releaseDate": "08-17-2022",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "summer"
+                },
+                "length": 309,
+                "episodes": 9,
+                "director": "Kat Coiro",
+                "imdb": 5.3,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=u7JsKhI2An0"
+            },
+            "moviesToWatch": [
+                { "id": "the-incredible-hulk" },
+                { "id": "daredevil" }
+            ],
+            "mainCharacters": [
+                { "name": "She-Hulk", "actor": "Tatiana Maslany", "id": "jennifer-walters" },
+                { "name": "Hulk", "actor": "Mark Ruffalo", "id": "bruce-banner" },
+                { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
+                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
             ]
         },
         {
@@ -941,171 +1000,6 @@ movies.multiverseSaga =
             "mainCharacters": [
                 { "name": "Black Panther", "actor": "Letitia Wright", "id": "shuri" },
                 { "name": "Riri Williams", "actor": "Dominique Thorne", "id": "riri-williams" },
-            ]
-        },
-        {
-            "id": "hawkeye",
-            "title": "Hawkeye",
-            "data": {
-                "releaseDate": "11-24-2021",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2024,
-                    "season" : "christmas"
-                },
-                "length": 297,
-                "episodes": 6,
-                "director": "Rhys Thomas",
-                "imdb": 7.5,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=5VYb3B1ETlk"
-            },
-            "moviesToWatch": [
-                { "id": "avengers-3" },
-                { "id": "avengers-4" }
-            ],
-            "mainCharacters": [
-                { "name": "Hawkeye", "actor": "Jeremy Renner", "id": "clint-barton" },
-                { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop" },
-                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
-                { "name": "Maya Lopez", "actor": "Alaqua Cox", "id": "maya-lopez" },
-            ]
-        },
-        {
-            "id": "she-hulk",
-            "title": "She-Hulk",
-            "data": {
-                "releaseDate": "08-17-2022",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2025,
-                    "season" : "summer"
-                },
-                "length": 309,
-                "episodes": 9,
-                "director": "Kat Coiro",
-                "imdb": 5.3,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=u7JsKhI2An0"
-            },
-            "moviesToWatch": [
-                { "id": "the-incredible-hulk" },
-                { "id": "daredevil" }
-            ],
-            "mainCharacters": [
-                { "name": "She-Hulk", "actor": "Tatiana Maslany", "id": "jennifer-walters" },
-                { "name": "Hulk", "actor": "Mark Ruffalo", "id": "bruce-banner" },
-                { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
-                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
-            ]
-        },
-        {
-            "id": "echo",
-            "title": "Echo",
-            "data": {
-                "releaseDate": "01-09-2024",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2025,
-                    "season" : "spring"
-                },
-                "length": 213,
-                "episodes": 5,
-                "director": "Sydney Freeland",
-                "imdb": 6.0,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=AFUKnherhuw"
-            },
-            "moviesToWatch": [
-                { "id": "hawkeye" },
-                { "id": "daredevil" }
-
-            ],
-            "mainCharacters": [
-                { "name": "Echo", "actor": "Alaqua Cox", "id": "maya-lopez" },
-                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
-            ]
-        },
-        {
-            "id": "ms-marvel",
-            "title": "Ms. Marvel",
-            "data": {
-                "releaseDate": "06-08-2022",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2025,
-                    "season" : "fall"
-                },
-                "length": 300,
-                "episodes": 6,
-                "director": "Bisha K. Ali",
-                "imdb": 6.3,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=m9EX0f6V11Y"
-            },
-            "moviesToWatch": [
-                { "id": "captain-marvel" }
-            ],
-            "mainCharacters": [
-                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
-                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers", "special": "uncredited" },
-            ]
-        },
-        {
-            "id": "the-marvels",
-            "title": "The Marvels",
-            "data": {
-                "releaseDate": "07-28-2023",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2026,
-                    "season" : "end"
-                },
-                "length": 105,
-                "director": "Nia DaCosta",
-                "imdb": 5.8,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=wS_qbDztgVY&pp=ygUTdGhlIG1hcnZlbHMgdHJhaWxlcg%3D%3D"
-            },
-            "moviesToWatch": [
-                { "id": "captain-marvel" },
-                { "id": "wandavision" },
-                { "id": "ms-marvel" }
-
-            ],
-            "mainCharacters": [
-                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers" },
-                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
-                { "name": "Monica Rambeau", "actor": "Teyonah Parris", "id": "monica-rambeau" },
-                { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
-                { "name": "Valkyrie", "actor": "Tessa Thompson", "id": "valkyrie" },
-                { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop", "special": "uncredited" }
-            ]
-        },
-        {
-            "id": "ant-man-3",
-            "title": "Ant-Man and the Wasp: Quantumania",
-            "data": {
-                "releaseDate": "02-17-2023",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2026,
-                    "season" : "early"
-                },
-                "length": 125,
-                "director": "Peyton Reed",
-                "imdb": 6.1,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=ZlNFpri-Y40"
-            },
-            "moviesToWatch": [
-                { "id": "ant-man-2" },
-                { "id": "loki" }
-            ],
-            "mainCharacters": [
-                { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
-                { "name": "Wasp", "actor": "Evangeline Lilly", "id": "hope-van-dyne" },
-                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki", "special": "uncredited" },
             ]
         },
         {
@@ -1174,31 +1068,53 @@ movies.multiverseSaga =
             ]
         },
         {
-            "id": "secret-invasion",
-            "title": "Secret Invasion",
+            "id": "loki",
+            "title": "Loki",
             "data": {
-                "releaseDate": "06-21-2023",    //mm-dd-yyyy
+                "releaseDate": "06-09-2021",    //mm-dd-yyyy
                 "movieDate": 
                 {
                     "year": 2026,
-                    "season" : "fall"
+                    "season" : "early",
+                    "special" : "Out of Time"
                 },
-                "length": 272,
-                "episodes": 6,
-                "director": "Ali Selim",
-                "imdb": 5.9,
+                "length": 586,
+                "episodes": 12,
+                "director": "Kate Herron",
+                "imdb": 8.2,
                 "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=qZVTkn2NjS0&pp=ygUXc2VjcmV0IGludmFzaW9uIHRyYWlsZXI%3D"
+                "trailer": "https://www.youtube.com/watch?v=nW948Va-l10"
             },
             "moviesToWatch": [
-                { "id": "captain-marvel" }
             ],
             "mainCharacters": [
-                { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
-                { "name": "Maria Hill", "actor": "Cobie Smulders", "id": "maria-hill" },
-                { "name": "Colonel Rhodes", "actor": "Don Cheadle", "id": "james-rhodes" },
-                { "name": "G'iah", "actor": "Emilia Clarke", "id": "giah" },
-                { "name": "Talos", "actor": "Ben Mendelsohn", "id": "talos" },
+                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
+            ]
+        },
+        {
+            "id": "ant-man-3",
+            "title": "Ant-Man and the Wasp: Quantumania",
+            "data": {
+                "releaseDate": "02-17-2023",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "early"
+                },
+                "length": 125,
+                "director": "Peyton Reed",
+                "imdb": 6.1,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=ZlNFpri-Y40"
+            },
+            "moviesToWatch": [
+                { "id": "ant-man-2" },
+                { "id": "loki" }
+            ],
+            "mainCharacters": [
+                { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
+                { "name": "Wasp", "actor": "Evangeline Lilly", "id": "hope-van-dyne" },
+                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki", "special": "uncredited" },
             ]
         },
         {
@@ -1227,7 +1143,91 @@ movies.multiverseSaga =
                 { "name": "Deadpool", "actor": "Ryan Reynolds", "id": "wade-wilson" },
                 { "name": "Wolverine", "actor": "Hugh Jackman", "id": "logan" },
             ]
-        }
+        },
+        {
+            "id": "ms-marvel",
+            "title": "Ms. Marvel",
+            "data": {
+                "releaseDate": "06-08-2022",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "fall"
+                },
+                "length": 300,
+                "episodes": 6,
+                "director": "Bisha K. Ali",
+                "imdb": 6.3,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=m9EX0f6V11Y"
+            },
+            "moviesToWatch": [
+                { "id": "captain-marvel" }
+            ],
+            "mainCharacters": [
+                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
+                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers", "special": "uncredited" },
+            ]
+        },
+        {
+            "id": "the-marvels",
+            "title": "The Marvels",
+            "data": {
+                "releaseDate": "07-28-2023",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "end"
+                },
+                "length": 105,
+                "director": "Nia DaCosta",
+                "imdb": 5.8,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=wS_qbDztgVY&pp=ygUTdGhlIG1hcnZlbHMgdHJhaWxlcg%3D%3D"
+            },
+            "moviesToWatch": [
+                { "id": "captain-marvel" },
+                { "id": "wandavision" },
+                { "id": "ms-marvel" }
+
+            ],
+            "mainCharacters": [
+                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers" },
+                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
+                { "name": "Monica Rambeau", "actor": "Teyonah Parris", "id": "monica-rambeau" },
+                { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
+                { "name": "Valkyrie", "actor": "Tessa Thompson", "id": "valkyrie" },
+                { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop", "special": "uncredited" }
+            ]
+        },
+        {
+            "id": "secret-invasion",
+            "title": "Secret Invasion",
+            "data": {
+                "releaseDate": "06-21-2023",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "fall"
+                },
+                "length": 272,
+                "episodes": 6,
+                "director": "Ali Selim",
+                "imdb": 5.9,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=qZVTkn2NjS0&pp=ygUXc2VjcmV0IGludmFzaW9uIHRyYWlsZXI%3D"
+            },
+            "moviesToWatch": [
+                { "id": "captain-marvel" }
+            ],
+            "mainCharacters": [
+                { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
+                { "name": "Maria Hill", "actor": "Cobie Smulders", "id": "maria-hill" },
+                { "name": "Colonel Rhodes", "actor": "Don Cheadle", "id": "james-rhodes" },
+                { "name": "G'iah", "actor": "Emilia Clarke", "id": "giah" },
+                { "name": "Talos", "actor": "Ben Mendelsohn", "id": "talos" },
+            ]
+        },
     ]
 
 movies.sony = [
