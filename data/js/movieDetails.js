@@ -73,7 +73,10 @@ function formatDate(dateString) {
 }
 
 document.getElementById('movie-release-date').innerHTML = formatDate(foundMovie.data.releaseDate);
-document.getElementById('movie-date').innerHTML = foundMovie.data.movieDate;
+document.getElementById('movie-date').innerHTML = foundMovie.data.movieDate.year;
+if (foundMovie.data.movieDate.special) {
+    document.getElementById('movie-date').innerHTML = foundMovie.data.movieDate.special;
+}
 if (foundMovie.data.episodes) {
     document.getElementById('movie-length').innerHTML = foundMovie.data.episodes + " episodes (" + Math.floor(foundMovie.data.length / foundMovie.data.episodes) + " min)";
 } else {
