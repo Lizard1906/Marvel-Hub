@@ -1068,8 +1068,8 @@ movies.multiverseSaga =
             ]
         },
         {
-            "id": "loki",
-            "title": "Loki",
+            "id": "loki-1",
+            "title": "Loki S1",
             "data": {
                 "releaseDate": "06-09-2021",    //mm-dd-yyyy
                 "movieDate": 
@@ -1078,8 +1078,8 @@ movies.multiverseSaga =
                     "season" : "early",
                     "special" : "Out of Time"
                 },
-                "length": 586,
-                "episodes": 12,
+                "length": 287,
+                "episodes": 6,
                 "director": "Kate Herron",
                 "imdb": 8.2,
                 "streaming": "disney+",
@@ -1115,6 +1115,30 @@ movies.multiverseSaga =
                 { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
                 { "name": "Wasp", "actor": "Evangeline Lilly", "id": "hope-van-dyne" },
                 { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki", "special": "uncredited" },
+            ]
+        },
+        {
+            "id": "loki-2",
+            "title": "Loki S2",
+            "data": {
+                "releaseDate": "10-06-2023",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "early",
+                    "special" : "Out of Time"
+                },
+                "length": 299,
+                "episodes": 6,
+                "director": "Kate Herron",
+                "imdb": 8.2,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=dug56u8NN7g"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
             ]
         },
         {
