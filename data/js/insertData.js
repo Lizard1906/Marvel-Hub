@@ -2,12 +2,15 @@ movies = {}
 movies.infinitySaga =
     [
         {
-            "order": 1,
             "id": "captain-marvel",
             "title": "Captain Marvel",
             "data": {
                 "releaseDate": "03-07-2019",    //mm-dd-yyyy
-                "movieDate": "1995",
+                "movieDate": 
+                {
+                    "year": 1995,
+                    "season" : null
+                },
                 "length": 120,
                 "director": "Anna Boden, Ryan Fleck",
                 "imdb": 6.8,
@@ -29,13 +32,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 5,
             "id": "iron-man-1",
             "title": "Iron Man",
             "data": {
                 "releaseDate": "05-02-2008",    //mm-dd-yyyy
-                "movieDate": "2008",
-                "length": 126,
+                "movieDate": 
+                {
+                    "year": 2010,
+                    "season" : "start"
+                },
                 "director": "Jon Favreau",
                 "imdb": 7.9,
                 "streaming": "disney+",
@@ -49,12 +54,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 6,
             "id": "iron-man-2",
             "title": "Iron Man 2",
             "data": {
                 "releaseDate": "05-07-2010",    //mm-dd-yyyy
-                "movieDate": "2010",
+                "movieDate": 
+                {
+                    "year": 2010,
+                    "season" : "middle"
+                },
                 "length": 124,
                 "director": "Jon Favreau",
                 "imdb": 7.0,
@@ -72,32 +80,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 7,
-            "id": "the-incredible-hulk",
-            "title": "The Incredible Hulk",
-            "data": {
-                "releaseDate": "06-13-2008",    //mm-dd-yyyy
-                "movieDate": "2008",
-                "length": 112,
-                "director": "Louis Leterrier",
-                "imdb": 6.7,
-                "streaming": "apple",
-                "trailer": "https://www.youtube.com/watch?v=xbqNb2PFKKA"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                { "name": "Hulk", "actor": "Edward Norton", "id": "bruce-banner" },
-                { "name": "Tony Stark", "actor": "Robert Downey Jr", "id": "tony-stark", "special": "uncredited" },
-            ]
-        },
-        {
-            "order": 8,
             "id": "thor-1",
             "title": "Thor",
             "data": {
                 "releaseDate": "04-27-2011",    //mm-dd-yyyy
-                "movieDate": "2011",
+                "movieDate": 
+                {
+                    "year": 2010,
+                    "season" : "middle"
+                },
                 "length": 115,
                 "director": "Kenneth Branagh",
                 "imdb": 7.0,
@@ -115,12 +106,38 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 9,
+            "id": "the-incredible-hulk",
+            "title": "The Incredible Hulk",
+            "data": {
+                "releaseDate": "06-13-2008",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2010,
+                    "season" : "fall"   // aldrabar isto para forçar que seja depois de thor
+                },
+                "length": 112,
+                "director": "Louis Leterrier",
+                "imdb": 6.7,
+                "streaming": "apple",
+                "trailer": "https://www.youtube.com/watch?v=xbqNb2PFKKA"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Hulk", "actor": "Edward Norton", "id": "bruce-banner" },
+                { "name": "Tony Stark", "actor": "Robert Downey Jr", "id": "tony-stark", "special": "uncredited" },
+            ]
+        },
+        {
             "id": "captain-america-1",
             "title": "Captain America: The First Avenger",
             "data": {
                 "releaseDate": "07-22-2011",    //mm-dd-yyyy
-                "movieDate": "1942, 2011",
+                "movieDate": 
+                {
+                    "year": 1942,
+                    "season" : null
+                },
                 "length": 124,
                 "director": "Joe Johnston",
                 "imdb": 6.9,
@@ -137,12 +154,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 10,
             "id": "avengers-1",
             "title": "The Avengers",
             "data": {
                 "releaseDate": "05-04-2012",    //mm-dd-yyyy
-                "movieDate": "2012",
+                "movieDate": 
+                {
+                    "year": 2012,
+                    "season" : "spring"
+                },
                 "length": 143,
                 "director": "Joss Whedon",
                 "imdb": 8.0,
@@ -167,12 +187,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 13,
             "id": "iron-man-3",
             "title": "Iron Man 3",
             "data": {
                 "releaseDate": "04-26-2013",    //mm-dd-yyyy
-                "movieDate": "2013",
+                "movieDate": 
+                {
+                    "year": 2012,
+                    "season" : "christmas"
+                },
                 "length": 130,
                 "director": "Shane Black",
                 "imdb": 7.2,
@@ -191,12 +214,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 14,
             "id": "thor-2",
             "title": "Thor: The Dark World",
             "data": {
                 "releaseDate": "10-30-2013",    //mm-dd-yyyy
-                "movieDate": "2013",
+                "movieDate": 
+                {
+                    "year": 2013,
+                    "season" : "early"
+                },
                 "length": 112,
                 "director": "Alan Taylor",
                 "imdb": 6.9,
@@ -215,62 +241,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 15,
-            "id": "gog-1",
-            "title": "Guardians of the Galaxy Vol.1",
-            "data": {
-                "releaseDate": "07-31-2014",    //mm-dd-yyyy
-                "movieDate": "2014",
-                "length": 122,
-                "director": "James Gunn",
-                "imdb": 8.0,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=d96cjJhvlMA"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                { "name": "Star-Lord", "actor": "Chris Pratt", "id": "peter-quill" },
-                { "name": "Gamora", "actor": "Zoe Saldaña", "id": "gamora" },
-                { "name": "Drax", "actor": "Dave Bautista", "id": "drax" },
-                { "name": "Rocket", "actor": "Bradley Cooper", "id": "rocket", "special": "voice" },
-                { "name": "Groot", "actor": "Vin Diesel", "id": "groot", "special": "voice" },
-                { "name": "Nebula", "actor": "Karen Gillan", "id": "nebula" }
-            ]
-        },
-        {
-            "order": 16,
-            "id": "gog-2",
-            "title": "Guardians of the Galaxy Vol.2",
-            "data": {
-                "releaseDate": "04-28-2017",    //mm-dd-yyyy
-                "movieDate": "2014",
-                "length": 136,
-                "director": "James Gunn",
-                "imdb": 7.6,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=2cv2ueYnKjg"
-            },
-            "moviesToWatch": [
-                { "id": "gog-1" }
-            ],
-            "mainCharacters": [
-                { "name": "Star-Lord", "actor": "Chris Pratt", "id": "peter-quill" },
-                { "name": "Gamora", "actor": "Zoe Saldaña", "id": "gamora" },
-                { "name": "Drax", "actor": "Dave Bautista", "id": "drax" },
-                { "name": "Mantis", "actor": "Pom Klementieff", "id": "mantis" },
-                { "name": "Rocket", "actor": "Bradley Cooper", "id": "rocket", "special": "voice" },
-                { "name": "Groot", "actor": "Vin Diesel", "id": "groot", "special": "voice" },
-                { "name": "Nebula", "actor": "Karen Gillan", "id": "nebula" }
-            ]
-        },
-        {
-            "order": 17,
             "id": "captain-america-2",
             "title": "Captain America: The Winter Soldier",
             "data": {
                 "releaseDate": "04-04-2014",    //mm-dd-yyyy
-                "movieDate": "2014",
+                "movieDate": 
+                {
+                    "year": 2014,
+                    "season" : "early"
+                },
                 "length": 136,
                 "director": "Anthony Russo, Joe Russo",
                 "imdb": 7.7,
@@ -293,12 +272,71 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 18,
+            "id": "gog-1",
+            "title": "Guardians of the Galaxy Vol.1",
+            "data": {
+                "releaseDate": "07-31-2014",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2014,
+                    "season" : "spring"
+                },
+                "length": 122,
+                "director": "James Gunn",
+                "imdb": 8.0,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=d96cjJhvlMA"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Star-Lord", "actor": "Chris Pratt", "id": "peter-quill" },
+                { "name": "Gamora", "actor": "Zoe Saldaña", "id": "gamora" },
+                { "name": "Drax", "actor": "Dave Bautista", "id": "drax" },
+                { "name": "Rocket", "actor": "Bradley Cooper", "id": "rocket", "special": "voice" },
+                { "name": "Groot", "actor": "Vin Diesel", "id": "groot", "special": "voice" },
+                { "name": "Nebula", "actor": "Karen Gillan", "id": "nebula" }
+            ]
+        },
+        {
+            "id": "gog-2",
+            "title": "Guardians of the Galaxy Vol.2",
+            "data": {
+                "releaseDate": "04-28-2017",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2014,
+                    "season" : "middle"
+                },
+                "length": 136,
+                "director": "James Gunn",
+                "imdb": 7.6,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=2cv2ueYnKjg"
+            },
+            "moviesToWatch": [
+                { "id": "gog-1" }
+            ],
+            "mainCharacters": [
+                { "name": "Star-Lord", "actor": "Chris Pratt", "id": "peter-quill" },
+                { "name": "Gamora", "actor": "Zoe Saldaña", "id": "gamora" },
+                { "name": "Drax", "actor": "Dave Bautista", "id": "drax" },
+                { "name": "Mantis", "actor": "Pom Klementieff", "id": "mantis" },
+                { "name": "Rocket", "actor": "Bradley Cooper", "id": "rocket", "special": "voice" },
+                { "name": "Groot", "actor": "Vin Diesel", "id": "groot", "special": "voice" },
+                { "name": "Nebula", "actor": "Karen Gillan", "id": "nebula" }
+            ]
+        },
+        {
             "id": "avengers-2",
             "title": "Avengers: Age of Ultron",
             "data": {
                 "releaseDate": "04-22-2015",    //mm-dd-yyyy
-                "movieDate": "2015",
+                "movieDate": 
+                {
+                    "year": 2015,
+                    "season" : null
+                },
                 "length": 141,
                 "director": "Joss Whedon",
                 "imdb": 7.3,
@@ -324,12 +362,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 19,
             "id": "ant-man-1",
             "title": "Ant-Man",
             "data": {
                 "releaseDate": "07-14-2015",    //mm-dd-yyyy
-                "movieDate": "2015",
+                "movieDate": 
+                {
+                    "year": 2015,
+                    "season" : null
+                },
                 "length": 117,
                 "director": "Peyton Reed",
                 "imdb": 7.3,
@@ -348,12 +389,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 20,
             "id": "captain-america-3",
             "title": "Captain America: Civil War",
             "data": {
                 "releaseDate": "04-27-2016",    //mm-dd-yyyy
-                "movieDate": "2016",
+                "movieDate": 
+                {
+                    "year": 2016,
+                    "season" : null
+                },
                 "length": 147,
                 "director": "Anthony Russo, Joe Russo",
                 "imdb": 7.8,
@@ -380,32 +424,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 23,
-            "id": "black-widow",
-            "title": "Black Widow",
-            "data": {
-                "releaseDate": "07-07-2021",    //mm-dd-yyyy
-                "movieDate": "2016",
-                "length": 133,
-                "director": "Cate Shortland",
-                "imdb": 6.7,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=Fp9pNPdNwjI"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                { "name": "Black Widow", "actor": "Scarlett Johansson", "id": "natasha-romanoff" },
-                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
-            ]
-        },
-        {
-            "order": 24,
             "id": "spider-man-1",
             "title": "Spider-Man: Homecoming",
             "data": {
                 "releaseDate": "06-28-2017",    //mm-dd-yyyy
-                "movieDate": "2016",
+                "movieDate": 
+                {
+                    "year": 2016,
+                    "season" : null
+                },
                 "length": 133,
                 "director": "Jon Watts",
                 "imdb": 7.4,
@@ -422,12 +449,38 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 25,
+            "id": "black-widow",
+            "title": "Black Widow",
+            "data": {
+                "releaseDate": "07-07-2021",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2016,
+                    "season" : null
+                },
+                "length": 133,
+                "director": "Cate Shortland",
+                "imdb": 6.7,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=Fp9pNPdNwjI"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Black Widow", "actor": "Scarlett Johansson", "id": "natasha-romanoff" },
+                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
+            ]
+        },
+        {
             "id": "black-panther-1",
             "title": "Black Panther",
             "data": {
                 "releaseDate": "02-14-2018",    //mm-dd-yyyy
-                "movieDate": "2017",
+                "movieDate": 
+                {
+                    "year": 2017,
+                    "season" : null
+                },
                 "length": 134,
                 "director": "Ryan Coogler",
                 "imdb": 7.3,
@@ -444,12 +497,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 26,
             "id": "doctor-strange-1",
             "title": "Doctor Strange",
             "data": {
                 "releaseDate": "10-27-2016",    //mm-dd-yyyy
-                "movieDate": "2016",
+                "movieDate": 
+                {
+                    "year": 2017,
+                    "season" : null
+                },
                 "length": 115,
                 "director": "Scott Derrickson",
                 "imdb": 7.5,
@@ -465,12 +521,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 28,
             "id": "thor-3",
             "title": "Thor: Ragnarok",
             "data": {
                 "releaseDate": "10-25-2017",    //mm-dd-yyyy
-                "movieDate": "2017",
+                "movieDate": 
+                {
+                    "year": 2017,
+                    "season" : null
+                },
                 "length": 130,
                 "director": "Taika Waititi",
                 "imdb": 7.9,
@@ -489,12 +548,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 29,
             "id": "ant-man-2",
             "title": "Ant-Man and the Wasp",
             "data": {
                 "releaseDate": "07-04-2018",    //mm-dd-yyyy
-                "movieDate": "2018",
+                "movieDate": 
+                {
+                    "year": 2018,
+                    "season" : "start"
+                },
                 "length": 118,
                 "director": "Peyton Reed",
                 "imdb": 7.0,
@@ -511,12 +573,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 30,
             "id": "avengers-3",
             "title": "Avengers: Infinity War",
             "data": {
                 "releaseDate": "04-25-2018",    //mm-dd-yyyy
-                "movieDate": "2018",
+                "movieDate": 
+                {
+                    "year": 2018,
+                    "season" : "spring"
+                },
                 "length": 149,
                 "director": "Anthony Russo, Joe Russo",
                 "imdb": 8.4,
@@ -554,12 +619,15 @@ movies.infinitySaga =
             ]
         },
         {
-            "order": 31,
             "id": "avengers-4",
             "title": "Avengers: Endgame",
             "data": {
                 "releaseDate": "04-24-2019",    //mm-dd-yyyy
-                "movieDate": "2018, 2013",
+                "movieDate": 
+                {
+                    "year": 2023,
+                    "season" : "spring"
+                },
                 "length": 181,
                 "director": "Anthony Russo, Joe Russo",
                 "imdb": 8.4,
@@ -606,32 +674,15 @@ movies.infinitySaga =
 movies.multiverseSaga =
     [
         {
-            "order": 32,
-            "id": "loki",
-            "title": "Loki",
-            "data": {
-                "releaseDate": "06-09-2021",    //mm-dd-yyyy
-                "movieDate": "Out of time",
-                "length": 586,
-                "episodes": 12,
-                "director": "Kate Herron",
-                "imdb": 8.2,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=nW948Va-l10"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
-            ]
-        },
-        {
-            "order": 33,
             "id": "wandavision",
             "title": "WandaVision",
             "data": {
                 "releaseDate": "01-15-2021",    //mm-dd-yyyy
-                "movieDate": "2023",
+                "movieDate": 
+                {
+                    "year": 2023,
+                    "season" : "summer"
+                },
                 "length": 350,
                 "episodes": 9,
                 "director": "Matt Shakman",
@@ -651,12 +702,15 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 34,
             "id": "tfatws",
             "title": "The Falcon and the Winter Soldier",
             "data": {
                 "releaseDate": "03-19-2021",    //mm-dd-yyyy
-                "movieDate": "2024",
+                "movieDate": 
+                {
+                    "year": 2024,
+                    "season" : "early"
+                },
                 "length": 300,
                 "episodes": 6,
                 "director": "Kari Skogland",
@@ -676,12 +730,67 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 35,
+            "id": "eternals",
+            "title": "Eternals",
+            "data": {
+                "releaseDate": "11-05-2021",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2023,
+                    "season" : "fall"
+                },
+                "length": 157,
+                "director": "Chloé Zhao",
+                "imdb": 6.3,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Sersi", "actor": "Gemma Chan", "id": "sersi" },
+                { "name": "Thena", "actor": "Angelina Jolie", "id": "thena" },
+                { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
+                { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
+                { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
+                { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
+            ]
+        },
+        {
+            "id": "shang-chi-1",
+            "title": "Shang-Chi and the Legend of the Ten Rings",
+            "data": {
+                "releaseDate": "09-03-2021",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2024,
+                    "season" : "spring"
+                },
+                "length": 132,
+                "director": "Destin Cretton",
+                "imdb": 7.4,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=8YjFbMbfXaQ"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Shang-Chi", "actor": "Simu Liu", "id": "shang-chi" },
+                { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
+                { "name": "Bruce Banner", "actor": "Mark Ruffalo", "id": "bruce-banner", "special": "uncredited" },
+                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers", "special": "uncredited" },
+            ]
+        },
+        {
             "id": "spider-man-2",
             "title": "Spider-Man: Far From Home",
             "data": {
                 "releaseDate": "07-02-2019",    //mm-dd-yyyy
-                "movieDate": "2024",
+                "movieDate": 
+                {
+                    "year": 2024,
+                    "season" : "summer"
+                },
                 "length": 129,
                 "director": "Jon Watts",
                 "imdb": 7.5,
@@ -702,12 +811,15 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 36,
             "id": "spider-man-3",
             "title": "Spider-Man: No Way Home",
             "data": {
                 "releaseDate": "12-17-2021",    //mm-dd-yyyy
-                "movieDate": "2024",
+                "movieDate": 
+                {
+                    "year": 2024,
+                    "season" : "fall"
+                },
                 "length": 149,
                 "director": "Jon Watts",
                 "imdb": 8.2,
@@ -733,12 +845,15 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 37,
             "id": "doctor-strange-2",
             "title": "Doctor Strange in the Multiverse of Madness",
             "data": {
                 "releaseDate": "05-06-2022",    //mm-dd-yyyy
-                "movieDate": "2024",
+                "movieDate": 
+                {
+                    "year": 2024,
+                    "season" : "fall"
+                },
                 "length": 126,
                 "director": "Sam Raimi",
                 "imdb": 7.0,
@@ -758,99 +873,15 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 38,
-            "id": "shang-chi-1",
-            "title": "Shang-Chi and the Legend of the Ten Rings",
-            "data": {
-                "releaseDate": "09-03-2021",    //mm-dd-yyyy
-                "movieDate": "2024",
-                "length": 132,
-                "director": "Destin Cretton",
-                "imdb": 7.4,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=8YjFbMbfXaQ"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                { "name": "Shang-Chi", "actor": "Simu Liu", "id": "shang-chi" },
-                { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
-                { "name": "Bruce Banner", "actor": "Mark Ruffalo", "id": "bruce-banner", "special": "uncredited" },
-                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers", "special": "uncredited" },
-            ]
-        },
-        {
-            "order": 39,
-            "id": "eternals",
-            "title": "Eternals",
-            "data": {
-                "releaseDate": "11-05-2021",    //mm-dd-yyyy
-                "movieDate": "2024",
-                "length": 157,
-                "director": "Chloé Zhao",
-                "imdb": 6.3,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                { "name": "Sersi", "actor": "Gemma Chan", "id": "sersi" },
-                { "name": "Thena", "actor": "Angelina Jolie", "id": "thena" },
-                { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
-                { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
-                { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
-                { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
-            ]
-        },
-        {
-            "order": 40,
-            "id": "moon-knight",
-            "title": "Moon Knight",
-            "data": {
-                "releaseDate": "03-30-2022",    //mm-dd-yyyy
-                "movieDate": "2025",
-                "length": 282,
-                "episodes": 6,
-                "director": "Mohamed Diab",
-                "imdb": 7.3,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=x7Krla_UxRg"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                { "name": "Moon Knight", "actor": "Oscar Isaac", "id": "marc-spector" },
-            ]
-        },
-        {
-            "order": 41,
-            "id": "black-panther-2",
-            "title": "Black Panther: Wakanda Forever",
-            "data": {
-                "releaseDate": "11-11-2022",    //mm-dd-yyyy
-                "movieDate": "2025",
-                "length": 161,
-                "director": "Ryan Coogler",
-                "imdb": 6.7,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=RlOB3UALvrQ"
-            },
-            "moviesToWatch": [
-                { "id": "black-panther-1" }
-            ],
-            "mainCharacters": [
-                { "name": "Black Panther", "actor": "Letitia Wright", "id": "shuri" },
-                { "name": "Riri Williams", "actor": "Dominique Thorne", "id": "riri-williams" },
-            ]
-        },
-        {
-            "order": 42,
             "id": "hawkeye",
             "title": "Hawkeye",
             "data": {
                 "releaseDate": "11-24-2021",    //mm-dd-yyyy
-                "movieDate": "2024",
+                "movieDate": 
+                {
+                    "year": 2024,
+                    "season" : "christmas"
+                },
                 "length": 297,
                 "episodes": 6,
                 "director": "Rhys Thomas",
@@ -870,12 +901,42 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 43,
+            "id": "echo",
+            "title": "Echo",
+            "data": {
+                "releaseDate": "01-09-2024",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "spring"
+                },
+                "length": 213,
+                "episodes": 5,
+                "director": "Sydney Freeland",
+                "imdb": 6.0,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=AFUKnherhuw"
+            },
+            "moviesToWatch": [
+                { "id": "hawkeye" },
+                { "id": "daredevil" }
+
+            ],
+            "mainCharacters": [
+                { "name": "Echo", "actor": "Alaqua Cox", "id": "maya-lopez" },
+                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
+            ]
+        },
+        {
             "id": "she-hulk",
             "title": "She-Hulk",
             "data": {
                 "releaseDate": "08-17-2022",    //mm-dd-yyyy
-                "movieDate": "2025",
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "summer"
+                },
                 "length": 309,
                 "episodes": 9,
                 "director": "Kat Coiro",
@@ -895,109 +956,62 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 44,
-            "id": "echo",
-            "title": "Echo",
+            "id": "moon-knight",
+            "title": "Moon Knight",
             "data": {
-                "releaseDate": "01-09-2024",    //mm-dd-yyyy
-                "movieDate": "2026",
-                "length": 213,
-                "episodes": 5,
-                "director": "Sydney Freeland",
-                "imdb": 6.0,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=AFUKnherhuw"
-            },
-            "moviesToWatch": [
-                { "id": "hawkeye" },
-                { "id": "daredevil" }
-
-            ],
-            "mainCharacters": [
-                { "name": "Echo", "actor": "Alaqua Cox", "id": "maya-lopez" },
-                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
-            ]
-        },
-        {
-            "order": 45,
-            "id": "ms-marvel",
-            "title": "Ms. Marvel",
-            "data": {
-                "releaseDate": "06-08-2022",    //mm-dd-yyyy
-                "movieDate": "2025",
-                "length": 300,
+                "releaseDate": "03-30-2022",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "early"
+                },
+                "length": 282,
                 "episodes": 6,
-                "director": "Bisha K. Ali",
-                "imdb": 6.3,
+                "director": "Mohamed Diab",
+                "imdb": 7.3,
                 "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=m9EX0f6V11Y"
+                "trailer": "https://www.youtube.com/watch?v=x7Krla_UxRg"
             },
             "moviesToWatch": [
-                { "id": "captain-marvel" }
             ],
             "mainCharacters": [
-                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
-                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers", "special": "uncredited" },
+                { "name": "Moon Knight", "actor": "Oscar Isaac", "id": "marc-spector" },
             ]
         },
         {
-            "order": 46,
-            "id": "the-marvels",
-            "title": "The Marvels",
+            "id": "black-panther-2",
+            "title": "Black Panther: Wakanda Forever",
             "data": {
-                "releaseDate": "07-28-2023",    //mm-dd-yyyy
-                "movieDate": "2026",
-                "length": 105,
-                "director": "Nia DaCosta",
-                "imdb": 5.8,
+                "releaseDate": "11-11-2022",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "spring"
+                },
+                "length": 161,
+                "director": "Ryan Coogler",
+                "imdb": 6.7,
                 "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=wS_qbDztgVY&pp=ygUTdGhlIG1hcnZlbHMgdHJhaWxlcg%3D%3D"
+                "trailer": "https://www.youtube.com/watch?v=RlOB3UALvrQ"
             },
             "moviesToWatch": [
-                { "id": "captain-marvel" },
-                { "id": "wandavision" },
-                { "id": "ms-marvel" }
-
+                { "id": "black-panther-1" }
             ],
             "mainCharacters": [
-                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers" },
-                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
-                { "name": "Monica Rambeau", "actor": "Teyonah Parris", "id": "monica-rambeau" },
-                { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
-                { "name": "Valkyrie", "actor": "Tessa Thompson", "id": "valkyrie" },
-                { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop", "special": "uncredited" }
+                { "name": "Black Panther", "actor": "Letitia Wright", "id": "shuri" },
+                { "name": "Riri Williams", "actor": "Dominique Thorne", "id": "riri-williams" },
             ]
         },
         {
-            "order": 47,
-            "id": "ant-man-3",
-            "title": "Ant-Man and the Wasp: Quantumania",
-            "data": {
-                "releaseDate": "02-17-2023",    //mm-dd-yyyy
-                "movieDate": "2025",
-                "length": 125,
-                "director": "Peyton Reed",
-                "imdb": 6.1,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=ZlNFpri-Y40"
-            },
-            "moviesToWatch": [
-                { "id": "ant-man-2" },
-                { "id": "loki" }
-            ],
-            "mainCharacters": [
-                { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
-                { "name": "Wasp", "actor": "Evangeline Lilly", "id": "hope-van-dyne" },
-                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki", "special": "uncredited" },
-            ]
-        },
-        {
-            "order": 48,
             "id": "thor-4",
             "title": "Thor: Love and Thunder",
             "data": {
                 "releaseDate": "07-08-2022",    //mm-dd-yyyy
-                "movieDate": "2025",
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "end"
+                },
                 "length": 119,
                 "director": "Taika Waititi",
                 "imdb": 6.2,
@@ -1022,12 +1036,15 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 49,
             "id": "gog-3",
             "title": "Guardians of the Galaxy Vol.3",
             "data": {
                 "releaseDate": "05-05-2023",    //mm-dd-yyyy
-                "movieDate": "2026",
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "middle"
+                },
                 "length": 149,
                 "director": "James Gunn",
                 "imdb": 7.9,
@@ -1051,12 +1068,175 @@ movies.multiverseSaga =
             ]
         },
         {
-            "order": 50,
+            "id": "loki-1",
+            "title": "Loki S1",
+            "data": {
+                "releaseDate": "06-09-2021",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "early",
+                    "special" : "Out of Time"
+                },
+                "length": 287,
+                "episodes": 6,
+                "director": "Kate Herron",
+                "imdb": 8.2,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=nW948Va-l10"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
+            ]
+        },
+        {
+            "id": "ant-man-3",
+            "title": "Ant-Man and the Wasp: Quantumania",
+            "data": {
+                "releaseDate": "02-17-2023",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "early"
+                },
+                "length": 125,
+                "director": "Peyton Reed",
+                "imdb": 6.1,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=ZlNFpri-Y40"
+            },
+            "moviesToWatch": [
+                { "id": "ant-man-2" },
+                { "id": "loki-1" },
+                { "id": "loki-2" }
+            ],
+            "mainCharacters": [
+                { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
+                { "name": "Wasp", "actor": "Evangeline Lilly", "id": "hope-van-dyne" },
+                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki", "special": "uncredited" },
+            ]
+        },
+        {
+            "id": "loki-2",
+            "title": "Loki S2",
+            "data": {
+                "releaseDate": "10-06-2023",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "early",
+                    "special" : "Out of Time"
+                },
+                "length": 299,
+                "episodes": 6,
+                "director": "Kate Herron",
+                "imdb": 8.2,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=dug56u8NN7g"
+            },
+            "moviesToWatch": [
+                { "id": "loki-1" },
+            ],
+            "mainCharacters": [
+                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
+            ]
+        },
+        {
+            "id": "deadpool-3",
+            "title": "Deadpool & Wolverine",
+            "data": {
+                "releaseDate": "07-25-2024",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "early",
+                    "special" : "Out of Time"
+                },
+                "length": 128,
+                "director": "David Leitch",
+                "imdb": 8.1,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=ZIM1HydF9UA"
+            },
+            "moviesToWatch": [
+                { "id": "deadpool-1" },
+                { "id": "deadpool-2" },
+                { "id": "loki-1" },
+                { "id": "loki-2" }
+            ],
+            "mainCharacters": [
+                { "name": "Deadpool", "actor": "Ryan Reynolds", "id": "wade-wilson" },
+                { "name": "Wolverine", "actor": "Hugh Jackman", "id": "logan" },
+            ]
+        },
+        {
+            "id": "ms-marvel",
+            "title": "Ms. Marvel",
+            "data": {
+                "releaseDate": "06-08-2022",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "fall"
+                },
+                "length": 300,
+                "episodes": 6,
+                "director": "Bisha K. Ali",
+                "imdb": 6.3,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=m9EX0f6V11Y"
+            },
+            "moviesToWatch": [
+                { "id": "captain-marvel" }
+            ],
+            "mainCharacters": [
+                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
+                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers", "special": "uncredited" },
+            ]
+        },
+        {
+            "id": "the-marvels",
+            "title": "The Marvels",
+            "data": {
+                "releaseDate": "07-28-2023",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "end"
+                },
+                "length": 105,
+                "director": "Nia DaCosta",
+                "imdb": 5.8,
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=wS_qbDztgVY&pp=ygUTdGhlIG1hcnZlbHMgdHJhaWxlcg%3D%3D"
+            },
+            "moviesToWatch": [
+                { "id": "captain-marvel" },
+                { "id": "wandavision" },
+                { "id": "ms-marvel" }
+
+            ],
+            "mainCharacters": [
+                { "name": "Captain Marvel", "actor": "Brie Larson", "id": "carol-danvers" },
+                { "name": "Ms. Marvel", "actor": "Iman Vellani", "id": "kamala-khan" },
+                { "name": "Monica Rambeau", "actor": "Teyonah Parris", "id": "monica-rambeau" },
+                { "name": "Nick Fury", "actor": "Samuel L. Jackson", "id": "nick-fury" },
+                { "name": "Valkyrie", "actor": "Tessa Thompson", "id": "valkyrie" },
+                { "name": "Kate Bishop", "actor": "Hailee Steinfeld", "id": "kate-bishop", "special": "uncredited" }
+            ]
+        },
+        {
             "id": "secret-invasion",
             "title": "Secret Invasion",
             "data": {
                 "releaseDate": "06-21-2023",    //mm-dd-yyyy
-                "movieDate": "2026",
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "fall"
+                },
                 "length": 272,
                 "episodes": 6,
                 "director": "Ali Selim",
@@ -1075,40 +1255,20 @@ movies.multiverseSaga =
                 { "name": "Talos", "actor": "Ben Mendelsohn", "id": "talos" },
             ]
         },
-        {
-            "order": 51,
-            "id": "deadpool-3",
-            "title": "Deadpool & Wolverine",
-            "data": {
-                "releaseDate": "07-25-2024",    //mm-dd-yyyy
-                "movieDate": "2026",
-                "length": 128,
-                "director": "David Leitch",
-                "imdb": 8.1,
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=ZIM1HydF9UA"
-            },
-            "moviesToWatch": [
-                { "id": "deadpool-1" },
-                { "id": "deadpool-2" },
-                { "id": "loki" }
-            ],
-            "mainCharacters": [
-                { "name": "Deadpool", "actor": "Ryan Reynolds", "id": "wade-wilson" },
-                { "name": "Wolverine", "actor": "Hugh Jackman", "id": "logan" },
-            ]
-        }
     ]
 
 movies.sony = [
     {
-        "order": 2,
         "id": "sm-1",
         "title": "Spider-Man",
         "data": {
             "releaseDate": "06-21-2002",    //mm-dd-yyyy
-            "movieDate": "2002",
-            "length": 121,
+            "movieDate": 
+            {
+                "year": 2002,
+                "season" : null
+            },
+        "length": 121,
             "director": "Sam Raimi",
             "imdb": 7.4,
             "streaming": "disney+",
@@ -1122,12 +1282,15 @@ movies.sony = [
         ]
     },
     {
-        "order": 3,
         "id": "sm-2",
         "title": "Spider-Man 2",
         "data": {
             "releaseDate": "07-15-2004",    //mm-dd-yyyy
-            "movieDate": "2004",
+            "movieDate": 
+            {
+                "year": 2004,
+                "season" : null
+            },
             "length": 127,
             "director": "Sam Raimi",
             "imdb": 7.5,
@@ -1142,12 +1305,15 @@ movies.sony = [
         ]
     },
     {
-        "order": 4,
         "id": "sm-3",
         "title": "Spider-Man 3",
         "data": {
             "releaseDate": "05-03-2007",    //mm-dd-yyyy
-            "movieDate": "2007",
+            "movieDate": 
+            {
+                "year": 2007,
+                "season" : null
+            },
             "length": 139,
             "director": "Sam Raimi",
             "imdb": 6.3,
@@ -1163,12 +1329,15 @@ movies.sony = [
         ]
     },
     {
-        "order": 11,
         "id": "asm-1",
         "title": "Amazing Spider-Man",
         "data": {
             "releaseDate": "07-03-2012",    //mm-dd-yyyy
-            "movieDate": "2012",
+            "movieDate": 
+            {
+                "year": 2012,
+                "season" : null
+            },
             "length": 136,
             "director": "Mark Webb",
             "imdb": 6.9,
@@ -1183,12 +1352,15 @@ movies.sony = [
         ]
     },
     {
-        "order": 12,
         "id": "asm-2",
         "title": "Amazing Spider-Man 2",
         "data": {
             "releaseDate": "04-17-2014",    //mm-dd-yyyy
-            "movieDate": "2014",
+            "movieDate": 
+            {
+                "year": 2014,
+                "season" : null
+            },
             "length": 142,
             "director": "Mark Webb",
             "imdb": 6.6,
@@ -1206,12 +1378,15 @@ movies.sony = [
 
 movies.netflix = [
     {
-        "order": 21,
         "id": "daredevil",
         "title": "Daredevil",
         "data": {
             "releaseDate": "04-10-2015",    //mm-dd-yyyy
-            "movieDate": "2015-2018",
+            "movieDate": 
+            {
+                "year": 2014,
+                "season" : null
+            },
             "length": 2106,
             "episodes": 39,
             "director": "Steven S. DeKnight, Erik Oleson",
@@ -1229,12 +1404,15 @@ movies.netflix = [
 
 movies.fox = [
     {
-        "order": 22,
         "id": "deadpool-1",
         "title": "Deadpool",
         "data": {
             "releaseDate": "02-12-2016",    //mm-dd-yyyy
-            "movieDate": "2016",
+            "movieDate": 
+            {
+                "year": 2016,
+                "season" : null
+            },
             "length": 108,
             "director": "Tim Miller",
             "imdb": 8.0,
@@ -1248,12 +1426,15 @@ movies.fox = [
         ]
     },
     {
-        "order": 27,
         "id": "deadpool-2",
         "title": "Deadpool 2",
         "data": {
             "releaseDate": "05-18-2018",    //mm-dd-yyyy
-            "movieDate": "2018",
+            "movieDate": 
+            {
+                "year": 2018,
+                "season" : null
+            },
             "length": 119,
             "director": "David Leitch",
             "imdb": 7.6,
@@ -1960,7 +2141,36 @@ Object.entries(data.movies).forEach(([sagaName, movies]) => {
 });
 
 chronologicalStack = [...defaultStack];
-chronologicalStack.sort((a, b) => a.order - b.order);
+// Definindo a ordem das seasons
+const seasonOrder = ["early", "spring", "middle", "summer", "fall", "christmas", null];
+
+// Função de ordenação
+chronologicalStack.sort((a, b) => {
+    const yearA = a.data.movieDate.year;
+    const yearB = b.data.movieDate.year;
+
+    // Ordena por ano
+    if (yearA !== yearB) {
+        return yearA - yearB;
+    }
+
+    // Se os anos são iguais, ordena por season
+    const seasonA = a.data.movieDate.season;
+    const seasonB = b.data.movieDate.season;
+
+    const seasonIndexA = seasonOrder.indexOf(seasonA);
+    const seasonIndexB = seasonOrder.indexOf(seasonB);
+
+    if (seasonIndexA !== seasonIndexB) {
+        return seasonIndexA - seasonIndexB;
+    }
+
+    // Se as seasons são iguais, ordena por releaseDate
+    const releaseDateA = new Date(a.data.releaseDate);
+    const releaseDateB = new Date(b.data.releaseDate);
+
+    return releaseDateA - releaseDateB;
+});
 
 ratingStack = [...defaultStack];
 ratingStack.sort((a, b) => a.data.imdb - b.data.imdb);
@@ -1992,10 +2202,8 @@ if (localStorage.getItem('marvel-hub')) {
 
 Object.entries(characters).forEach(([characterType, characters_]) => {
     characters_.forEach(character => {
-        console.log(character.name)
         releaseStack.forEach(movie => {
             if (movie.mainCharacters.some(mainCharacter => mainCharacter.id === character.id && mainCharacter.special !== "uncredited" )) {
-                console.log(movie)
                 if (!character.movies) {
                     character.movies = [];
                 }
