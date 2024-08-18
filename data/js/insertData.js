@@ -1109,7 +1109,8 @@ movies.multiverseSaga =
             },
             "moviesToWatch": [
                 { "id": "ant-man-2" },
-                { "id": "loki" }
+                { "id": "loki-1" },
+                { "id": "loki-2" }
             ],
             "mainCharacters": [
                 { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
@@ -1136,6 +1137,7 @@ movies.multiverseSaga =
                 "trailer": "https://www.youtube.com/watch?v=dug56u8NN7g"
             },
             "moviesToWatch": [
+                { "id": "loki-1" },
             ],
             "mainCharacters": [
                 { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
@@ -1161,7 +1163,8 @@ movies.multiverseSaga =
             "moviesToWatch": [
                 { "id": "deadpool-1" },
                 { "id": "deadpool-2" },
-                { "id": "loki" }
+                { "id": "loki-1" },
+                { "id": "loki-2" }
             ],
             "mainCharacters": [
                 { "name": "Deadpool", "actor": "Ryan Reynolds", "id": "wade-wilson" },
