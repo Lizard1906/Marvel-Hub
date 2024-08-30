@@ -83,7 +83,8 @@ if (foundMovie.data.episodes) {
     document.getElementById('movie-length').innerHTML = Math.floor(foundMovie.data.length / 60) + "h " + foundMovie.data.length % 60 + "min";
 }
 document.getElementById('movie-director').innerHTML = foundMovie.data.director;
-document.getElementById('movie-rating').innerHTML = parseFloat(foundMovie.data.imdb).toFixed(1);
+document.getElementById('movie-imdb').href = foundMovie.data.imdb.link;
+document.getElementById('movie-rating').innerHTML = parseFloat(foundMovie.data.imdb.value).toFixed(1);
 if (foundMovie.data.streaming != null) {
     document.getElementById('movie-streaming').setAttribute('src', 'data/Images/Movies/MovieDetails/Logos/' + foundMovie.data.streaming + '.png');
 } else {
