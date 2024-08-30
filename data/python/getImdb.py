@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 isCheckingMovies = True
 # abrir o novo js
-with open("data/js/insertData2.js", "w", encoding="utf-8") as file:
+with open("data/js/insertData.js", "w", encoding="utf-8") as file:
     for line in lines:
         if (isCheckingMovies==False):
             file.write(line)
