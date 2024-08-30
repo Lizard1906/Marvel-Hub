@@ -73,7 +73,7 @@ movies.infinitySaga =
                 "director": "Jon Favreau",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt1228705/',
-                   'value':  7.0,
+                   'value':  6.9,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=BoohRoVA9WQ"
@@ -131,7 +131,7 @@ movies.infinitySaga =
                 "director": "Louis Leterrier",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt0800080/',
-                   'value':  6.7,
+                   'value':  6.6,
                 },
                 "streaming": "apple",
                 "trailer": "https://www.youtube.com/watch?v=xbqNb2PFKKA"
@@ -221,7 +221,7 @@ movies.infinitySaga =
                 "director": "Shane Black",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt1300854/',
-                   'value':  7.2,
+                   'value':  7.1,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Ke1Y3P9D0Bc"
@@ -251,7 +251,7 @@ movies.infinitySaga =
                 "director": "Alan Taylor",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt0800369/',
-                   'value':  6.9,
+                   'value':  7.0,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=npvJ9FTgZbM"
@@ -280,7 +280,7 @@ movies.infinitySaga =
                 "length": 136,
                 "director": "Anthony Russo, Joe Russo",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt0458339/',
+                   'link': 'https://www.imdb.com/title/tt1843866/',
                    'value':  7.7,
                 },
                 "streaming": "disney+",
@@ -376,7 +376,7 @@ movies.infinitySaga =
                 "length": 141,
                 "director": "Joss Whedon",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt0848228/',
+                   'link': 'https://www.imdb.com/title/tt2395427/',
                    'value':  7.3,
                 },
                 "streaming": "disney+",
@@ -414,7 +414,7 @@ movies.infinitySaga =
                 "director": "Peyton Reed",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt0478970/',
-                   'value':  7.3,
+                   'value':  7.2,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=pWdKf3MneyI"
@@ -443,7 +443,7 @@ movies.infinitySaga =
                 "length": 147,
                 "director": "Anthony Russo, Joe Russo",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt0458339/',
+                   'link': 'https://www.imdb.com/title/tt3498820/',
                    'value':  7.8,
                 },
                 "streaming": "disney+",
@@ -481,7 +481,7 @@ movies.infinitySaga =
                 "length": 133,
                 "director": "Jon Watts",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt10872600/',
+                   'link': 'https://www.imdb.com/title/tt2250912/',
                    'value':  7.4,
                 },
                 "streaming": "disney+",
@@ -510,7 +510,7 @@ movies.infinitySaga =
                 "director": "Cate Shortland",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt3480822/',
-                   'value':  6.7,
+                   'value':  6.6,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Fp9pNPdNwjI"
@@ -590,7 +590,7 @@ movies.infinitySaga =
                 "length": 130,
                 "director": "Taika Waititi",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt0800369/',
+                   'link': 'https://www.imdb.com/title/tt3501632/',
                    'value':  7.9,
                 },
                 "streaming": "disney+",
@@ -648,7 +648,7 @@ movies.infinitySaga =
                 "length": 149,
                 "director": "Anthony Russo, Joe Russo",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt0848228/',
+                   'link': 'https://www.imdb.com/title/tt4154756/',
                    'value':  8.4,
                 },
                 "streaming": "disney+",
@@ -697,7 +697,7 @@ movies.infinitySaga =
                 "length": 181,
                 "director": "Anthony Russo, Joe Russo",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt0848228/',
+                   'link': 'https://www.imdb.com/title/tt4154796/',
                    'value':  8.4,
                 },
                 "streaming": "disney+",
@@ -788,7 +788,7 @@ movies.multiverseSaga =
                 "director": "Kari Skogland",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt9208876/',
-                   'value':  7.2,
+                   'value':  7.1,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ojGHE581lsM"
@@ -875,8 +875,8 @@ movies.multiverseSaga =
                 "length": 129,
                 "director": "Jon Watts",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt10872600/',
-                   'value':  7.5,
+                   'link': 'https://www.imdb.com/title/tt6320628/',
+                   'value':  7.4,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Nt9L1jCKGnE"
@@ -945,7 +945,7 @@ movies.multiverseSaga =
                 "director": "Sam Raimi",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt9419884/',
-                   'value':  7.0,
+                   'value':  6.9,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=rt-2cxAiPJk"
@@ -1038,7 +1038,7 @@ movies.multiverseSaga =
                 "director": "Kat Coiro",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10857160/',
-                   'value':  5.3,
+                   'value':  5.2,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=u7JsKhI2An0"
@@ -1094,7 +1094,7 @@ movies.multiverseSaga =
                 "director": "Ryan Coogler",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt1825683/',
-                   'value':  6.7,
+                   'value':  7.3,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=RlOB3UALvrQ"
@@ -1120,7 +1120,7 @@ movies.multiverseSaga =
                 "length": 119,
                 "director": "Taika Waititi",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt0800369/',
+                   'link': 'https://www.imdb.com/title/tt10648342/',
                    'value':  6.2,
                 },
                 "streaming": "disney+",
@@ -1218,8 +1218,8 @@ movies.multiverseSaga =
                 "length": 125,
                 "director": "Peyton Reed",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt5095030/',
-                   'value':  6.1,
+                   'link': 'https://www.imdb.com/title/tt10954600/',
+                   'value':  6.0,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ZlNFpri-Y40"
@@ -1278,7 +1278,7 @@ movies.multiverseSaga =
                 "director": "David Leitch",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt6263850/',
-                   'value':  8.1,
+                   'value':  8.0,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ZIM1HydF9UA"
@@ -1309,7 +1309,7 @@ movies.multiverseSaga =
                 "director": "Bisha K. Ali",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10857164/',
-                   'value':  6.3,
+                   'value':  6.2,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=m9EX0f6V11Y"
@@ -1336,7 +1336,7 @@ movies.multiverseSaga =
                 "director": "Nia DaCosta",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10676048/',
-                   'value':  5.8,
+                   'value':  5.5,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=wS_qbDztgVY&pp=ygUTdGhlIG1hcnZlbHMgdHJhaWxlcg%3D%3D"
@@ -1403,7 +1403,7 @@ movies.sony = [
         "length": 121,
             "director": "Sam Raimi",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt10872600/',
+                   'link': 'https://www.imdb.com/title/tt0145487/',
                    'value':  7.4,
                 },
             "streaming": "disney+",
