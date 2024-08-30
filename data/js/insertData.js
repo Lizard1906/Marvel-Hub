@@ -44,6 +44,7 @@ movies.infinitySaga =
                     "year": 2010,
                     "season" : "start"
                 },
+                "length": 126,
                 "director": "Jon Favreau",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt0371746/',
