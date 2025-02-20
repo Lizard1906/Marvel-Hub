@@ -995,36 +995,6 @@ movies.multiverseSaga =
             ]
         },
         {
-            "id": "echo",
-            "title": "Echo",
-            "data": {
-                "releaseDate": "01-09-2024",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2025,
-                    "season" : "spring"
-                },
-                "length": 213,
-                "episodes": 5,
-                "director": "Sydney Freeland",
-                "imdb": {
-                   'link': 'https://www.imdb.com/title/tt13966962/',
-                   'value':  6.0,
-                },
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=AFUKnherhuw"
-            },
-            "moviesToWatch": [
-                { "id": "hawkeye" },
-                { "id": "daredevil" }
-
-            ],
-            "mainCharacters": [
-                { "name": "Echo", "actor": "Alaqua Cox", "id": "maya-lopez" },
-                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
-            ]
-        },
-        {
             "id": "she-hulk",
             "title": "She-Hulk",
             "data": {
@@ -1052,6 +1022,36 @@ movies.multiverseSaga =
                 { "name": "She-Hulk", "actor": "Tatiana Maslany", "id": "jennifer-walters" },
                 { "name": "Hulk", "actor": "Mark Ruffalo", "id": "bruce-banner" },
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
+                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
+            ]
+        },
+        {
+            "id": "echo",
+            "title": "Echo",
+            "data": {
+                "releaseDate": "01-09-2024",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "spring"
+                },
+                "length": 213,
+                "episodes": 5,
+                "director": "Sydney Freeland",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt13966962/',
+                   'value':  6.0,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=AFUKnherhuw"
+            },
+            "moviesToWatch": [
+                { "id": "hawkeye" },
+                { "id": "daredevil" }
+
+            ],
+            "mainCharacters": [
+                { "name": "Echo", "actor": "Alaqua Cox", "id": "maya-lopez" },
                 { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" },
             ]
         },
