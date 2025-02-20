@@ -1056,6 +1056,34 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "daredevil-born-again",
+            "title": "Daredevil: Born Again",
+            "data": {
+                "releaseDate": "03-04-2025",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "fall"
+                },
+                "length": 18*45, //aproximada
+                "episodes": 18,
+                "director": "Justin Benson +5",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt18923754/',
+                   'value':  null,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=7xALolZzhSM"
+            },
+            "moviesToWatch": [
+                { "id": "daredevil" },
+                { "id": "echo" }
+            ],
+            "mainCharacters": [
+                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" }
+            ]
+        },
+        {
             "id": "moon-knight",
             "title": "Moon Knight",
             "data": {
@@ -1105,6 +1133,33 @@ movies.multiverseSaga =
             ],
             "mainCharacters": [
                 { "name": "Black Panther", "actor": "Letitia Wright", "id": "shuri" },
+                { "name": "Riri Williams", "actor": "Dominique Thorne", "id": "riri-williams" },
+            ]
+        },
+        {
+            "id": "ironheart",
+            "title": "Ironheart",
+            "data": {
+                "releaseDate": "06-24-2025",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2025,
+                    "season" : "summer"
+                },
+                "length": 6*45, //aproximada
+                "episodes": 6,
+                "director": "Sam Bailey, Angela Barnes",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt13623126/',
+                   'value':  null,
+                },
+                "streaming": "disney+",
+                "trailer": null
+            },
+            "moviesToWatch": [
+                { "id": "black-panther-2" }
+            ],
+            "mainCharacters": [
                 { "name": "Riri Williams", "actor": "Dominique Thorne", "id": "riri-williams" },
             ]
         },
@@ -1388,6 +1443,82 @@ movies.multiverseSaga =
                 { "name": "Talos", "actor": "Ben Mendelsohn", "id": "talos" },
             ]
         },
+        {
+            "id": "captain-america-4",
+            "title": "Captain America: Brave New World",
+            "data": {
+                "releaseDate": "02-13-2025",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : "early"
+                },
+                "length": 120,
+                "director": "Julius Onah",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt14513804/',
+                   'value':  6.1,
+                },
+                "streaming": null,
+                "trailer": "https://www.youtube.com/watch?v=1pHDWnXmK7Y"
+            },
+            "moviesToWatch": [
+                { "id": "tfatws" }
+            ],
+            "mainCharacters": [
+                { "name": "Captain America", "actor": "Anthony Mackie", "id": "sam-wilson" },
+            ]
+        },
+        {
+            "id": "thunderbolts",
+            "title": "Thunderbolts*",
+            "data": {
+                "releaseDate": "05-02-2025",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : "early"
+                },
+                "length": null,
+                "director": "Jake Schreier",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt20969586/',
+                   'value':  null,
+                },
+                "streaming": null,
+                "trailer": "https://www.youtube.com/watch?v=hUUszE29jS0"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
+                { "name": "Bucky Barnes", "actor": "Sebastian Stan", "id": "bucky-barnes" },
+            ]
+        },
+        {
+            "id": "the-fantastic-four",
+            "title": "The Fantastic Four: First Steps",
+            "data": {
+                "releaseDate": "07-25-2025",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": null,
+                    "season" : null
+                },
+                "length": null,
+                "director": "Matt Shakman",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt10676052/',
+                   'value':  null,
+                },
+                "streaming": null,
+                "trailer": "https://www.youtube.com/watch?v=AzMo-FgRp64"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+            ]
+        }
     ]
 
 movies.sony = [
