@@ -235,7 +235,7 @@ movies.infinitySaga =
             "mainCharacters": [
                 { "name": "Iron Man", "actor": "Robert Downey Jr", "id": "tony-stark" },
                 { "name": "James Rhodes", "actor": "Don Cheadle", "id": "james-rhodes" },
-                { "name": "Bruce Banner", "actor": "Mark Ruffalo", "id": "bruce-banner", "special": "uncredited" },
+                { "name": "Bruce Banner", "actor": "Mark Ruffalo", "id": "bruce-banner", "special": "cameo" },
             ]
         },
         {
@@ -265,7 +265,7 @@ movies.infinitySaga =
                 { "name": "Thor", "actor": "Chris Hemsworth", "id": "thor" },
                 { "name": "Jane Foster", "actor": "Natalie Portman", "id": "jane-foster" },
                 { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
-                { "name": "Captain America", "actor": "Chris Evans", "id": "steve-rogers", "special": "uncredited" },
+                { "name": "Captain America", "actor": "Chris Evans", "id": "steve-rogers", "special": "cameo" },
             ]
         },
         {
