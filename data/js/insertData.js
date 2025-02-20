@@ -2299,7 +2299,7 @@ Object.entries(data.movies).forEach(([sagaName, movies]) => {
 
 chronologicalStack = [...defaultStack];
 // Definindo a ordem das seasons
-const seasonOrder = ["early", "spring", "middle", "summer", "fall", "christmas", null];
+const seasonOrder = ["early", "spring", "middle", "summer", "fall", "christmas", "end", null];
 
 // Função de ordenação
 chronologicalStack.sort((a, b) => {
