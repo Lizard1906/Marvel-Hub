@@ -849,7 +849,7 @@ movies.multiverseSaga =
                 "director": "Destin Cretton",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt9376612/',
-                   'value':  7.4,
+                   'value':  7.3,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=8YjFbMbfXaQ"
@@ -1279,7 +1279,7 @@ movies.multiverseSaga =
                 "director": "David Leitch",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt6263850/',
-                   'value':  8.0,
+                   'value':  7.6,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ZIM1HydF9UA"
@@ -1567,7 +1567,7 @@ movies.fox = [
             "length": 108,
             "director": "Tim Miller",
                 "imdb": {
-                   'link': 'https://www.imdb.com/title/tt6263850/',
+                   'link': 'https://www.imdb.com/title/tt1431045/',
                    'value':  8.0,
                 },
             "streaming": "disney+",

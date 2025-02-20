@@ -21,7 +21,10 @@ with open("data/js/insertData.js", "w", encoding="utf-8") as file:
                 html = urlopen(req).read() 
 
                 soup = BeautifulSoup(html, 'html.parser')
-                imdb_value = soup.find('span', {'class': 'sc-eb51e184-1 ljxVSS'}).text
+                try:
+                    imdb_value = soup.find('span', {'class': 'sc-d541859f-1 imUuxf'}).text
+                except:
+                    imdb_value = None
                 file.write(f"                   'value':  {imdb_value},\n")
             else:
                 file.write(line)
