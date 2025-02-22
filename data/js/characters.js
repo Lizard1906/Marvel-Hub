@@ -16,7 +16,7 @@ function createCharacterElements() {
         characterElement.classList.add("img-card");
 
         const characterLink = document.createElement("a");
-        characterLink.href = "characterDetails.html?" + character.id;
+        characterLink.href = "characterDetails?" + character.id;
 
         const characterImage = document.createElement("div");
         characterImage.style.backgroundImage = "url(data/Images/Characters/GIF/" + character.id + ".png)";
