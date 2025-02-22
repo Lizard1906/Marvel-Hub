@@ -8,7 +8,7 @@ function createCharacterElements() {
     const charactersContainer = document.getElementById("characters-container");
     charactersContainer.innerHTML = '';
 
-    charactersStack.heroes.forEach(character => {
+    charactersStack.forEach(character => {
 
         const characterDiv = document.createElement("div");
         characterDiv.classList.add("col-lg-2", "col-md-4", "col-6");
