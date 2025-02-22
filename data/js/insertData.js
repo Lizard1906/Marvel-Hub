@@ -803,6 +803,7 @@ movies.multiverseSaga =
                 { "name": "Falcon", "actor": "Anthony Mackie", "id": "falcon" },
                 { "name": "Winter Soldier", "actor": "Sebastian Stan", "id": "bucky-barnes" },
                 { "name": "General Rhodes", "actor": "Don Cheadle", "id": "james-rhodes" },
+                { "name": "Joaquin Torres", "actor": "Danny Ramirez", "id": "joaquin-torres" },
             ]
         },
         {
@@ -1467,6 +1468,7 @@ movies.multiverseSaga =
             ],
             "mainCharacters": [
                 { "name": "Captain America", "actor": "Anthony Mackie", "id": "sam-wilson" },
+                { "name": "Falcon", "actor": "Danny Ramirez", "id": "joaquin-torres" },
             ]
         },
         {
@@ -2400,7 +2402,19 @@ characters = {
                     "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
                 }
             ]
-        }
+        },
+        {
+            "id": "joaquin-torres",
+            "name": "Joaquin Torres",
+            "actor": [
+                {
+                    "name": "Danny Ramirez",
+                    "birth": "17/09/1992",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Danny_Ramirez"
+                }
+            ]
+        },
     ]
 }
 
