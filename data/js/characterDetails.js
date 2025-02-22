@@ -85,7 +85,7 @@ function createSwiperSlide(movie) {
     swiperSlide.classList.add("swiper-slide");
 
     const link = document.createElement("a");
-    link.href = 'movieDetails?' + movie.id;
+    link.href = 'movieDetails.html?' + movie.id;
     link.style.textDecoration = "none";
 
     const poster = document.createElement("img");
