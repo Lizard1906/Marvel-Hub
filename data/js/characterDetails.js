@@ -6,7 +6,7 @@ console.log(id)
 
 document.getElementById('jumbotron').style.backgroundImage = 'url("data/Images/Characters/Photo/' + id + '.png';
 
-const allCharacters = [...data.characters.heroes];
+const allCharacters = [...data.characters];
 console.log(allCharacters)
 
 let prevCharacter, nextCharacter;

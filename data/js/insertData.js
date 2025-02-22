@@ -1741,8 +1741,8 @@ movies.fox = [
 ]
 
 
-characters = {
-    "heroes": [
+characters = 
+    [
         {
             "id": "tony-stark",
             "name": "Tony Stark",
@@ -2416,7 +2416,7 @@ characters = {
             ]
         },
     ]
-}
+
 
 data = {}
 data.movies = movies
@@ -2502,18 +2502,16 @@ if (localStorage.getItem('marvel-hub')) {
 // characters
 
 
-Object.entries(characters).forEach(([characterType, characters_]) => {
-    characters_.forEach(character => {
-        releaseStack.forEach(movie => {
-            if (movie.mainCharacters.some(mainCharacter => mainCharacter.id === character.id && mainCharacter.special !== "uncredited" )) {
-                if (!character.movies) {
-                    character.movies = [];
-                }
-                character.movies.push(movie);
+characters.forEach(character => {
+    releaseStack.forEach(movie => {
+        if (movie.mainCharacters.some(mainCharacter => mainCharacter.id === character.id && mainCharacter.special !== "uncredited" )) {
+            if (!character.movies) {
+                character.movies = [];
             }
-        })
-    })  
-})
+            character.movies.push(movie);
+        }
+    })
+})  
 
 data.characters = characters
 
