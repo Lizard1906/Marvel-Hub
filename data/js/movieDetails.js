@@ -108,7 +108,7 @@ if (moviesToWatch.length != 0) {
         swiperSlide.classList.add("swiper-slide");
 
         const link = document.createElement("a");
-        link.href = 'movieDetails.html?' + movieID;
+        link.href = 'movieDetails?' + movieID;
 
         const poster = document.createElement("img");
         // poster.classList.add("poster-img");
@@ -155,7 +155,7 @@ if (mainCharacters.length != 0) {
         swiperSlide.classList.add("swiper-slide");
 
         const link = document.createElement("a");
-        link.href = 'characterDetails.html?' + characterID;
+        link.href = 'characterDetails?' + characterID;
         link.style.textDecoration = "none";
 
         const poster = document.createElement("img");
