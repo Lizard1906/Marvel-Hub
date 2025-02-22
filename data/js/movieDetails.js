@@ -43,11 +43,11 @@ Object.entries(data.movies).forEach(([sagaName, movies]) => {
             console.log(nextMovie)
 
             if (prevMovie != null) {
-                document.getElementById('prev-arrow').setAttribute('href', 'movieDetails.html?' + prevMovie);
+                document.getElementById('prev-arrow').setAttribute('href', 'movieDetails?' + prevMovie);
                 document.getElementById('prev-arrow').classList.remove('d-none');
             }
             if (nextMovie != null) {
-                document.getElementById('next-arrow').setAttribute('href', 'movieDetails.html?' + nextMovie);
+                document.getElementById('next-arrow').setAttribute('href', 'movieDetails?' + nextMovie);
                 document.getElementById('next-arrow').classList.remove('d-none');
             }
         }

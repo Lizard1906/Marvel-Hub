@@ -31,11 +31,11 @@ allCharacters.forEach((character, index) => {
 
 
     if (prevCharacter != null) {
-        document.getElementById('prev-arrow').setAttribute('href', 'characterDetails.html?' + prevCharacter);
+        document.getElementById('prev-arrow').setAttribute('href', 'characterDetails?' + prevCharacter);
         document.getElementById('prev-arrow').classList.remove('d-none');
     }
     if (nextCharacter != null) {
-        document.getElementById('next-arrow').setAttribute('href', 'characterDetails.html?' + nextCharacter);
+        document.getElementById('next-arrow').setAttribute('href', 'characterDetails?' + nextCharacter);
         document.getElementById('next-arrow').classList.remove('d-none');
     }
 });
