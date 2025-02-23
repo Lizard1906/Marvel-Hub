@@ -2475,7 +2475,7 @@ chronologicalStack.sort((a, b) => {
 });
 
 ratingStack = [...defaultStack];
-ratingStack.sort((a, b) => a.data.imdb - b.data.imdb);
+ratingStack.sort((a, b) => a.data.imdb.value - b.data.imdb.value);
 
 lengthStack = [...defaultStack];
 lengthStack.sort((a, b) => a.data.length - b.data.length);
@@ -2494,8 +2494,14 @@ if (localStorage.getItem('marvel-hub')) {
     } else {
         data.activeMovieStack = null;
     }
+    if (savedData.reversedStack) {
+        data.reversedStack = savedData.reversedStack;
+    } else {
+        data.reversedStack = false;
+    }
 } else {
     data.activeMovieStack = null;
+    data.reversedStack = false;
 }
 
 
