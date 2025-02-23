@@ -42,6 +42,13 @@ Object.entries(data.movies).forEach(([sagaName, movies]) => {
             console.log(prevMovie)
             console.log(nextMovie)
 
+            if (JSON.parse(localStorage.getItem('marvel-hub')).reversedStack) {
+                // trocar as variáveis
+                let temp = prevMovie;
+                prevMovie = nextMovie;
+                nextMovie = temp;
+            }
+
             if (prevMovie != null) {
                 document.getElementById('prev-arrow').setAttribute('href', 'movieDetails.html?' + prevMovie);
                 document.getElementById('prev-arrow').classList.remove('d-none');

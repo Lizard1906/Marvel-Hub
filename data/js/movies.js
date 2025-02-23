@@ -41,6 +41,9 @@ function createMovieElements(moviesStack, reverse, newType, newProduction) {
     if (reverse) {
         moviesStack.reverse();
     }
+    let savedData = JSON.parse(localStorage.getItem('marvel-hub'));
+    savedData.reversedStack = reverse;
+    localStorage.setItem('marvel-hub', JSON.stringify(savedData));
 
     const moviesContainer = document.getElementById("movies-container");
     moviesContainer.innerHTML = '';

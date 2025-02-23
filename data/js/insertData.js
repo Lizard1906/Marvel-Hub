@@ -2494,8 +2494,14 @@ if (localStorage.getItem('marvel-hub')) {
     } else {
         data.activeMovieStack = null;
     }
+    if (savedData.reversedStack) {
+        data.reversedStack = savedData.reversedStack;
+    } else {
+        data.reversedStack = false;
+    }
 } else {
     data.activeMovieStack = null;
+    data.reversedStack = false;
 }
 
 
