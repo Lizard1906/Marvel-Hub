@@ -820,7 +820,7 @@ movies.multiverseSaga =
                 "director": "Chloé Zhao",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt9032400/',
-                   'value':  6.3,
+                   'value':  6.2,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
@@ -1041,7 +1041,7 @@ movies.multiverseSaga =
                 "director": "Sydney Freeland",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt13966962/',
-                   'value':  6.0,
+                   'value':  5.9,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=AFUKnherhuw"
@@ -1071,7 +1071,7 @@ movies.multiverseSaga =
                 "director": "Justin Benson +5",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt18923754/',
-                   'value':  null,
+                   'value':  8.4,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=7xALolZzhSM"
@@ -1152,7 +1152,7 @@ movies.multiverseSaga =
                 "director": "Sam Bailey, Angela Barnes",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt13623126/',
-                   'value':  null,
+                   'value':  None,
                 },
                 "streaming": "disney+",
                 "trailer": null
@@ -1458,7 +1458,7 @@ movies.multiverseSaga =
                 "director": "Julius Onah",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt14513804/',
-                   'value':  6.1,
+                   'value':  5.8,
                 },
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=1pHDWnXmK7Y"
@@ -1485,7 +1485,7 @@ movies.multiverseSaga =
                 "director": "Jake Schreier",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt20969586/',
-                   'value':  null,
+                   'value':  None,
                 },
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=hUUszE29jS0"
@@ -1511,7 +1511,7 @@ movies.multiverseSaga =
                 "director": "Matt Shakman",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10676052/',
-                   'value':  null,
+                   'value':  None,
                 },
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=AzMo-FgRp64"
