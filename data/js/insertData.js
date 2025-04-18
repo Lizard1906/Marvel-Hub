@@ -1066,8 +1066,8 @@ movies.multiverseSaga =
                     "year": 2025,
                     "season" : "fall"
                 },
-                "length": 18*45, //aproximada
-                "episodes": 18,
+                "length": 9*48, //aproximada
+                "episodes": 9,
                 "director": "Justin Benson +5",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt18923754/',
