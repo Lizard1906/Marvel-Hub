@@ -24,7 +24,7 @@ with open("data/js/insertData.js", "w", encoding="utf-8") as file:
                 try:
                     imdb_value = soup.find('span', {'class': 'sc-d541859f-1 imUuxf'}).text
                 except:
-                    imdb_value = None
+                    imdb_value = "null"
                 file.write(f"                   'value':  {imdb_value},\n")
             else:
                 file.write(line)
