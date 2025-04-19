@@ -932,7 +932,7 @@ movies.multiverseSaga =
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
                 { "name": "Spider-Man", "actor": "Tobey Maguire", "id": "peter-parker-sm" },
                 { "name": "Spider-Man", "actor": "Andrew Garfield", "id": "peter-parker-asm" },
-
+                { "name": "Matt Murdock", "actor": "Charlie Cox", "id": "matt-murdock" },
             ]
         },
         {
