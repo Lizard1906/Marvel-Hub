@@ -521,6 +521,7 @@ movies.infinitySaga =
             "mainCharacters": [
                 { "name": "Black Widow", "actor": "Scarlett Johansson", "id": "natasha-romanoff" },
                 { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
+                { "name": "Alexei Shostakov", "actor": "David Harbour", "id": "alexei-shostakov" },
             ]
         },
         {
@@ -634,6 +635,7 @@ movies.infinitySaga =
             "mainCharacters": [
                 { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
                 { "name": "Wasp", "actor": "Evangeline Lilly", "id": "hope-van-dyne" },
+                { "name": "Ghost", "actor": "Hannah John-Kamen", "id": "ava-starr" },
             ]
         },
         {
@@ -806,6 +808,7 @@ movies.multiverseSaga =
                 { "name": "Winter Soldier", "actor": "Sebastian Stan", "id": "bucky-barnes" },
                 { "name": "General Rhodes", "actor": "Don Cheadle", "id": "james-rhodes" },
                 { "name": "Joaquin Torres", "actor": "Danny Ramirez", "id": "joaquin-torres" },
+                { "name": "Captain America", "actor": "Wyatt Russell", "id": "john-walker" },
             ]
         },
         {
@@ -1525,8 +1528,11 @@ movies.multiverseSaga =
             "moviesToWatch": [
             ],
             "mainCharacters": [
-                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
-                { "name": "Bucky Barnes", "actor": "Sebastian Stan", "id": "bucky-barnes" },
+                { "name": "Yelena", "actor": "Florence Pugh", "id": "yelena-belova" },
+                { "name": "Bucky", "actor": "Sebastian Stan", "id": "bucky-barnes" },
+                { "name": "Red Guardian", "actor": "David Harbour", "id": "alexei-shostakov" },
+                { "name": "John Walker", "actor": "Wyatt Russell", "id": "john-walker" },
+                { "name": "Ghost", "actor": "Hannah John-Kamen", "id": "ava-starr" },
             ]
         },
         {
@@ -2474,6 +2480,42 @@ characters =
                     "birth": "20/06/2011",
                     "originCountry": "USA",
                     "info": "https://en.wikipedia.org/wiki/Julian_Hilliard"
+                }
+            ]
+        },
+        {
+            "id": "john-walker",
+            "name": "John Walker",
+            "actor": [
+                {
+                    "name": "Wyatt Russell",
+                    "birth": "10/07/1986",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Wyatt_Russell"
+                }
+            ]
+        },
+        {
+            "id": "alexei-shostakov",
+            "name": "Alexei Shostakov",
+            "actor": [
+                {
+                    "name": "David Harbour",
+                    "birth": "10/04/1975",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/David_Harbour"
+                }
+            ]
+        },
+        {
+            "id": "ava-starr",
+            "name": "Ava Starr",
+            "actor": [
+                {
+                    "name": "Hannah John-Kamen",
+                    "birth": "07/09/1989",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Hannah_John-Kamen"
                 }
             ]
         },
