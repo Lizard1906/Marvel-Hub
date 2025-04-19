@@ -2202,6 +2202,60 @@ characters =
             ]
         },
         {
+            "id": "agatha-harkness",
+            "name": "Agatha Harkness",
+            "actor": [
+                {
+                    "name": "Kathryn Hahn",
+                    "birth": "23/07/1973",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Kathryn_Hahn"
+                }
+            ]
+        },
+        {
+            "id": "billy-maximoff",
+            "name": "Billy Maximoff",
+            "actor": [
+                {
+                    "name": "Joe Locke",
+                    "birth": "24/09/2003",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Joe_Locke"
+                },
+                {
+                    "name": "Julian Hilliard",
+                    "birth": "20/06/2011",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Julian_Hilliard"
+                }
+            ]
+        },
+        {
+            "id": "joaquin-torres",
+            "name": "Joaquin Torres",
+            "actor": [
+                {
+                    "name": "Danny Ramirez",
+                    "birth": "17/09/1992",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Danny_Ramirez"
+                }
+            ]
+        },
+        {
+            "id": "john-walker",
+            "name": "John Walker",
+            "actor": [
+                {
+                    "name": "Wyatt Russell",
+                    "birth": "10/07/1986",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Wyatt_Russell"
+                }
+            ]
+        },
+        {
             "id": "yelena-belova",
             "name": "Yelena Belova",
             "actor": [
@@ -2210,6 +2264,30 @@ characters =
                     "birth": "03/01/1996",
                     "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Florence_Pugh"
+                }
+            ]
+        },
+        {
+            "id": "alexei-shostakov",
+            "name": "Alexei Shostakov",
+            "actor": [
+                {
+                    "name": "David Harbour",
+                    "birth": "10/04/1975",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/David_Harbour"
+                }
+            ]
+        },
+        {
+            "id": "ava-starr",
+            "name": "Ava Starr",
+            "actor": [
+                {
+                    "name": "Hannah John-Kamen",
+                    "birth": "07/09/1989",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Hannah_John-Kamen"
                 }
             ]
         },
@@ -2438,84 +2516,6 @@ characters =
                     "birth": "12/10/1968",
                     "originCountry": "Australia",
                     "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
-                }
-            ]
-        },
-        {
-            "id": "joaquin-torres",
-            "name": "Joaquin Torres",
-            "actor": [
-                {
-                    "name": "Danny Ramirez",
-                    "birth": "17/09/1992",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Danny_Ramirez"
-                }
-            ]
-        },
-        {
-            "id": "agatha-harkness",
-            "name": "Agatha Harkness",
-            "actor": [
-                {
-                    "name": "Kathryn Hahn",
-                    "birth": "23/07/1973",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Kathryn_Hahn"
-                }
-            ]
-        },
-        {
-            "id": "billy-maximoff",
-            "name": "Billy Maximoff",
-            "actor": [
-                {
-                    "name": "Joe Locke",
-                    "birth": "24/09/2003",
-                    "originCountry": "UK",
-                    "info": "https://en.wikipedia.org/wiki/Joe_Locke"
-                },
-                {
-                    "name": "Julian Hilliard",
-                    "birth": "20/06/2011",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Julian_Hilliard"
-                }
-            ]
-        },
-        {
-            "id": "john-walker",
-            "name": "John Walker",
-            "actor": [
-                {
-                    "name": "Wyatt Russell",
-                    "birth": "10/07/1986",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Wyatt_Russell"
-                }
-            ]
-        },
-        {
-            "id": "alexei-shostakov",
-            "name": "Alexei Shostakov",
-            "actor": [
-                {
-                    "name": "David Harbour",
-                    "birth": "10/04/1975",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/David_Harbour"
-                }
-            ]
-        },
-        {
-            "id": "ava-starr",
-            "name": "Ava Starr",
-            "actor": [
-                {
-                    "name": "Hannah John-Kamen",
-                    "birth": "07/09/1989",
-                    "originCountry": "UK",
-                    "info": "https://en.wikipedia.org/wiki/Hannah_John-Kamen"
                 }
             ]
         },
