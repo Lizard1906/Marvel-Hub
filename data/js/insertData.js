@@ -1352,6 +1352,35 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "agatha",
+            "title": "Agatha All Along",
+            "data": {
+                "releaseDate": "09-18-2024",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "fall",
+                },
+                "length": 9*35, //aproximada
+                "episodes": 9,
+                "director": "Jac Schaeffer",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt15571732/',
+                   'value':  7.2,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=R9pXbNz6Vbw"
+            },
+            "moviesToWatch": [
+                { "id": "wandavision" },
+                { "id": "doctor-strange-2" },
+            ],
+            "mainCharacters": [
+                { "name": "Agatha Harkness", "actor": "Kathryn Hahn", "id": "agatha-harkness" },
+                { "name": "Teen", "actor": "Joe Locke", "id": "billy-maximoff" },
+            ]
+        },
+        {
             "id": "ms-marvel",
             "title": "Ms. Marvel",
             "data": {
@@ -2412,6 +2441,30 @@ characters =
                     "birth": "17/09/1992",
                     "originCountry": "USA",
                     "info": "https://en.wikipedia.org/wiki/Danny_Ramirez"
+                }
+            ]
+        },
+        {
+            "id": "agatha-harkness",
+            "name": "Agatha Harkness",
+            "actor": [
+                {
+                    "name": "Kathryn Hahn",
+                    "birth": "23/07/1973",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Kathryn_Hahn"
+                }
+            ]
+        },
+        {
+            "id": "billy-maximoff",
+            "name": "Billy Maximoff",
+            "actor": [
+                {
+                    "name": "Joe Locke",
+                    "birth": "24/09/2003",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Joe_Locke"
                 }
             ]
         },
