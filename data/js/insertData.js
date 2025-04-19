@@ -772,6 +772,8 @@ movies.multiverseSaga =
                 { "name": "Wanda Maximoff", "actor": "Elizabeth Olsen", "id": "wanda-maximoff" },
                 { "name": "Vision", "actor": "Paul Bettany", "id": "vision" },
                 { "name": "Monica Rambeau", "actor": "Teyonah Parris", "id": "monica-rambeau" },
+                { "name": "Agnes", "actor": "Kathryn Hahn", "id": "agatha-harkness" },
+                { "name": "Billy Maximoff", "actor": "Julian Hilliard", "id": "billy-maximoff" },
             ]
         },
         {
@@ -961,6 +963,7 @@ movies.multiverseSaga =
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
                 { "name": "Scarlet Witch", "actor": "Elizabeth Olsen", "id": "wanda-maximoff" },
                 { "name": "America Chavez", "actor": "Xochitl Gomez", "id": "america-chavez" },
+                { "name": "Billy Maximoff", "actor": "Julian Hilliard", "id": "billy-maximoff" },
                 { "name": "Captain Carter", "actor": "Hayley Atwell", "id": "peggy-carter" },
             ]
         },
@@ -2465,6 +2468,12 @@ characters =
                     "birth": "24/09/2003",
                     "originCountry": "UK",
                     "info": "https://en.wikipedia.org/wiki/Joe_Locke"
+                },
+                {
+                    "name": "Julian Hilliard",
+                    "birth": "20/06/2011",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Julian_Hilliard"
                 }
             ]
         },
