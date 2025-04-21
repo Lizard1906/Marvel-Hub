@@ -153,6 +153,7 @@ var swiper = new Swiper(".moviesSwiper", {
 const mainCharacters = foundMovie.mainCharacters;
 console.log(mainCharacters)
 if (mainCharacters.length != 0) {
+    document.getElementById('main-cast').classList.remove('d-none');
     const swiperWrapperMovies = document.querySelector(".charactersSwiper .swiper-wrapper");
 
     function createSwiperSlide(characterID, characterActor, character, special) {
