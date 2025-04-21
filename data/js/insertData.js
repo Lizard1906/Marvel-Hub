@@ -1355,6 +1355,7 @@ movies.multiverseSaga =
             "mainCharacters": [
                 { "name": "Deadpool", "actor": "Ryan Reynolds", "id": "wade-wilson" },
                 { "name": "Wolverine", "actor": "Hugh Jackman", "id": "logan" },
+                { "name": "Gambit", "actor": "Channing Tatum", "id": "gambit" },
             ]
         },
         {
@@ -1600,6 +1601,7 @@ movies.multiverseSaga =
                 { "name": "Thing", "actor": "Ebon Moss-Bachrach", "id": "ben-grimm" },
                 { "name": "Shuri", "actor": "Letitia Wright", "id": "shuri" },
                 { "name": "Shang-Chi", "actor": "Simu Liu", "id": "shang-chi" },
+                { "name": "Gambit", "actor": "Channing Tatum", "id": "gambit" },
             ]
         },
         {
@@ -2598,6 +2600,18 @@ characters =
                     "birth": "12/10/1968",
                     "originCountry": "Australia",
                     "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
+                }
+            ]
+        },
+        {
+            "id": "gambit",
+            "name": "Gambit",
+            "actor": [
+                {
+                    "name": "Channing Tatum",
+                    "birth": "26/04/1980",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Channing_Tatum"
                 }
             ]
         },
