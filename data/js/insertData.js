@@ -1557,6 +1557,12 @@ movies.multiverseSaga =
             "moviesToWatch": [
             ],
             "mainCharacters": [
+                { "name": "Mr. Fantastic", "actor": "Pedro Pascal", "id": "reed-richards" },
+                { "name": "Invisible Woman", "actor": "Vanessa Kirby", "id": "sue-storm" },
+                { "name": "Human Torch", "actor": "Joseph Quinn", "id": "johnny-storm" },
+                { "name": "Thing", "actor": "Ebon Moss-Bachrach", "id": "ben-grimm" },
+            ]
+        },
             ]
         }
     ]
@@ -2516,6 +2522,54 @@ characters =
                     "birth": "12/10/1968",
                     "originCountry": "Australia",
                     "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
+                }
+            ]
+        },
+        {
+            "id": "reed-richards",
+            "name": "Reed Richards",
+            "actor": [
+                {
+                    "name": "Pedro Pascal",
+                    "birth": "02/04/1975",
+                    "originCountry": "Chile",
+                    "info": "https://en.wikipedia.org/wiki/Pedro_Pascal"
+                }
+            ]
+        }, 
+        {
+            "id": "sue-storm",
+            "name": "Sue Storm",
+            "actor": [
+                {
+                    "name": "Vanessa Kirby",
+                    "birth": "18/04/1988",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Vanessa_Kirby"
+                }
+            ]
+        },
+        {
+            "id": "johnny-storm",
+            "name": "Johnny Storm",
+            "actor": [
+                {
+                    "name": "Joseph Quinn",
+                    "birth": "26/01/1994",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Joseph_Quinn"
+                }
+            ]
+        },
+        {
+            "id": "ben-grimm",
+            "name": "Ben Grimm",
+            "actor": [
+                {
+                    "name": "Ebon Moss-Bachrach",
+                    "birth": "19/03/1977",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Ebon_Moss-Bachrach"
                 }
             ]
         },
