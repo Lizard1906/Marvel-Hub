@@ -2386,18 +2386,6 @@ characters =
             ]
         },
         {
-            "id": "maya-lopez",
-            "name": "Maya Lopez",
-            "actor": [
-                {
-                    "name": "Alaqua Cox",
-                    "birth": "30/11/2000",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Alaqua_Cox"
-                }
-            ]
-        },
-        {
             "id": "jennifer-walters",
             "name": "Jennifer Walters",
             "actor": [
@@ -2406,6 +2394,18 @@ characters =
                     "birth": "22/09/1985",
                     "originCountry": "Canada",
                     "info": "https://en.wikipedia.org/wiki/Tatiana_Maslany"
+                }
+            ]
+        },
+        {
+            "id": "maya-lopez",
+            "name": "Maya Lopez",
+            "actor": [
+                {
+                    "name": "Alaqua Cox",
+                    "birth": "30/11/2000",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Alaqua_Cox"
                 }
             ]
         },
@@ -2554,18 +2554,6 @@ characters =
             ]
         },
         {
-            "id": "riri-williams",
-            "name": "Riri Williams",
-            "actor": [
-                {
-                    "name": "Dominique Thorne",
-                    "birth": "01/11/1998",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
-                }
-            ]
-        },
-        {
             "id": "talos",
             "name": "Talos",
             "actor": [
@@ -2658,6 +2646,18 @@ characters =
                     "birth": "19/03/1977",
                     "originCountry": "USA",
                     "info": "https://en.wikipedia.org/wiki/Ebon_Moss-Bachrach"
+                }
+            ]
+        },
+        {
+            "id": "riri-williams",
+            "name": "Riri Williams",
+            "actor": [
+                {
+                    "name": "Dominique Thorne",
+                    "birth": "01/11/1998",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
                 }
             ]
         },
