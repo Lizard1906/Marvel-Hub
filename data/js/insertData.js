@@ -521,6 +521,7 @@ movies.infinitySaga =
             "mainCharacters": [
                 { "name": "Black Widow", "actor": "Scarlett Johansson", "id": "natasha-romanoff" },
                 { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
+                { "name": "Alexei Shostakov", "actor": "David Harbour", "id": "alexei-shostakov" },
             ]
         },
         {
@@ -634,6 +635,7 @@ movies.infinitySaga =
             "mainCharacters": [
                 { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
                 { "name": "Wasp", "actor": "Evangeline Lilly", "id": "hope-van-dyne" },
+                { "name": "Ghost", "actor": "Hannah John-Kamen", "id": "ava-starr" },
             ]
         },
         {
@@ -772,6 +774,8 @@ movies.multiverseSaga =
                 { "name": "Wanda Maximoff", "actor": "Elizabeth Olsen", "id": "wanda-maximoff" },
                 { "name": "Vision", "actor": "Paul Bettany", "id": "vision" },
                 { "name": "Monica Rambeau", "actor": "Teyonah Parris", "id": "monica-rambeau" },
+                { "name": "Agnes", "actor": "Kathryn Hahn", "id": "agatha-harkness" },
+                { "name": "Billy Maximoff", "actor": "Julian Hilliard", "id": "billy-maximoff" },
             ]
         },
         {
@@ -804,36 +808,7 @@ movies.multiverseSaga =
                 { "name": "Winter Soldier", "actor": "Sebastian Stan", "id": "bucky-barnes" },
                 { "name": "General Rhodes", "actor": "Don Cheadle", "id": "james-rhodes" },
                 { "name": "Joaquin Torres", "actor": "Danny Ramirez", "id": "joaquin-torres" },
-            ]
-        },
-        {
-            "id": "eternals",
-            "title": "Eternals",
-            "data": {
-                "releaseDate": "11-05-2021",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2023,
-                    "season" : "fall"
-                },
-                "length": 157,
-                "director": "Chloé Zhao",
-                "imdb": {
-                   'link': 'https://www.imdb.com/title/tt9032400/',
-                   'value':  6.2,
-                },
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                { "name": "Sersi", "actor": "Gemma Chan", "id": "sersi" },
-                { "name": "Thena", "actor": "Angelina Jolie", "id": "thena" },
-                { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
-                { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
-                { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
-                { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
+                { "name": "Captain America", "actor": "Wyatt Russell", "id": "john-walker" },
             ]
         },
         {
@@ -930,7 +905,7 @@ movies.multiverseSaga =
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
                 { "name": "Spider-Man", "actor": "Tobey Maguire", "id": "peter-parker-sm" },
                 { "name": "Spider-Man", "actor": "Andrew Garfield", "id": "peter-parker-asm" },
-
+                { "name": "Matt Murdock", "actor": "Charlie Cox", "id": "matt-murdock" },
             ]
         },
         {
@@ -961,6 +936,7 @@ movies.multiverseSaga =
                 { "name": "Wong", "actor": "Benedict Wong", "id": "wong" },
                 { "name": "Scarlet Witch", "actor": "Elizabeth Olsen", "id": "wanda-maximoff" },
                 { "name": "America Chavez", "actor": "Xochitl Gomez", "id": "america-chavez" },
+                { "name": "Billy Maximoff", "actor": "Julian Hilliard", "id": "billy-maximoff" },
                 { "name": "Captain Carter", "actor": "Hayley Atwell", "id": "peggy-carter" },
             ]
         },
@@ -997,7 +973,7 @@ movies.multiverseSaga =
         },
         {
             "id": "she-hulk",
-            "title": "She-Hulk",
+            "title": "She-Hulk: Attorney at Law",
             "data": {
                 "releaseDate": "08-17-2022",    //mm-dd-yyyy
                 "movieDate": 
@@ -1017,7 +993,6 @@ movies.multiverseSaga =
             },
             "moviesToWatch": [
                 { "id": "the-incredible-hulk" },
-                { "id": "daredevil" }
             ],
             "mainCharacters": [
                 { "name": "She-Hulk", "actor": "Tatiana Maslany", "id": "jennifer-walters" },
@@ -1349,6 +1324,36 @@ movies.multiverseSaga =
             "mainCharacters": [
                 { "name": "Deadpool", "actor": "Ryan Reynolds", "id": "wade-wilson" },
                 { "name": "Wolverine", "actor": "Hugh Jackman", "id": "logan" },
+                { "name": "Gambit", "actor": "Channing Tatum", "id": "gambit" },
+            ]
+        },
+        {
+            "id": "agatha",
+            "title": "Agatha All Along",
+            "data": {
+                "releaseDate": "09-18-2024",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "fall",
+                },
+                "length": 9*35, //aproximada
+                "episodes": 9,
+                "director": "Jac Schaeffer",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt15571732/',
+                   'value':  7.2,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=R9pXbNz6Vbw"
+            },
+            "moviesToWatch": [
+                { "id": "wandavision" },
+                { "id": "doctor-strange-2" },
+            ],
+            "mainCharacters": [
+                { "name": "Agatha Harkness", "actor": "Kathryn Hahn", "id": "agatha-harkness" },
+                { "name": "Teen", "actor": "Joe Locke", "id": "billy-maximoff" },
             ]
         },
         {
@@ -1445,6 +1450,36 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "eternals",
+            "title": "Eternals",
+            "data": {
+                "releaseDate": "11-05-2021",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2023,
+                    "season" : "fall"
+                },
+                "length": 157,
+                "director": "Chloé Zhao",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt9032400/',
+                   'value':  6.2,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                // { "name": "Sersi", "actor": "Gemma Chan", "id": "sersi" },
+                // { "name": "Thena", "actor": "Angelina Jolie", "id": "thena" },
+                // { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
+                // { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
+                // { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
+                // { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
+            ]
+        },
+        {
             "id": "captain-america-4",
             "title": "Captain America: Brave New World",
             "data": {
@@ -1493,8 +1528,11 @@ movies.multiverseSaga =
             "moviesToWatch": [
             ],
             "mainCharacters": [
-                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
-                { "name": "Bucky Barnes", "actor": "Sebastian Stan", "id": "bucky-barnes" },
+                { "name": "Yelena", "actor": "Florence Pugh", "id": "yelena-belova" },
+                { "name": "Bucky", "actor": "Sebastian Stan", "id": "bucky-barnes" },
+                { "name": "Red Guardian", "actor": "David Harbour", "id": "alexei-shostakov" },
+                { "name": "John Walker", "actor": "Wyatt Russell", "id": "john-walker" },
+                { "name": "Ghost", "actor": "Hannah John-Kamen", "id": "ava-starr" },
             ]
         },
         {
@@ -1519,8 +1557,104 @@ movies.multiverseSaga =
             "moviesToWatch": [
             ],
             "mainCharacters": [
+                { "name": "Mr. Fantastic", "actor": "Pedro Pascal", "id": "reed-richards" },
+                { "name": "Invisible Woman", "actor": "Vanessa Kirby", "id": "sue-storm" },
+                { "name": "Human Torch", "actor": "Joseph Quinn", "id": "johnny-storm" },
+                { "name": "Thing", "actor": "Ebon Moss-Bachrach", "id": "ben-grimm" },
             ]
-        }
+        },
+        {
+            "id": "avengers-5",
+            "title": "Avengers: Doomsday",
+            "data": {
+                "releaseDate": "05-01-2026",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : null
+                },
+                "length": null,
+                "director": "Anthony Russo, Joe Russo",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt21357150/',
+                   'value':  null,
+                },
+                "streaming": null,
+                "trailer": "#"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Thor", "actor": "Chris Hemsworth", "id": "thor" },
+                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
+                { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
+                { "name": "Captain America", "actor": "Anthony Mackie", "id": "sam-wilson" },
+                { "name": "Falcon", "actor": "Danny Ramirez", "id": "joaquin-torres" },
+                { "name": "Winter Soldier", "actor": "Sebastian Stan", "id": "bucky-barnes" },
+                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
+                { "name": "Red Guardian", "actor": "David Harbour", "id": "alexei-shostakov" },
+                { "name": "John Walker", "actor": "Wyatt Russell", "id": "john-walker" },
+                { "name": "Ghost", "actor": "Hannah John-Kamen", "id": "ava-starr" },
+                { "name": "Mr. Fantastic", "actor": "Pedro Pascal", "id": "reed-richards" },
+                { "name": "Invisible Woman", "actor": "Vanessa Kirby", "id": "sue-storm" },
+                { "name": "Human Torch", "actor": "Joseph Quinn", "id": "johnny-storm" },
+                { "name": "Thing", "actor": "Ebon Moss-Bachrach", "id": "ben-grimm" },
+                { "name": "Shuri", "actor": "Letitia Wright", "id": "shuri" },
+                { "name": "Shang-Chi", "actor": "Simu Liu", "id": "shang-chi" },
+                { "name": "Gambit", "actor": "Channing Tatum", "id": "gambit" },
+            ]
+        },
+        {
+            "id": "spider-man-4",
+            "title": "Spider-Man: Brand New Day",
+            "data": {
+                "releaseDate": "07-31-2026",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : null
+                },
+                "length": null,
+                "director": "Destin Daniel Cretton",
+                "imdb": {
+                   'link': "https://www.imdb.com/title/tt22084616/",
+                   'value':  null,
+                },
+                "streaming": null,
+                "trailer": "#"
+            },
+            "moviesToWatch": [
+                { "id": "spider-man-3" },
+            ],
+            "mainCharacters": [
+                { "name": "Spider-Man", "actor": "Tom Holland", "id": "peter-parker" },
+            ]
+        },
+        {
+            "id": "avengers-6",
+            "title": "Avengers: Secret Wars",
+            "data": {
+                "releaseDate": "05-07-2027",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : null
+                },
+                "length": null,
+                "director": "Anthony Russo, Joe Russo",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt21361444/',
+                   'value':  null,
+                },
+                "streaming": null,
+                "trailer": "#"
+            },
+            "moviesToWatch": [
+                { "id": "avengers-5" },
+            ],
+            "mainCharacters": [
+            ]
+        },
     ]
 
 movies.sony = [
@@ -2164,6 +2298,60 @@ characters =
             ]
         },
         {
+            "id": "agatha-harkness",
+            "name": "Agatha Harkness",
+            "actor": [
+                {
+                    "name": "Kathryn Hahn",
+                    "birth": "23/07/1973",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Kathryn_Hahn"
+                }
+            ]
+        },
+        {
+            "id": "billy-maximoff",
+            "name": "Billy Maximoff",
+            "actor": [
+                {
+                    "name": "Joe Locke",
+                    "birth": "24/09/2003",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Joe_Locke"
+                },
+                {
+                    "name": "Julian Hilliard",
+                    "birth": "20/06/2011",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Julian_Hilliard"
+                }
+            ]
+        },
+        {
+            "id": "joaquin-torres",
+            "name": "Joaquin Torres",
+            "actor": [
+                {
+                    "name": "Danny Ramirez",
+                    "birth": "17/09/1992",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Danny_Ramirez"
+                }
+            ]
+        },
+        {
+            "id": "john-walker",
+            "name": "John Walker",
+            "actor": [
+                {
+                    "name": "Wyatt Russell",
+                    "birth": "10/07/1986",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Wyatt_Russell"
+                }
+            ]
+        },
+        {
             "id": "yelena-belova",
             "name": "Yelena Belova",
             "actor": [
@@ -2176,14 +2364,26 @@ characters =
             ]
         },
         {
-            "id": "maya-lopez",
-            "name": "Maya Lopez",
+            "id": "alexei-shostakov",
+            "name": "Alexei Shostakov",
             "actor": [
                 {
-                    "name": "Alaqua Cox",
-                    "birth": "30/11/2000",
+                    "name": "David Harbour",
+                    "birth": "10/04/1975",
                     "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Alaqua_Cox"
+                    "info": "https://en.wikipedia.org/wiki/David_Harbour"
+                }
+            ]
+        },
+        {
+            "id": "ava-starr",
+            "name": "Ava Starr",
+            "actor": [
+                {
+                    "name": "Hannah John-Kamen",
+                    "birth": "07/09/1989",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Hannah_John-Kamen"
                 }
             ]
         },
@@ -2196,6 +2396,18 @@ characters =
                     "birth": "22/09/1985",
                     "originCountry": "Canada",
                     "info": "https://en.wikipedia.org/wiki/Tatiana_Maslany"
+                }
+            ]
+        },
+        {
+            "id": "maya-lopez",
+            "name": "Maya Lopez",
+            "actor": [
+                {
+                    "name": "Alaqua Cox",
+                    "birth": "30/11/2000",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Alaqua_Cox"
                 }
             ]
         },
@@ -2344,18 +2556,6 @@ characters =
             ]
         },
         {
-            "id": "riri-williams",
-            "name": "Riri Williams",
-            "actor": [
-                {
-                    "name": "Dominique Thorne",
-                    "birth": "01/11/1998",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
-                }
-            ]
-        },
-        {
             "id": "talos",
             "name": "Talos",
             "actor": [
@@ -2404,19 +2604,95 @@ characters =
             ]
         },
         {
-            "id": "joaquin-torres",
-            "name": "Joaquin Torres",
+            "id": "gambit",
+            "name": "Gambit",
             "actor": [
                 {
-                    "name": "Danny Ramirez",
-                    "birth": "17/09/1992",
+                    "name": "Channing Tatum",
+                    "birth": "26/04/1980",
                     "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Danny_Ramirez"
+                    "info": "https://en.wikipedia.org/wiki/Channing_Tatum"
+                }
+            ]
+        },
+        {
+            "id": "reed-richards",
+            "name": "Reed Richards",
+            "actor": [
+                {
+                    "name": "Pedro Pascal",
+                    "birth": "02/04/1975",
+                    "originCountry": "Chile",
+                    "info": "https://en.wikipedia.org/wiki/Pedro_Pascal"
+                }
+            ]
+        }, 
+        {
+            "id": "sue-storm",
+            "name": "Sue Storm",
+            "actor": [
+                {
+                    "name": "Vanessa Kirby",
+                    "birth": "18/04/1988",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Vanessa_Kirby"
+                }
+            ]
+        },
+        {
+            "id": "johnny-storm",
+            "name": "Johnny Storm",
+            "actor": [
+                {
+                    "name": "Joseph Quinn",
+                    "birth": "26/01/1994",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Joseph_Quinn"
+                }
+            ]
+        },
+        {
+            "id": "ben-grimm",
+            "name": "Ben Grimm",
+            "actor": [
+                {
+                    "name": "Ebon Moss-Bachrach",
+                    "birth": "19/03/1977",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Ebon_Moss-Bachrach"
+                }
+            ]
+        },
+        {
+            "id": "riri-williams",
+            "name": "Riri Williams",
+            "actor": [
+                {
+                    "name": "Dominique Thorne",
+                    "birth": "01/11/1998",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
                 }
             ]
         },
     ]
 
+
+// movies forgotten
+movies_forgotten = [
+    // "eternals",
+    "moon-knight"
+]
+Object.keys(movies).forEach(sagaName => {
+    const movies_saga = movies[sagaName];
+    movies_forgotten.forEach(movie => {
+        const index = movies_saga.findIndex(m => m.id === movie);
+        if (index !== -1) {
+            movies_saga.splice(index, 1);
+        }
+    });
+});
+console.log(movies)
 
 data = {}
 data.movies = movies
@@ -2506,6 +2782,15 @@ if (localStorage.getItem('marvel-hub')) {
 
 
 // characters
+
+// characters forgotten
+characters_forgotten = ["sersi", "thena", "kingo", "druig", "makkari", "phastos", "marc-spector"]
+characters_forgotten.forEach(character => {
+    const index = characters.findIndex(c => c.id === character);
+    if (index !== -1) {
+        characters.splice(index, 1);
+    }
+})
 
 
 characters.forEach(character => {
