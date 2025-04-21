@@ -1563,8 +1563,96 @@ movies.multiverseSaga =
                 { "name": "Thing", "actor": "Ebon Moss-Bachrach", "id": "ben-grimm" },
             ]
         },
+        {
+            "id": "avengers-5",
+            "title": "Avengers: Doomsday",
+            "data": {
+                "releaseDate": "05-01-2026",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : null
+                },
+                "length": null,
+                "director": "Anthony Russo, Joe Russo",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt21357150/',
+                   'value':  null,
+                },
+                "streaming": null,
+                "trailer": "#"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Thor", "actor": "Chris Hemsworth", "id": "thor" },
+                { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
+                { "name": "Captain America", "actor": "Anthony Mackie", "id": "sam-wilson" },
+                { "name": "Falcon", "actor": "Danny Ramirez", "id": "joaquin-torres" },
+                { "name": "Winter Soldier", "actor": "Sebastian Stan", "id": "bucky-barnes" },
+                { "name": "Yelena Belova", "actor": "Florence Pugh", "id": "yelena-belova" },
+                { "name": "Red Guardian", "actor": "David Harbour", "id": "alexei-shostakov" },
+                { "name": "John Walker", "actor": "Wyatt Russell", "id": "john-walker" },
+                { "name": "Ghost", "actor": "Hannah John-Kamen", "id": "ava-starr" },
+                { "name": "Mr. Fantastic", "actor": "Pedro Pascal", "id": "reed-richards" },
+                { "name": "Invisible Woman", "actor": "Vanessa Kirby", "id": "sue-storm" },
+                { "name": "Human Torch", "actor": "Joseph Quinn", "id": "johnny-storm" },
+                { "name": "Thing", "actor": "Ebon Moss-Bachrach", "id": "ben-grimm" },
+                { "name": "Shuri", "actor": "Letitia Wright", "id": "shuri" },
+                { "name": "Shang-Chi", "actor": "Simu Liu", "id": "shang-chi" },
             ]
-        }
+        },
+        {
+            "id": "spider-man-4",
+            "title": "Spider-Man: Brand New Day",
+            "data": {
+                "releaseDate": "07-31-2026",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : null
+                },
+                "length": null,
+                "director": "Destin Daniel Cretton",
+                "imdb": {
+                   'link': "https://www.imdb.com/title/tt22084616/",
+                   'value':  null,
+                },
+                "streaming": null,
+                "trailer": "#"
+            },
+            "moviesToWatch": [
+                { "id": "spider-man-3" },
+            ],
+            "mainCharacters": [
+                { "name": "Spider-Man", "actor": "Tom Holland", "id": "peter-parker" },
+            ]
+        },
+        {
+            "id": "avengers-6",
+            "title": "Avengers: Secret Wars",
+            "data": {
+                "releaseDate": "05-07-2027",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : null
+                },
+                "length": null,
+                "director": "Anthony Russo, Joe Russo",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt21361444/',
+                   'value':  null,
+                },
+                "streaming": null,
+                "trailer": "#"
+            },
+            "moviesToWatch": [
+                { "id": "avengers-5" },
+            ],
+            "mainCharacters": [
+            ]
+        },
     ]
 
 movies.sony = [
