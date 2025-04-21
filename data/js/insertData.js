@@ -1588,6 +1588,7 @@ movies.multiverseSaga =
             "mainCharacters": [
                 { "name": "Thor", "actor": "Chris Hemsworth", "id": "thor" },
                 { "name": "Loki", "actor": "Tom Hiddleston", "id": "loki" },
+                { "name": "Ant-Man", "actor": "Paul Rudd", "id": "scott-lang" },
                 { "name": "Captain America", "actor": "Anthony Mackie", "id": "sam-wilson" },
                 { "name": "Falcon", "actor": "Danny Ramirez", "id": "joaquin-torres" },
                 { "name": "Winter Soldier", "actor": "Sebastian Stan", "id": "bucky-barnes" },
