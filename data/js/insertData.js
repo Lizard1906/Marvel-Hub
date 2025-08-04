@@ -779,6 +779,35 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "agatha",
+            "title": "Agatha All Along",
+            "data": {
+                "releaseDate": "09-18-2024",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "fall",
+                },
+                "length": 9*35, //aproximada
+                "episodes": 9,
+                "director": "Jac Schaeffer",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt15571732/',
+                   'value':  7.2,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=R9pXbNz6Vbw"
+            },
+            "moviesToWatch": [
+                { "id": "wandavision" },
+                { "id": "doctor-strange-2" },
+            ],
+            "mainCharacters": [
+                { "name": "Agatha Harkness", "actor": "Kathryn Hahn", "id": "agatha-harkness" },
+                { "name": "Teen", "actor": "Joe Locke", "id": "billy-maximoff" },
+            ]
+        },
+        {
             "id": "tfatws",
             "title": "The Falcon and the Winter Soldier",
             "data": {
@@ -1127,10 +1156,10 @@ movies.multiverseSaga =
                 "director": "Sam Bailey, Angela Barnes",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt13623126/',
-                   'value':  null,
+                   'value':  4.4,
                 },
                 "streaming": "disney+",
-                "trailer": null
+                "trailer": "https://www.youtube.com/watch?v=WpW36ldAqnM"
             },
             "moviesToWatch": [
                 { "id": "black-panther-2" }
@@ -1328,35 +1357,6 @@ movies.multiverseSaga =
             ]
         },
         {
-            "id": "agatha",
-            "title": "Agatha All Along",
-            "data": {
-                "releaseDate": "09-18-2024",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2026,
-                    "season" : "fall",
-                },
-                "length": 9*35, //aproximada
-                "episodes": 9,
-                "director": "Jac Schaeffer",
-                "imdb": {
-                   'link': 'https://www.imdb.com/title/tt15571732/',
-                   'value':  7.2,
-                },
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=R9pXbNz6Vbw"
-            },
-            "moviesToWatch": [
-                { "id": "wandavision" },
-                { "id": "doctor-strange-2" },
-            ],
-            "mainCharacters": [
-                { "name": "Agatha Harkness", "actor": "Kathryn Hahn", "id": "agatha-harkness" },
-                { "name": "Teen", "actor": "Joe Locke", "id": "billy-maximoff" },
-            ]
-        },
-        {
             "id": "ms-marvel",
             "title": "Ms. Marvel",
             "data": {
@@ -1495,7 +1495,7 @@ movies.multiverseSaga =
                    'link': 'https://www.imdb.com/title/tt14513804/',
                    'value':  5.8,
                 },
-                "streaming": null,
+                "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=1pHDWnXmK7Y"
             },
             "moviesToWatch": [
@@ -1520,7 +1520,7 @@ movies.multiverseSaga =
                 "director": "Jake Schreier",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt20969586/',
-                   'value':  null,
+                   'value':  7.3,
                 },
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=hUUszE29jS0"
@@ -1542,14 +1542,14 @@ movies.multiverseSaga =
                 "releaseDate": "07-25-2025",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": null,
+                    "year": 1960,
                     "season" : null
                 },
                 "length": null,
                 "director": "Matt Shakman",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10676052/',
-                   'value':  null,
+                   'value':  7.4,
                 },
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=AzMo-FgRp64"
@@ -1557,10 +1557,36 @@ movies.multiverseSaga =
             "moviesToWatch": [
             ],
             "mainCharacters": [
-                { "name": "Mr. Fantastic", "actor": "Pedro Pascal", "id": "reed-richards" },
-                { "name": "Invisible Woman", "actor": "Vanessa Kirby", "id": "sue-storm" },
-                { "name": "Human Torch", "actor": "Joseph Quinn", "id": "johnny-storm" },
-                { "name": "Thing", "actor": "Ebon Moss-Bachrach", "id": "ben-grimm" },
+                { "name": "Reed Richards", "actor": "Pedro Pascal", "id": "reed-richards" },
+                { "name": "Sue Storm", "actor": "Vanessa Kirby", "id": "sue-storm" },
+                { "name": "Johnny Storm", "actor": "Joseph Quinn", "id": "johnny-storm" },
+                { "name": "Ben Grimm", "actor": "Ebon Moss-Bachrach", "id": "ben-grimm" },
+            ]
+        },
+        {
+            "id": "spider-man-4",
+            "title": "Spider-Man: Brand New Day",
+            "data": {
+                "releaseDate": "07-31-2026",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : null
+                },
+                "length": null,
+                "director": "Destin Daniel Cretton",
+                "imdb": {
+                   'link': "https://www.imdb.com/title/tt22084616/",
+                   'value':  null,
+                },
+                "streaming": null,
+                "trailer": "#"
+            },
+            "moviesToWatch": [
+                { "id": "spider-man-3" },
+            ],
+            "mainCharacters": [
+                { "name": "Spider-Man", "actor": "Tom Holland", "id": "peter-parker" },
             ]
         },
         {
@@ -1602,32 +1628,6 @@ movies.multiverseSaga =
                 { "name": "Shuri", "actor": "Letitia Wright", "id": "shuri" },
                 { "name": "Shang-Chi", "actor": "Simu Liu", "id": "shang-chi" },
                 { "name": "Gambit", "actor": "Channing Tatum", "id": "gambit" },
-            ]
-        },
-        {
-            "id": "spider-man-4",
-            "title": "Spider-Man: Brand New Day",
-            "data": {
-                "releaseDate": "07-31-2026",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2027,
-                    "season" : null
-                },
-                "length": null,
-                "director": "Destin Daniel Cretton",
-                "imdb": {
-                   'link': "https://www.imdb.com/title/tt22084616/",
-                   'value':  null,
-                },
-                "streaming": null,
-                "trailer": "#"
-            },
-            "moviesToWatch": [
-                { "id": "spider-man-3" },
-            ],
-            "mainCharacters": [
-                { "name": "Spider-Man", "actor": "Tom Holland", "id": "peter-parker" },
             ]
         },
         {
