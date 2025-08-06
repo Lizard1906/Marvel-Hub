@@ -1533,6 +1533,7 @@ movies.multiverseSaga =
                 { "name": "Red Guardian", "actor": "David Harbour", "id": "alexei-shostakov" },
                 { "name": "John Walker", "actor": "Wyatt Russell", "id": "john-walker" },
                 { "name": "Ghost", "actor": "Hannah John-Kamen", "id": "ava-starr" },
+                { "name": "Bob", "actor": "Lewis Pullman", "id": "bob" },
             ]
         },
         {
@@ -1621,6 +1622,7 @@ movies.multiverseSaga =
                 { "name": "Red Guardian", "actor": "David Harbour", "id": "alexei-shostakov" },
                 { "name": "John Walker", "actor": "Wyatt Russell", "id": "john-walker" },
                 { "name": "Ghost", "actor": "Hannah John-Kamen", "id": "ava-starr" },
+                { "name": "Bob", "actor": "Lewis Pullman", "id": "bob" },
                 { "name": "Mr. Fantastic", "actor": "Pedro Pascal", "id": "reed-richards" },
                 { "name": "Invisible Woman", "actor": "Vanessa Kirby", "id": "sue-storm" },
                 { "name": "Human Torch", "actor": "Joseph Quinn", "id": "johnny-storm" },
@@ -2238,6 +2240,18 @@ characters =
             ]
         },
         {
+            "id": "riri-williams",
+            "name": "Riri Williams",
+            "actor": [
+                {
+                    "name": "Dominique Thorne",
+                    "birth": "01/11/1998",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
+                }
+            ]
+        },
+        {
             "id": "valkyrie",
             "name": "Valkyrie",
             "actor": [
@@ -2294,36 +2308,6 @@ characters =
                     "birth": "11/12/1996",
                     "originCountry": "USA",
                     "info": "https://en.wikipedia.org/wiki/Hailee_Steinfeld"
-                }
-            ]
-        },
-        {
-            "id": "agatha-harkness",
-            "name": "Agatha Harkness",
-            "actor": [
-                {
-                    "name": "Kathryn Hahn",
-                    "birth": "23/07/1973",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Kathryn_Hahn"
-                }
-            ]
-        },
-        {
-            "id": "billy-maximoff",
-            "name": "Billy Maximoff",
-            "actor": [
-                {
-                    "name": "Joe Locke",
-                    "birth": "24/09/2003",
-                    "originCountry": "UK",
-                    "info": "https://en.wikipedia.org/wiki/Joe_Locke"
-                },
-                {
-                    "name": "Julian Hilliard",
-                    "birth": "20/06/2011",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Julian_Hilliard"
                 }
             ]
         },
@@ -2388,38 +2372,62 @@ characters =
             ]
         },
         {
-            "id": "jennifer-walters",
-            "name": "Jennifer Walters",
+            "id": "bob",
+            "name": "Bob",
             "actor": [
                 {
-                    "name": "Tatiana Maslany",
-                    "birth": "22/09/1985",
-                    "originCountry": "Canada",
-                    "info": "https://en.wikipedia.org/wiki/Tatiana_Maslany"
-                }
-            ]
-        },
-        {
-            "id": "maya-lopez",
-            "name": "Maya Lopez",
-            "actor": [
-                {
-                    "name": "Alaqua Cox",
-                    "birth": "30/11/2000",
+                    "name": "Lewis Pullman",
+                    "birth": "29/01/1993",
                     "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Alaqua_Cox"
+                    "info": "https://en.wikipedia.org/wiki/Lewis_Pullman"
                 }
             ]
         },
         {
-            "id": "matt-murdock",
-            "name": "Matt Murdock",
+            "id": "shang-chi",
+            "name": "Shang-Chi",
             "actor": [
                 {
-                    "name": "Charlie Cox",
-                    "birth": "15/12/1982",
-                    "originCountry": "UK",
-                    "info": "https://en.wikipedia.org/wiki/Charlie_Cox"
+                    "name": "Simu Liu",
+                    "birth": "19/04/1989",
+                    "originCountry": "China",
+                    "info": "https://en.wikipedia.org/wiki/Simu_Liu"
+                }
+            ]
+        },
+        {
+            "id": "wade-wilson",
+            "name": "Wade Wilson",
+            "actor": [
+                {
+                    "name": "Ryan Reynolds",
+                    "birth": "23/10/1976",
+                    "originCountry": "Canada",
+                    "info": "https://en.wikipedia.org/wiki/Ryan_Reynolds"
+                }
+            ]
+        },
+        {
+            "id": "logan",
+            "name": "Logan",
+            "actor": [
+                {
+                    "name": "Hugh Jackman",
+                    "birth": "12/10/1968",
+                    "originCountry": "Australia",
+                    "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
+                }
+            ]
+        },
+        {
+            "id": "gambit",
+            "name": "Gambit",
+            "actor": [
+                {
+                    "name": "Channing Tatum",
+                    "birth": "26/04/1980",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Channing_Tatum"
                 }
             ]
         },
@@ -2448,6 +2456,42 @@ characters =
             ]
         },
         {
+            "id": "matt-murdock",
+            "name": "Matt Murdock",
+            "actor": [
+                {
+                    "name": "Charlie Cox",
+                    "birth": "15/12/1982",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Charlie_Cox"
+                }
+            ]
+        },
+        {
+            "id": "jennifer-walters",
+            "name": "Jennifer Walters",
+            "actor": [
+                {
+                    "name": "Tatiana Maslany",
+                    "birth": "22/09/1985",
+                    "originCountry": "Canada",
+                    "info": "https://en.wikipedia.org/wiki/Tatiana_Maslany"
+                }
+            ]
+        },
+        {
+            "id": "maya-lopez",
+            "name": "Maya Lopez",
+            "actor": [
+                {
+                    "name": "Alaqua Cox",
+                    "birth": "30/11/2000",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Alaqua_Cox"
+                }
+            ]
+        },
+        {
             "id": "america-chavez",
             "name": "America Chavez",
             "actor": [
@@ -2460,14 +2504,32 @@ characters =
             ]
         },
         {
-            "id": "shang-chi",
-            "name": "Shang-Chi",
+            "id": "agatha-harkness",
+            "name": "Agatha Harkness",
             "actor": [
                 {
-                    "name": "Simu Liu",
-                    "birth": "19/04/1989",
-                    "originCountry": "China",
-                    "info": "https://en.wikipedia.org/wiki/Simu_Liu"
+                    "name": "Kathryn Hahn",
+                    "birth": "23/07/1973",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Kathryn_Hahn"
+                }
+            ]
+        },
+        {
+            "id": "billy-maximoff",
+            "name": "Billy Maximoff",
+            "actor": [
+                {
+                    "name": "Joe Locke",
+                    "birth": "24/09/2003",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Joe_Locke"
+                },
+                {
+                    "name": "Julian Hilliard",
+                    "birth": "20/06/2011",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Julian_Hilliard"
                 }
             ]
         },
@@ -2580,42 +2642,6 @@ characters =
             ]
         },
         {
-            "id": "wade-wilson",
-            "name": "Wade Wilson",
-            "actor": [
-                {
-                    "name": "Ryan Reynolds",
-                    "birth": "23/10/1976",
-                    "originCountry": "Canada",
-                    "info": "https://en.wikipedia.org/wiki/Ryan_Reynolds"
-                }
-            ]
-        },
-        {
-            "id": "logan",
-            "name": "Logan",
-            "actor": [
-                {
-                    "name": "Hugh Jackman",
-                    "birth": "12/10/1968",
-                    "originCountry": "Australia",
-                    "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
-                }
-            ]
-        },
-        {
-            "id": "gambit",
-            "name": "Gambit",
-            "actor": [
-                {
-                    "name": "Channing Tatum",
-                    "birth": "26/04/1980",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Channing_Tatum"
-                }
-            ]
-        },
-        {
             "id": "reed-richards",
             "name": "Reed Richards",
             "actor": [
@@ -2660,18 +2686,6 @@ characters =
                     "birth": "19/03/1977",
                     "originCountry": "USA",
                     "info": "https://en.wikipedia.org/wiki/Ebon_Moss-Bachrach"
-                }
-            ]
-        },
-        {
-            "id": "riri-williams",
-            "name": "Riri Williams",
-            "actor": [
-                {
-                    "name": "Dominique Thorne",
-                    "birth": "01/11/1998",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
                 }
             ]
         },
@@ -2784,7 +2798,7 @@ if (localStorage.getItem('marvel-hub')) {
 // characters
 
 // characters forgotten
-characters_forgotten = ["sersi", "thena", "kingo", "druig", "makkari", "phastos", "marc-spector"]
+characters_forgotten = ["sersi", "thena", "kingo", "druig", "makkari", "phastos", "marc-spector", "talos", "giah"]
 characters_forgotten.forEach(character => {
     const index = characters.findIndex(c => c.id === character);
     if (index !== -1) {
