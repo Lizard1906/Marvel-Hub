@@ -1516,7 +1516,7 @@ movies.multiverseSaga =
                     "year": 2027,
                     "season" : "early"
                 },
-                "length": null,
+                "length": 126,
                 "director": "Jake Schreier",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt20969586/',
@@ -1546,7 +1546,7 @@ movies.multiverseSaga =
                     "year": 1960,
                     "season" : null
                 },
-                "length": null,
+                "length": 115,
                 "director": "Matt Shakman",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10676052/',
