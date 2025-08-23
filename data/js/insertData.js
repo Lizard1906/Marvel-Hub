@@ -15,7 +15,7 @@ movies.infinitySaga =
                 "director": "Anna Boden, Ryan Fleck",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt4154664/',
-                   'value':  6.8,
+                   'value':  6.7,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Z1BCujX3pw8"
@@ -984,7 +984,7 @@ movies.multiverseSaga =
                 "director": "Rhys Thomas",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10160804/',
-                   'value':  7.5,
+                   'value':  7.4,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=5VYb3B1ETlk"
@@ -1075,7 +1075,7 @@ movies.multiverseSaga =
                 "director": "Justin Benson +5",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt18923754/',
-                   'value':  8.4,
+                   'value':  8.1,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=7xALolZzhSM"
@@ -1182,7 +1182,7 @@ movies.multiverseSaga =
                 "director": "Taika Waititi",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10648342/',
-                   'value':  6.2,
+                   'value':  6.1,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Go8nTmfrQd8"
@@ -1339,7 +1339,7 @@ movies.multiverseSaga =
                 "director": "David Leitch",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt6263850/',
-                   'value':  7.6,
+                   'value':  7.5,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ZIM1HydF9UA"
@@ -1433,7 +1433,7 @@ movies.multiverseSaga =
                 "director": "Ali Selim",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt13157618/',
-                   'value':  5.9,
+                   'value':  5.8,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=qZVTkn2NjS0&pp=ygUXc2VjcmV0IGludmFzaW9uIHRyYWlsZXI%3D"
@@ -1493,7 +1493,7 @@ movies.multiverseSaga =
                 "director": "Julius Onah",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt14513804/',
-                   'value':  5.8,
+                   'value':  5.6,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=1pHDWnXmK7Y"
@@ -1520,7 +1520,7 @@ movies.multiverseSaga =
                 "director": "Jake Schreier",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt20969586/',
-                   'value':  7.3,
+                   'value':  7.2,
                 },
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=hUUszE29jS0"
@@ -1550,7 +1550,7 @@ movies.multiverseSaga =
                 "director": "Matt Shakman",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10676052/',
-                   'value':  7.4,
+                   'value':  7.3,
                 },
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=AzMo-FgRp64"
@@ -1577,7 +1577,7 @@ movies.multiverseSaga =
                 "length": null,
                 "director": "Destin Daniel Cretton",
                 "imdb": {
-                   'link': "https://www.imdb.com/title/tt22084616/",
+                   'link': 'https://www.imdb.com/title/tt22084616/',
                    'value':  null,
                 },
                 "streaming": null,

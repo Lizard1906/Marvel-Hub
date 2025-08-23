@@ -17,18 +17,22 @@ with open("data/js/insertData.js", "w", encoding="utf-8") as file:
             file.write(line)
         else:
             if (line.strip().startswith("'value':")):
-                req = Request(url=imdb_to_search, headers=headers) 
-                html = urlopen(req).read() 
-
-                soup = BeautifulSoup(html, 'html.parser')
                 try:
-                    imdb_value = soup.find('span', {'class': 'sc-d541859f-1 imUuxf'}).text
+                    req = Request(url=imdb_to_search, headers=headers) 
+                    html = urlopen(req).read() 
+
+                    soup = BeautifulSoup(html, 'html.parser')
+                    imdb_value = soup.find('span', {'class': 'sc-4dc495c1-1 lbQcRY'}).text
                 except:
                     imdb_value = "null"
                 file.write(f"                   'value':  {imdb_value},\n")
+                # Log
+                print(f"Movie: {movie_name} | IMDb: {imdb_value}")
             else:
                 file.write(line)
                 if (line.strip().startswith("characters")):
                     isCheckingMovies = False
+                elif (line.strip().startswith('"title":')):
+                    movie_name = ": ".join(line.split(": ")[1:]).strip().replace('"', '')
                 elif (line.strip().startswith("'link':")):
                     imdb_to_search = line.split(": ")[1].strip().replace(',', '').replace("'", '')
