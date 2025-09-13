@@ -15,7 +15,7 @@ movies.infinitySaga =
                 "director": "Anna Boden, Ryan Fleck",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt4154664/',
-                   'value':  6.8,
+                   'value':  6.7,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Z1BCujX3pw8"
@@ -779,6 +779,35 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "agatha",
+            "title": "Agatha All Along",
+            "data": {
+                "releaseDate": "09-18-2024",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "fall",
+                },
+                "length": 9*35, //aproximada
+                "episodes": 9,
+                "director": "Jac Schaeffer",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt15571732/',
+                   'value':  7.2,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=R9pXbNz6Vbw"
+            },
+            "moviesToWatch": [
+                { "id": "wandavision" },
+                { "id": "doctor-strange-2" },
+            ],
+            "mainCharacters": [
+                { "name": "Agatha Harkness", "actor": "Kathryn Hahn", "id": "agatha-harkness" },
+                { "name": "Teen", "actor": "Joe Locke", "id": "billy-maximoff" },
+            ]
+        },
+        {
             "id": "tfatws",
             "title": "The Falcon and the Winter Soldier",
             "data": {
@@ -955,7 +984,7 @@ movies.multiverseSaga =
                 "director": "Rhys Thomas",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10160804/',
-                   'value':  7.5,
+                   'value':  7.4,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=5VYb3B1ETlk"
@@ -1046,7 +1075,7 @@ movies.multiverseSaga =
                 "director": "Justin Benson +5",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt18923754/',
-                   'value':  8.4,
+                   'value':  8.1,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=7xALolZzhSM"
@@ -1127,10 +1156,10 @@ movies.multiverseSaga =
                 "director": "Sam Bailey, Angela Barnes",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt13623126/',
-                   'value':  null,
+                   'value':  4.4,
                 },
                 "streaming": "disney+",
-                "trailer": null
+                "trailer": "https://www.youtube.com/watch?v=WpW36ldAqnM"
             },
             "moviesToWatch": [
                 { "id": "black-panther-2" }
@@ -1153,7 +1182,7 @@ movies.multiverseSaga =
                 "director": "Taika Waititi",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10648342/',
-                   'value':  6.2,
+                   'value':  6.1,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Go8nTmfrQd8"
@@ -1310,7 +1339,7 @@ movies.multiverseSaga =
                 "director": "David Leitch",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt6263850/',
-                   'value':  7.6,
+                   'value':  7.5,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ZIM1HydF9UA"
@@ -1325,35 +1354,6 @@ movies.multiverseSaga =
                 { "name": "Deadpool", "actor": "Ryan Reynolds", "id": "wade-wilson" },
                 { "name": "Wolverine", "actor": "Hugh Jackman", "id": "logan" },
                 { "name": "Gambit", "actor": "Channing Tatum", "id": "gambit" },
-            ]
-        },
-        {
-            "id": "agatha",
-            "title": "Agatha All Along",
-            "data": {
-                "releaseDate": "09-18-2024",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2026,
-                    "season" : "fall",
-                },
-                "length": 9*35, //aproximada
-                "episodes": 9,
-                "director": "Jac Schaeffer",
-                "imdb": {
-                   'link': 'https://www.imdb.com/title/tt15571732/',
-                   'value':  7.2,
-                },
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=R9pXbNz6Vbw"
-            },
-            "moviesToWatch": [
-                { "id": "wandavision" },
-                { "id": "doctor-strange-2" },
-            ],
-            "mainCharacters": [
-                { "name": "Agatha Harkness", "actor": "Kathryn Hahn", "id": "agatha-harkness" },
-                { "name": "Teen", "actor": "Joe Locke", "id": "billy-maximoff" },
             ]
         },
         {
@@ -1433,7 +1433,7 @@ movies.multiverseSaga =
                 "director": "Ali Selim",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt13157618/',
-                   'value':  5.9,
+                   'value':  5.8,
                 },
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=qZVTkn2NjS0&pp=ygUXc2VjcmV0IGludmFzaW9uIHRyYWlsZXI%3D"
@@ -1493,9 +1493,9 @@ movies.multiverseSaga =
                 "director": "Julius Onah",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt14513804/',
-                   'value':  5.8,
+                   'value':  5.6,
                 },
-                "streaming": null,
+                "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=1pHDWnXmK7Y"
             },
             "moviesToWatch": [
@@ -1516,11 +1516,11 @@ movies.multiverseSaga =
                     "year": 2027,
                     "season" : "early"
                 },
-                "length": null,
+                "length": 126,
                 "director": "Jake Schreier",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt20969586/',
-                   'value':  null,
+                   'value':  7.2,
                 },
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=hUUszE29jS0"
@@ -1533,6 +1533,7 @@ movies.multiverseSaga =
                 { "name": "Red Guardian", "actor": "David Harbour", "id": "alexei-shostakov" },
                 { "name": "John Walker", "actor": "Wyatt Russell", "id": "john-walker" },
                 { "name": "Ghost", "actor": "Hannah John-Kamen", "id": "ava-starr" },
+                { "name": "Bob", "actor": "Lewis Pullman", "id": "bob" },
             ]
         },
         {
@@ -1542,14 +1543,14 @@ movies.multiverseSaga =
                 "releaseDate": "07-25-2025",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": null,
+                    "year": 1960,
                     "season" : null
                 },
-                "length": null,
+                "length": 115,
                 "director": "Matt Shakman",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt10676052/',
-                   'value':  null,
+                   'value':  7.3,
                 },
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=AzMo-FgRp64"
@@ -1557,10 +1558,36 @@ movies.multiverseSaga =
             "moviesToWatch": [
             ],
             "mainCharacters": [
-                { "name": "Mr. Fantastic", "actor": "Pedro Pascal", "id": "reed-richards" },
-                { "name": "Invisible Woman", "actor": "Vanessa Kirby", "id": "sue-storm" },
-                { "name": "Human Torch", "actor": "Joseph Quinn", "id": "johnny-storm" },
-                { "name": "Thing", "actor": "Ebon Moss-Bachrach", "id": "ben-grimm" },
+                { "name": "Reed Richards", "actor": "Pedro Pascal", "id": "reed-richards" },
+                { "name": "Sue Storm", "actor": "Vanessa Kirby", "id": "sue-storm" },
+                { "name": "Johnny Storm", "actor": "Joseph Quinn", "id": "johnny-storm" },
+                { "name": "Ben Grimm", "actor": "Ebon Moss-Bachrach", "id": "ben-grimm" },
+            ]
+        },
+        {
+            "id": "spider-man-4",
+            "title": "Spider-Man: Brand New Day",
+            "data": {
+                "releaseDate": "07-31-2026",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : null
+                },
+                "length": null,
+                "director": "Destin Daniel Cretton",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt22084616/',
+                   'value':  null,
+                },
+                "streaming": null,
+                "trailer": "#"
+            },
+            "moviesToWatch": [
+                { "id": "spider-man-3" },
+            ],
+            "mainCharacters": [
+                { "name": "Spider-Man", "actor": "Tom Holland", "id": "peter-parker" },
             ]
         },
         {
@@ -1595,6 +1622,7 @@ movies.multiverseSaga =
                 { "name": "Red Guardian", "actor": "David Harbour", "id": "alexei-shostakov" },
                 { "name": "John Walker", "actor": "Wyatt Russell", "id": "john-walker" },
                 { "name": "Ghost", "actor": "Hannah John-Kamen", "id": "ava-starr" },
+                { "name": "Bob", "actor": "Lewis Pullman", "id": "bob" },
                 { "name": "Mr. Fantastic", "actor": "Pedro Pascal", "id": "reed-richards" },
                 { "name": "Invisible Woman", "actor": "Vanessa Kirby", "id": "sue-storm" },
                 { "name": "Human Torch", "actor": "Joseph Quinn", "id": "johnny-storm" },
@@ -1602,32 +1630,6 @@ movies.multiverseSaga =
                 { "name": "Shuri", "actor": "Letitia Wright", "id": "shuri" },
                 { "name": "Shang-Chi", "actor": "Simu Liu", "id": "shang-chi" },
                 { "name": "Gambit", "actor": "Channing Tatum", "id": "gambit" },
-            ]
-        },
-        {
-            "id": "spider-man-4",
-            "title": "Spider-Man: Brand New Day",
-            "data": {
-                "releaseDate": "07-31-2026",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2027,
-                    "season" : null
-                },
-                "length": null,
-                "director": "Destin Daniel Cretton",
-                "imdb": {
-                   'link': "https://www.imdb.com/title/tt22084616/",
-                   'value':  null,
-                },
-                "streaming": null,
-                "trailer": "#"
-            },
-            "moviesToWatch": [
-                { "id": "spider-man-3" },
-            ],
-            "mainCharacters": [
-                { "name": "Spider-Man", "actor": "Tom Holland", "id": "peter-parker" },
             ]
         },
         {
@@ -2238,6 +2240,18 @@ characters =
             ]
         },
         {
+            "id": "riri-williams",
+            "name": "Riri Williams",
+            "actor": [
+                {
+                    "name": "Dominique Thorne",
+                    "birth": "01/11/1998",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
+                }
+            ]
+        },
+        {
             "id": "valkyrie",
             "name": "Valkyrie",
             "actor": [
@@ -2294,36 +2308,6 @@ characters =
                     "birth": "11/12/1996",
                     "originCountry": "USA",
                     "info": "https://en.wikipedia.org/wiki/Hailee_Steinfeld"
-                }
-            ]
-        },
-        {
-            "id": "agatha-harkness",
-            "name": "Agatha Harkness",
-            "actor": [
-                {
-                    "name": "Kathryn Hahn",
-                    "birth": "23/07/1973",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Kathryn_Hahn"
-                }
-            ]
-        },
-        {
-            "id": "billy-maximoff",
-            "name": "Billy Maximoff",
-            "actor": [
-                {
-                    "name": "Joe Locke",
-                    "birth": "24/09/2003",
-                    "originCountry": "UK",
-                    "info": "https://en.wikipedia.org/wiki/Joe_Locke"
-                },
-                {
-                    "name": "Julian Hilliard",
-                    "birth": "20/06/2011",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Julian_Hilliard"
                 }
             ]
         },
@@ -2388,38 +2372,62 @@ characters =
             ]
         },
         {
-            "id": "jennifer-walters",
-            "name": "Jennifer Walters",
+            "id": "bob",
+            "name": "Bob",
             "actor": [
                 {
-                    "name": "Tatiana Maslany",
-                    "birth": "22/09/1985",
-                    "originCountry": "Canada",
-                    "info": "https://en.wikipedia.org/wiki/Tatiana_Maslany"
-                }
-            ]
-        },
-        {
-            "id": "maya-lopez",
-            "name": "Maya Lopez",
-            "actor": [
-                {
-                    "name": "Alaqua Cox",
-                    "birth": "30/11/2000",
+                    "name": "Lewis Pullman",
+                    "birth": "29/01/1993",
                     "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Alaqua_Cox"
+                    "info": "https://en.wikipedia.org/wiki/Lewis_Pullman"
                 }
             ]
         },
         {
-            "id": "matt-murdock",
-            "name": "Matt Murdock",
+            "id": "shang-chi",
+            "name": "Shang-Chi",
             "actor": [
                 {
-                    "name": "Charlie Cox",
-                    "birth": "15/12/1982",
-                    "originCountry": "UK",
-                    "info": "https://en.wikipedia.org/wiki/Charlie_Cox"
+                    "name": "Simu Liu",
+                    "birth": "19/04/1989",
+                    "originCountry": "China",
+                    "info": "https://en.wikipedia.org/wiki/Simu_Liu"
+                }
+            ]
+        },
+        {
+            "id": "wade-wilson",
+            "name": "Wade Wilson",
+            "actor": [
+                {
+                    "name": "Ryan Reynolds",
+                    "birth": "23/10/1976",
+                    "originCountry": "Canada",
+                    "info": "https://en.wikipedia.org/wiki/Ryan_Reynolds"
+                }
+            ]
+        },
+        {
+            "id": "logan",
+            "name": "Logan",
+            "actor": [
+                {
+                    "name": "Hugh Jackman",
+                    "birth": "12/10/1968",
+                    "originCountry": "Australia",
+                    "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
+                }
+            ]
+        },
+        {
+            "id": "gambit",
+            "name": "Gambit",
+            "actor": [
+                {
+                    "name": "Channing Tatum",
+                    "birth": "26/04/1980",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Channing_Tatum"
                 }
             ]
         },
@@ -2448,6 +2456,42 @@ characters =
             ]
         },
         {
+            "id": "matt-murdock",
+            "name": "Matt Murdock",
+            "actor": [
+                {
+                    "name": "Charlie Cox",
+                    "birth": "15/12/1982",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Charlie_Cox"
+                }
+            ]
+        },
+        {
+            "id": "jennifer-walters",
+            "name": "Jennifer Walters",
+            "actor": [
+                {
+                    "name": "Tatiana Maslany",
+                    "birth": "22/09/1985",
+                    "originCountry": "Canada",
+                    "info": "https://en.wikipedia.org/wiki/Tatiana_Maslany"
+                }
+            ]
+        },
+        {
+            "id": "maya-lopez",
+            "name": "Maya Lopez",
+            "actor": [
+                {
+                    "name": "Alaqua Cox",
+                    "birth": "30/11/2000",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Alaqua_Cox"
+                }
+            ]
+        },
+        {
             "id": "america-chavez",
             "name": "America Chavez",
             "actor": [
@@ -2460,14 +2504,32 @@ characters =
             ]
         },
         {
-            "id": "shang-chi",
-            "name": "Shang-Chi",
+            "id": "agatha-harkness",
+            "name": "Agatha Harkness",
             "actor": [
                 {
-                    "name": "Simu Liu",
-                    "birth": "19/04/1989",
-                    "originCountry": "China",
-                    "info": "https://en.wikipedia.org/wiki/Simu_Liu"
+                    "name": "Kathryn Hahn",
+                    "birth": "23/07/1973",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Kathryn_Hahn"
+                }
+            ]
+        },
+        {
+            "id": "billy-maximoff",
+            "name": "Billy Maximoff",
+            "actor": [
+                {
+                    "name": "Joe Locke",
+                    "birth": "24/09/2003",
+                    "originCountry": "UK",
+                    "info": "https://en.wikipedia.org/wiki/Joe_Locke"
+                },
+                {
+                    "name": "Julian Hilliard",
+                    "birth": "20/06/2011",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Julian_Hilliard"
                 }
             ]
         },
@@ -2580,42 +2642,6 @@ characters =
             ]
         },
         {
-            "id": "wade-wilson",
-            "name": "Wade Wilson",
-            "actor": [
-                {
-                    "name": "Ryan Reynolds",
-                    "birth": "23/10/1976",
-                    "originCountry": "Canada",
-                    "info": "https://en.wikipedia.org/wiki/Ryan_Reynolds"
-                }
-            ]
-        },
-        {
-            "id": "logan",
-            "name": "Logan",
-            "actor": [
-                {
-                    "name": "Hugh Jackman",
-                    "birth": "12/10/1968",
-                    "originCountry": "Australia",
-                    "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
-                }
-            ]
-        },
-        {
-            "id": "gambit",
-            "name": "Gambit",
-            "actor": [
-                {
-                    "name": "Channing Tatum",
-                    "birth": "26/04/1980",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Channing_Tatum"
-                }
-            ]
-        },
-        {
             "id": "reed-richards",
             "name": "Reed Richards",
             "actor": [
@@ -2660,18 +2686,6 @@ characters =
                     "birth": "19/03/1977",
                     "originCountry": "USA",
                     "info": "https://en.wikipedia.org/wiki/Ebon_Moss-Bachrach"
-                }
-            ]
-        },
-        {
-            "id": "riri-williams",
-            "name": "Riri Williams",
-            "actor": [
-                {
-                    "name": "Dominique Thorne",
-                    "birth": "01/11/1998",
-                    "originCountry": "USA",
-                    "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
                 }
             ]
         },
@@ -2784,7 +2798,7 @@ if (localStorage.getItem('marvel-hub')) {
 // characters
 
 // characters forgotten
-characters_forgotten = ["sersi", "thena", "kingo", "druig", "makkari", "phastos", "marc-spector"]
+characters_forgotten = ["sersi", "thena", "kingo", "druig", "makkari", "phastos", "marc-spector", "talos", "giah"]
 characters_forgotten.forEach(character => {
     const index = characters.findIndex(c => c.id === character);
     if (index !== -1) {
