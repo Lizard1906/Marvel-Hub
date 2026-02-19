@@ -1419,6 +1419,32 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "wonder-man",
+            "title": "Wonder Man",
+            "data": {
+                "releaseDate": "01-27-2026",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "early"
+                },
+                "length": 248,
+                "episodes": 8,
+                "director": "Destin Daniel Cretton, Stella Meghie",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt21066182/',
+                   'value':  7.5,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=wHuWmjXsReU"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Simon Williams", "actor": "Yahya Abdul-Mateen II", "id": "simon-williams" },
+            ]
+        },
+        {
             "id": "secret-invasion",
             "title": "Secret Invasion",
             "data": {
@@ -2686,6 +2712,18 @@ characters =
                     "birth": "19/03/1977",
                     "originCountry": "USA",
                     "info": "https://en.wikipedia.org/wiki/Ebon_Moss-Bachrach"
+                }
+            ]
+        },
+        {
+            "id": "simon-williams",
+            "name": "Simon Williams",
+            "actor": [
+                {
+                    "name": "Yahya Abdul-Mateen II",
+                    "birth": "15/07/1986",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Yahya_Abdul-Mateen_II"
                 }
             ]
         },
