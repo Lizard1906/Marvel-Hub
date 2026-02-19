@@ -869,6 +869,36 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "eternals",
+            "title": "Eternals",
+            "data": {
+                "releaseDate": "11-05-2021",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2023,
+                    "season" : "fall"
+                },
+                "length": 157,
+                "director": "Chloé Zhao",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt9032400/',
+                   'value':  6.2,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                // { "name": "Sersi", "actor": "Gemma Chan", "id": "sersi" },
+                // { "name": "Thena", "actor": "Angelina Jolie", "id": "thena" },
+                // { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
+                // { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
+                // { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
+                // { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
+            ]
+        },
+        {
             "id": "spider-man-2",
             "title": "Spider-Man: Far From Home",
             "data": {
@@ -1473,36 +1503,6 @@ movies.multiverseSaga =
                 { "name": "Colonel Rhodes", "actor": "Don Cheadle", "id": "james-rhodes" },
                 { "name": "G'iah", "actor": "Emilia Clarke", "id": "giah" },
                 { "name": "Talos", "actor": "Ben Mendelsohn", "id": "talos" },
-            ]
-        },
-        {
-            "id": "eternals",
-            "title": "Eternals",
-            "data": {
-                "releaseDate": "11-05-2021",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2023,
-                    "season" : "fall"
-                },
-                "length": 157,
-                "director": "Chloé Zhao",
-                "imdb": {
-                   'link': 'https://www.imdb.com/title/tt9032400/',
-                   'value':  6.2,
-                },
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                // { "name": "Sersi", "actor": "Gemma Chan", "id": "sersi" },
-                // { "name": "Thena", "actor": "Angelina Jolie", "id": "thena" },
-                // { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
-                // { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
-                // { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
-                // { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
             ]
         },
         {
