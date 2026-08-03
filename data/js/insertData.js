@@ -1591,6 +1591,33 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "daredevil-born-again-2",
+            "title": "Daredevil: Born Again S2",
+            "data": {
+                "releaseDate": "03-24-2026",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "fall"
+                },
+                "length": 8*48, //aproximada
+                "episodes": 8,
+                "director": "Justin Benson, Aaron Moorhead",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt18923754/',
+                   'value':  8.1,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=sBVjIlTjoIk"
+            },
+            "moviesToWatch": [
+                { "id": "daredevil-born-again" },
+            ],
+            "mainCharacters": [
+                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" }
+            ]
+        },
+        {
             "id": "spider-man-4",
             "title": "Spider-Man: Brand New Day",
             "data": {
