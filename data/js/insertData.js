@@ -1624,23 +1624,27 @@ movies.multiverseSaga =
                 "releaseDate": "07-31-2026",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 2027,
-                    "season" : null
+                    "year": 2028,
+                    "season" : "spring"
                 },
-                "length": null,
+                "length": 145,
                 "director": "Destin Daniel Cretton",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt22084616/',
-                   'value':  null,
+                   'value':  8.2,
                 },
                 "streaming": null,
-                "trailer": "#"
+                "trailer": "https://www.youtube.com/watch?v=8TZMtslA3UY"
             },
             "moviesToWatch": [
                 { "id": "spider-man-3" },
             ],
             "mainCharacters": [
                 { "name": "Spider-Man", "actor": "Tom Holland", "id": "peter-parker" },
+                { "name": "Frank Castle", "actor": "Jon Bernthal", "id": "frank-castle" },
+                { "name": "Jean Grey", "actor": "Sadie Sink", "id": "jean-grey" },
+                { "name": "Hulk", "actor": "Mark Ruffalo", "id": "bruce-banner" },
+                { "name": "Black Widow", "actor": "Florence Pugh", "id": "yelena-belova" },
             ]
         },
         {
@@ -1692,7 +1696,7 @@ movies.multiverseSaga =
                 "releaseDate": "05-07-2027",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 2027,
+                    "year": 2028,
                     "season" : null
                 },
                 "length": null,
@@ -2521,6 +2525,18 @@ characters =
             ]
         },
         {
+            "id": "frank-castle",
+            "name": "Frank Castle",
+            "actor": [
+                {
+                    "name": "Jon Bernthal",
+                    "birth": "20/09/1976",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Jon_Bernthal"
+                }
+            ]
+        },
+        {
             "id": "jennifer-walters",
             "name": "Jennifer Walters",
             "actor": [
@@ -2754,6 +2770,18 @@ characters =
                 }
             ]
         },
+        {
+            "id": "jean-grey",
+            "name": "Jean Grey",
+            "actor": [
+                {
+                    "name": "Sadie Sink",
+                    "birth": "16/04/2002",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Sadie_Sink"
+                }
+            ]
+        }
     ]
 
 
