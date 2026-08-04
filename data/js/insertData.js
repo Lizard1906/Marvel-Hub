@@ -1097,7 +1097,7 @@ movies.multiverseSaga =
                 "releaseDate": "03-04-2025",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 2025,
+                    "year": 2026,
                     "season" : "fall"
                 },
                 "length": 9*48, //aproximada
@@ -1540,7 +1540,7 @@ movies.multiverseSaga =
                 "movieDate": 
                 {
                     "year": 2027,
-                    "season" : "early"
+                    "season" : "spring"
                 },
                 "length": 126,
                 "director": "Jake Schreier",
@@ -1569,7 +1569,7 @@ movies.multiverseSaga =
                 "releaseDate": "07-25-2025",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 1960,
+                    "year": 1964,
                     "season" : null
                 },
                 "length": 115,
@@ -1597,7 +1597,7 @@ movies.multiverseSaga =
                 "releaseDate": "03-24-2026",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 2026,
+                    "year": 2027,
                     "season" : "fall"
                 },
                 "length": 8*48, //aproximada
@@ -1651,10 +1651,10 @@ movies.multiverseSaga =
             "id": "avengers-5",
             "title": "Avengers: Doomsday",
             "data": {
-                "releaseDate": "05-01-2026",    //mm-dd-yyyy
+                "releaseDate": "12-18-2026",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 2027,
+                    "year": 2028,
                     "season" : null
                 },
                 "length": null,
@@ -1693,7 +1693,7 @@ movies.multiverseSaga =
             "id": "avengers-6",
             "title": "Avengers: Secret Wars",
             "data": {
-                "releaseDate": "05-07-2027",    //mm-dd-yyyy
+                "releaseDate": "12-17-2027",    //mm-dd-yyyy
                 "movieDate": 
                 {
                     "year": 2028,
