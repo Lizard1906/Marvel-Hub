@@ -869,6 +869,36 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "eternals",
+            "title": "Eternals",
+            "data": {
+                "releaseDate": "11-05-2021",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2023,
+                    "season" : "fall"
+                },
+                "length": 157,
+                "director": "Chloé Zhao",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt9032400/',
+                   'value':  6.2,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                // { "name": "Sersi", "actor": "Gemma Chan", "id": "sersi" },
+                // { "name": "Thena", "actor": "Angelina Jolie", "id": "thena" },
+                // { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
+                // { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
+                // { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
+                // { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
+            ]
+        },
+        {
             "id": "spider-man-2",
             "title": "Spider-Man: Far From Home",
             "data": {
@@ -1067,7 +1097,7 @@ movies.multiverseSaga =
                 "releaseDate": "03-04-2025",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 2025,
+                    "year": 2026,
                     "season" : "fall"
                 },
                 "length": 9*48, //aproximada
@@ -1419,6 +1449,32 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "wonder-man",
+            "title": "Wonder Man",
+            "data": {
+                "releaseDate": "01-27-2026",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2026,
+                    "season" : "early"
+                },
+                "length": 248,
+                "episodes": 8,
+                "director": "Destin Daniel Cretton, Stella Meghie",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt21066182/',
+                   'value':  7.5,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=wHuWmjXsReU"
+            },
+            "moviesToWatch": [
+            ],
+            "mainCharacters": [
+                { "name": "Simon Williams", "actor": "Yahya Abdul-Mateen II", "id": "simon-williams" },
+            ]
+        },
+        {
             "id": "secret-invasion",
             "title": "Secret Invasion",
             "data": {
@@ -1447,36 +1503,6 @@ movies.multiverseSaga =
                 { "name": "Colonel Rhodes", "actor": "Don Cheadle", "id": "james-rhodes" },
                 { "name": "G'iah", "actor": "Emilia Clarke", "id": "giah" },
                 { "name": "Talos", "actor": "Ben Mendelsohn", "id": "talos" },
-            ]
-        },
-        {
-            "id": "eternals",
-            "title": "Eternals",
-            "data": {
-                "releaseDate": "11-05-2021",    //mm-dd-yyyy
-                "movieDate": 
-                {
-                    "year": 2023,
-                    "season" : "fall"
-                },
-                "length": 157,
-                "director": "Chloé Zhao",
-                "imdb": {
-                   'link': 'https://www.imdb.com/title/tt9032400/',
-                   'value':  6.2,
-                },
-                "streaming": "disney+",
-                "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
-            },
-            "moviesToWatch": [
-            ],
-            "mainCharacters": [
-                // { "name": "Sersi", "actor": "Gemma Chan", "id": "sersi" },
-                // { "name": "Thena", "actor": "Angelina Jolie", "id": "thena" },
-                // { "name": "Kingo", "actor": "Kumail Nanjiani", "id": "kingo" },
-                // { "name": "Druig", "actor": "Barry Keoghan", "id": "druig" },
-                // { "name": "Makkari", "actor": "Lauren Ridloff", "id": "makkari" },
-                // { "name": "Phastos", "actor": "Brian Tyree Henry", "id": "phastos" },
             ]
         },
         {
@@ -1514,7 +1540,7 @@ movies.multiverseSaga =
                 "movieDate": 
                 {
                     "year": 2027,
-                    "season" : "early"
+                    "season" : "spring"
                 },
                 "length": 126,
                 "director": "Jake Schreier",
@@ -1543,7 +1569,7 @@ movies.multiverseSaga =
                 "releaseDate": "07-25-2025",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 1960,
+                    "year": 1964,
                     "season" : null
                 },
                 "length": 115,
@@ -1565,39 +1591,70 @@ movies.multiverseSaga =
             ]
         },
         {
+            "id": "daredevil-born-again-2",
+            "title": "Daredevil: Born Again S2",
+            "data": {
+                "releaseDate": "03-24-2026",    //mm-dd-yyyy
+                "movieDate": 
+                {
+                    "year": 2027,
+                    "season" : "fall"
+                },
+                "length": 8*48, //aproximada
+                "episodes": 8,
+                "director": "Justin Benson, Aaron Moorhead",
+                "imdb": {
+                   'link': 'https://www.imdb.com/title/tt18923754/',
+                   'value':  8.1,
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=sBVjIlTjoIk"
+            },
+            "moviesToWatch": [
+                { "id": "daredevil-born-again" },
+            ],
+            "mainCharacters": [
+                { "name": "Daredevil", "actor": "Charlie Cox", "id": "matt-murdock" }
+            ]
+        },
+        {
             "id": "spider-man-4",
             "title": "Spider-Man: Brand New Day",
             "data": {
                 "releaseDate": "07-31-2026",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 2027,
-                    "season" : null
+                    "year": 2028,
+                    "season" : "spring"
                 },
-                "length": null,
+                "length": 145,
                 "director": "Destin Daniel Cretton",
                 "imdb": {
                    'link': 'https://www.imdb.com/title/tt22084616/',
-                   'value':  null,
+                   'value':  8.2,
                 },
                 "streaming": null,
-                "trailer": "#"
+                "trailer": "https://www.youtube.com/watch?v=8TZMtslA3UY"
             },
             "moviesToWatch": [
                 { "id": "spider-man-3" },
             ],
             "mainCharacters": [
                 { "name": "Spider-Man", "actor": "Tom Holland", "id": "peter-parker" },
+                { "name": "Frank Castle", "actor": "Jon Bernthal", "id": "frank-castle" },
+                { "name": "Jean Grey", "actor": "Sadie Sink", "id": "jean-grey" },
+                { "name": "Hulk", "actor": "Mark Ruffalo", "id": "bruce-banner" },
+                { "name": "Black Widow", "actor": "Florence Pugh", "id": "yelena-belova" },
             ]
         },
         {
             "id": "avengers-5",
             "title": "Avengers: Doomsday",
             "data": {
-                "releaseDate": "05-01-2026",    //mm-dd-yyyy
+                "releaseDate": "12-18-2026",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 2027,
+                    "year": 2028,
                     "season" : null
                 },
                 "length": null,
@@ -1636,10 +1693,10 @@ movies.multiverseSaga =
             "id": "avengers-6",
             "title": "Avengers: Secret Wars",
             "data": {
-                "releaseDate": "05-07-2027",    //mm-dd-yyyy
+                "releaseDate": "12-17-2027",    //mm-dd-yyyy
                 "movieDate": 
                 {
-                    "year": 2027,
+                    "year": 2028,
                     "season" : null
                 },
                 "length": null,
@@ -2468,6 +2525,18 @@ characters =
             ]
         },
         {
+            "id": "frank-castle",
+            "name": "Frank Castle",
+            "actor": [
+                {
+                    "name": "Jon Bernthal",
+                    "birth": "20/09/1976",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Jon_Bernthal"
+                }
+            ]
+        },
+        {
             "id": "jennifer-walters",
             "name": "Jennifer Walters",
             "actor": [
@@ -2689,6 +2758,30 @@ characters =
                 }
             ]
         },
+        {
+            "id": "simon-williams",
+            "name": "Simon Williams",
+            "actor": [
+                {
+                    "name": "Yahya Abdul-Mateen II",
+                    "birth": "15/07/1986",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Yahya_Abdul-Mateen_II"
+                }
+            ]
+        },
+        {
+            "id": "jean-grey",
+            "name": "Jean Grey",
+            "actor": [
+                {
+                    "name": "Sadie Sink",
+                    "birth": "16/04/2002",
+                    "originCountry": "USA",
+                    "info": "https://en.wikipedia.org/wiki/Sadie_Sink"
+                }
+            ]
+        }
     ]
 
 
