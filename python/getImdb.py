@@ -1,6 +1,6 @@
 
 # abrir o js original
-with open("js/insertData.js", "r", encoding="utf-8") as file:
+with open("js/loadData.js", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
 # requests
@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 isCheckingMovies = True
 # abrir o novo js
-with open("js/insertData.js", "w", encoding="utf-8") as file:
+with open("js/loadData.js", "w", encoding="utf-8") as file:
     for line in lines:
         if (isCheckingMovies==False):
             file.write(line)
