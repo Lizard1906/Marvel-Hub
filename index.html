@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Marvel Hub</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -13,89 +13,322 @@
     <link rel='icon' href="Images/Logo.png">
 
     <style>
-        .back {
-            background-image: url(Images/Index/Background.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 87.5vw;
-            height: 100vh;
+        :root {
+            --marvel-red: rgb(248, 4, 25);
+            --panel-bg: rgba(0, 0, 0, 0.56);
+            --panel-border: rgba(255, 255, 255, 0.14);
+            --text-muted: rgba(255, 255, 255, 0.78);
         }
 
-        .login {
-            position: absolute;
-            left: 87.5vw;
-            width: 12.5vw;
-            height: 100vh;
-            background-image: url(Images/Index/Logo.png);
-            background-repeat: no-repeat;
-            background-size: 20vh;
-            background-position-x: center;
-            background-position-y: 5vh;
-            background-color: black;
+        html,
+        body {
+            min-height: 100%;
+            margin: 0;
         }
 
-        .login .texto {
+        body {
+            min-height: 100vh;
+            background: #000 url(Images/Index/Background.png) center center / cover no-repeat fixed;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .landing-shell {
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 1.25rem;
+            position: relative;
+        }
+
+        .landing-shell::before {
+            content: '';
             position: absolute;
-            bottom: 5vh;
-            left: 2.5vw;
+            inset: 0;
+            background:
+                radial-gradient(circle at top, rgba(255, 255, 255, 0.10), transparent 35%),
+                linear-gradient(180deg, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.62));
+        }
+
+        .hero-card {
+            position: relative;
+            z-index: 1;
+            width: min(90vw, 500px);
+            padding: clamp(1.15rem, 2.4vw, 1.9rem);
+            border: 1px solid var(--panel-border);
+            border-radius: 24px;
+            background: var(--panel-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            box-shadow: 0 22px 60px rgba(0, 0, 0, 0.42);
             text-align: center;
-            justify-content: baseline;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            animation: cardReveal 700ms ease-out both;
         }
 
-        .login .texto .explore {
-            font-weight: bold;
-            font-size: 18px;
-            background-color: rgb(248, 4, 25);
-            border-color: rgb(248, 4, 25);
-            color: black;
-            transition: all 0.3s;
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.85rem;
+            padding: 0.4rem 0.7rem;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+            font-size: 0.72rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
         }
 
-        .login .texto .explore:hover {
-            color: rgb(248, 4, 25);
-            border-color: rgb(248, 4, 25);
-            background-color: white;
+        .eyebrow::before {
+            content: '';
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 50%;
+            background: var(--marvel-red);
+            box-shadow: 0 0 0 4px rgba(248, 4, 25, 0.16);
         }
 
-        @media (max-width: 972px) {
-            .back {
-                width: 100vw;
-                height: 87.5vh;
+        .hero-card h1 {
+            margin: 0;
+            font-size: clamp(1.8rem, 5.4vw, 3.35rem);
+            line-height: 0.95;
+            letter-spacing: -0.04em;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        .hero-card h1 span {
+            display: block;
+            color: var(--marvel-red);
+        }
+
+        .hero-copy {
+            margin: 0.8rem auto 1.15rem;
+            max-width: 30rem;
+            color: var(--text-muted);
+            font-size: clamp(0.92rem, 1.6vw, 1rem);
+            line-height: 1.6;
+        }
+
+        .movie-option {
+            padding: 0.85rem 0.9rem 0.8rem;
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.06);
+            text-align: left;
+        }
+
+        .movie-option .option-label {
+            display: block;
+            margin-bottom: 0.6rem;
+            color: rgba(255, 255, 255, 0.92);
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .movie-option .option-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.85rem;
+        }
+
+        .movie-option .form-check {
+            min-height: auto;
+            margin: 0;
+            padding-left: 0;
+        }
+
+        .movie-option .form-check-label {
+            margin-bottom: 0;
+            color: #fff;
+            font-size: 0.9rem;
+            line-height: 1.3;
+        }
+
+        .movie-option .form-check-input {
+            width: 2.7rem;
+            height: 1.35rem;
+            margin: 0;
+            background-color: rgba(255, 255, 255, 0.16);
+            border-color: rgba(255, 255, 255, 0.3);
+            box-shadow: none;
+            cursor: pointer;
+        }
+
+        .movie-option .form-check-input:checked {
+            background-color: var(--marvel-red);
+            border-color: var(--marvel-red);
+        }
+
+        .movie-option small {
+            display: block;
+            margin-top: 0.55rem;
+            color: var(--text-muted);
+            font-size: 0.72rem;
+            line-height: 1.4;
+        }
+
+        .explore {
+            width: 100%;
+            margin-top: 0.9rem;
+            padding: 0.85rem 1rem;
+            border: 0;
+            border-radius: 999px;
+            background: linear-gradient(135deg, var(--marvel-red), #ff3349);
+            color: #111;
+            font-size: 0.92rem;
+            font-weight: 800;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            box-shadow: 0 12px 24px rgba(248, 4, 25, 0.28);
+            transition: transform 180ms ease, box-shadow 180ms ease, filter 180ms ease;
+        }
+
+        .explore:hover {
+            color: #111;
+            transform: translateY(-1px);
+            box-shadow: 0 16px 30px rgba(248, 4, 25, 0.34);
+            filter: brightness(1.04);
+        }
+
+        .explore:focus-visible,
+        .movie-option .form-check-input:focus-visible {
+            outline: 2px solid rgba(255, 255, 255, 0.95);
+            outline-offset: 3px;
+        }
+
+        @keyframes cardReveal {
+            from {
+                opacity: 0;
+                transform: translateY(18px) scale(0.985);
             }
 
-            .login {
-                left: 0;
-                top: 87.5vh;
-                width: 100vw;
-                height: 12.5vh;
-                background-size: 25vh;
-                background-position-y: 2vh;
-                background-position-x: 2vw;
-                background-image: url(Images/Index/Logo_.png);
-            }
-
-            .login .texto {
-                left: 70vw;
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
             }
         }
 
+        @media (max-width: 576px) {
+            body {
+                background-attachment: scroll;
+            }
+
+            .landing-shell {
+                padding: 1rem;
+            }
+
+            .hero-card {
+                width: 100%;
+                padding: 1rem;
+                border-radius: 20px;
+            }
+
+            .hero-copy {
+                margin-bottom: 0.95rem;
+            }
+
+            .movie-option {
+                padding: 0.8rem;
+            }
+
+            .movie-option .option-row {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+            .movie-option .form-check-input {
+                align-self: flex-start;
+            }
+
+            .explore {
+                padding: 0.8rem 1rem;
+            }
+        }
     </style>
 
 </head>
 
 <body>
-    <div class="row" style="margin: 0;">
-        <div class="back">
-        </div>
-        <div class="login">
-            <div class="texto">
-                <a href="home.html" class="btn btn-danger explore">Explore</a>
-            </div>
-        </div>
-    </div>
+    <main class="landing-shell">
+        <section class="hero-card" aria-label="Marvel Hub entry point">
+            <div class="eyebrow">Marvel Hub</div>
+            <!-- <h1>Welcome to <span>Marvel Hub</span></h1> -->
+            <p class="hero-copy">
+                <!-- Choose whether you want only the essential movies or the full catalogue, then jump into the hub. -->
+            </p>
 
+            <div class="movie-option">
+                <span class="option-label">Movie mode</span>
+                <div class="option-row">
+                    <label class="form-check-label" for="only-essential-movies">Only essential movies</label>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="only-essential-movies" checked>
+                    </div>
+                </div>
+                <small>Turn it off to make every movie visible.</small>
+            </div>
+
+            <button type="button" class="btn explore" id="explore-button">Explore</button>
+        </section>
+    </main>
+
+    <script>
+        window.__marvelHubSkipAutoLoadData = true;
+    </script>
     <script src="js/loadData.js"></script>
+    <script>
+        (function () {
+            const storageKey = 'marvel-hub';
+            const checkbox = document.getElementById('only-essential-movies');
+            const button = document.getElementById('explore-button');
+
+            const readSavedData = () => {
+                try {
+                    return JSON.parse(localStorage.getItem(storageKey)) || {};
+                } catch (error) {
+                    return {};
+                }
+            };
+
+            const writePreference = (onlyEssentialMovies) => {
+                const currentData = readSavedData();
+                currentData.onlyEssentialMovies = onlyEssentialMovies;
+                localStorage.setItem(storageKey, JSON.stringify(currentData));
+                window.__marvelHubOnlyEssentialMovies = onlyEssentialMovies;
+            };
+
+            const savedData = readSavedData();
+            if (typeof savedData.onlyEssentialMovies === 'boolean') {
+                checkbox.checked = savedData.onlyEssentialMovies;
+            }
+
+            window.__marvelHubOnlyEssentialMovies = checkbox.checked;
+
+            checkbox.addEventListener('change', function () {
+                writePreference(checkbox.checked);
+            });
+
+            button.addEventListener('click', async function () {
+                writePreference(checkbox.checked);
+                button.disabled = true;
+                button.textContent = 'Loading...';
+
+                try {
+                    await loadData();
+                    window.location.href = 'home.html';
+                } catch (error) {
+                    console.error(error);
+                    button.disabled = false;
+                    button.textContent = 'Explore';
+                }
+            });
+        })();
+    </script>
 </body>
 
 </html>

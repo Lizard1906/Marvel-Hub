@@ -18,6 +18,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Z1BCujX3pw8"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -72,6 +73,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=8hYlB38asDY"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -88,6 +90,40 @@
                     "name": "Nick Fury",
                     "actor": "Samuel L. Jackson",
                     "id": "nick-fury",
+                    "special": "uncredited"
+                }
+            ]
+        },
+        {
+            "id": "the-incredible-hulk",
+            "title": "The Incredible Hulk",
+            "data": {
+                "releaseDate": "06-13-2008",
+                "movieDate": {
+                    "year": 2010,
+                    "season": "fall"
+                },
+                "length": 112,
+                "director": "Louis Leterrier",
+                "imdb": {
+                    "link": "https://www.imdb.com/title/tt0800080/",
+                    "value": 6.6
+                },
+                "streaming": "apple",
+                "trailer": "https://www.youtube.com/watch?v=xbqNb2PFKKA"
+            },
+            "visible": false,
+            "moviesToWatch": [],
+            "mainCharacters": [
+                {
+                    "name": "Hulk",
+                    "actor": "Edward Norton",
+                    "id": "bruce-banner"
+                },
+                {
+                    "name": "Tony Stark",
+                    "actor": "Robert Downey Jr",
+                    "id": "tony-stark",
                     "special": "uncredited"
                 }
             ]
@@ -110,6 +146,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=BoohRoVA9WQ"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "iron-man-1"
@@ -156,6 +193,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=JOddp-nlNvQ"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -187,39 +225,6 @@
             ]
         },
         {
-            "id": "the-incredible-hulk",
-            "title": "The Incredible Hulk",
-            "data": {
-                "releaseDate": "06-13-2008",
-                "movieDate": {
-                    "year": 2010,
-                    "season": "fall"
-                },
-                "length": 112,
-                "director": "Louis Leterrier",
-                "imdb": {
-                    "link": "https://www.imdb.com/title/tt0800080/",
-                    "value": 6.6
-                },
-                "streaming": "apple",
-                "trailer": "https://www.youtube.com/watch?v=xbqNb2PFKKA"
-            },
-            "moviesToWatch": [],
-            "mainCharacters": [
-                {
-                    "name": "Hulk",
-                    "actor": "Edward Norton",
-                    "id": "bruce-banner"
-                },
-                {
-                    "name": "Tony Stark",
-                    "actor": "Robert Downey Jr",
-                    "id": "tony-stark",
-                    "special": "uncredited"
-                }
-            ]
-        },
-        {
             "id": "captain-america-1",
             "title": "Captain America: The First Avenger",
             "data": {
@@ -237,6 +242,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=JerVrbLldXw"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -280,6 +286,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=eOrNdBpGMv8"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "iron-man-1"
@@ -357,6 +364,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Ke1Y3P9D0Bc"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "iron-man-1"
@@ -405,6 +413,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=npvJ9FTgZbM"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "thor-1"
@@ -455,6 +464,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=7SlILk2WMTI"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "captain-america-1"
@@ -525,6 +535,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=d96cjJhvlMA"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -579,6 +590,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=2cv2ueYnKjg"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "gog-1"
@@ -642,6 +654,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=tmeOjFno6Do"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "avengers-1"
@@ -728,6 +741,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=pWdKf3MneyI"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -782,6 +796,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=dKrVegVI0Us"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "captain-america-2"
@@ -871,6 +886,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=U0D3AOldjMU"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "captain-america-3"
@@ -913,6 +929,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Fp9pNPdNwjI"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -950,6 +967,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=xjDjIWPwcPU"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "captain-america-3"
@@ -992,6 +1010,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=HSzx-zryEgM"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -1030,6 +1049,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ue80QwXMRHg"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "avengers-2"
@@ -1081,6 +1101,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=UUkn-enk2RU"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "ant-man-1"
@@ -1125,6 +1146,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -1276,6 +1298,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=TcMBFSGVi1c"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "avengers-3"
@@ -1452,6 +1475,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=sj9J2ecsSpo"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "avengers-2"
@@ -1510,6 +1534,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=R9pXbNz6Vbw"
             },
+            "visible": false,
             "moviesToWatch": [
                 {
                     "id": "wandavision"
@@ -1550,6 +1575,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ojGHE581lsM"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "captain-america-3"
@@ -1607,6 +1633,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=8YjFbMbfXaQ"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -1651,6 +1678,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=0WVDKZJkGlY"
             },
+            "visible": false,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -1703,6 +1731,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Nt9L1jCKGnE"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "spider-man-1"
@@ -1756,6 +1785,7 @@
                 "streaming": "prime",
                 "trailer": "https://www.youtube.com/watch?v=rt-2cxAiPJk"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "spider-man-2"
@@ -1827,6 +1857,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=rt-2cxAiPJk"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "doctor-strange-1"
@@ -1887,6 +1918,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=5VYb3B1ETlk"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "avengers-3"
@@ -1937,6 +1969,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=u7JsKhI2An0"
             },
+            "visible": false,
             "moviesToWatch": [
                 {
                     "id": "the-incredible-hulk"
@@ -1984,6 +2017,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=AFUKnherhuw"
             },
+            "visible": false,
             "moviesToWatch": [
                 {
                     "id": "hawkeye"
@@ -2024,6 +2058,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=7xALolZzhSM"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "daredevil"
@@ -2059,6 +2094,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=x7Krla_UxRg"
             },
+            "visible": false,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -2086,6 +2122,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=RlOB3UALvrQ"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "black-panther-1"
@@ -2123,6 +2160,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=WpW36ldAqnM"
             },
+            "visible": false,
             "moviesToWatch": [
                 {
                     "id": "black-panther-2"
@@ -2154,6 +2192,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=Go8nTmfrQd8"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "thor-1"
@@ -2231,6 +2270,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=u3V5KDHRQvk&pp=ygUNZ29nIDMgdHJhaWxlcg%3D%3D"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "gog-1"
@@ -2305,6 +2345,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=nW948Va-l10"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -2332,6 +2373,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ZlNFpri-Y40"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "ant-man-2"
@@ -2382,6 +2424,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=dug56u8NN7g"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "loki-1"
@@ -2414,6 +2457,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=ZIM1HydF9UA"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "deadpool-1"
@@ -2465,6 +2509,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=m9EX0f6V11Y"
             },
+            "visible": false,
             "moviesToWatch": [
                 {
                     "id": "captain-marvel"
@@ -2502,6 +2547,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=wS_qbDztgVY&pp=ygUTdGhlIG1hcnZlbHMgdHJhaWxlcg%3D%3D"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "captain-marvel"
@@ -2566,6 +2612,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=wHuWmjXsReU"
             },
+            "visible": false,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -2594,6 +2641,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=qZVTkn2NjS0&pp=ygUXc2VjcmV0IGludmFzaW9uIHRyYWlsZXI%3D"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "captain-marvel"
@@ -2645,6 +2693,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=1pHDWnXmK7Y"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "tfatws"
@@ -2681,6 +2730,7 @@
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=hUUszE29jS0"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -2733,6 +2783,7 @@
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=AzMo-FgRp64"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -2776,6 +2827,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=sBVjIlTjoIk"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "daredevil-born-again"
@@ -2807,6 +2859,7 @@
                 "streaming": null,
                 "trailer": "https://www.youtube.com/watch?v=8TZMtslA3UY"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "spider-man-3"
@@ -2858,6 +2911,7 @@
                 "streaming": null,
                 "trailer": "#"
             },
+            "visible": true,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -2970,6 +3024,7 @@
                 "streaming": null,
                 "trailer": "#"
             },
+            "visible": true,
             "moviesToWatch": [
                 {
                     "id": "avengers-5"
@@ -2997,6 +3052,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=_yhFofFZGcc"
             },
+            "visible": false,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -3024,6 +3080,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=1s9Yln0YwCw&t"
             },
+            "visible": false,
             "moviesToWatch": [
                 {
                     "id": "sm-1"
@@ -3055,6 +3112,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=wPosLpgMtTY"
             },
+            "visible": false,
             "moviesToWatch": [
                 {
                     "id": "sm-1"
@@ -3089,6 +3147,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=-tnxzJ0SSOw"
             },
+            "visible": false,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -3116,6 +3175,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=nbp3Ra3Yp74"
             },
+            "visible": false,
             "moviesToWatch": [
                 {
                     "id": "asm-1"
@@ -3150,6 +3210,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=jAy6NJ_D5vU"
             },
+            "visible": false,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -3184,6 +3245,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=FyKWUTwSYAs"
             },
+            "visible": false,
             "moviesToWatch": [],
             "mainCharacters": [
                 {
@@ -3211,6 +3273,7 @@
                 "streaming": "disney+",
                 "trailer": "https://www.youtube.com/watch?v=D86RtevtfrA"
             },
+            "visible": false,
             "moviesToWatch": [
                 {
                     "id": "deadpool-1"

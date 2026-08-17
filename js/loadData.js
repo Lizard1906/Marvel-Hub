@@ -1,5 +1,12 @@
 async function loadData() {
 
+    const currentLoadId = (window.__marvelHubLoadDataRunId || 0) + 1;
+    window.__marvelHubLoadDataRunId = currentLoadId;
+
+    const onlyEssentialMovies = typeof window.__marvelHubOnlyEssentialMovies === 'boolean'
+        ? window.__marvelHubOnlyEssentialMovies
+        : true;
+
     let movies;
     let characters;
 
@@ -19,23 +26,17 @@ async function loadData() {
         console.error(error);
     }
 
-    // movies forgotten
-    movies_forgotten = [
-        // "eternals",
-        "moon-knight"
-    ]
-    Object.keys(movies).forEach(sagaName => {
-        const movies_saga = movies[sagaName];
-        movies_forgotten.forEach(movie => {
-            const index = movies_saga.findIndex(m => m.id === movie);
-            if (index !== -1) {
-                movies_saga.splice(index, 1);
-            }
-        });
-    });
-
     data = {}
     data.movies = movies
+    data.onlyEssentialMovies = onlyEssentialMovies
+
+    if (!onlyEssentialMovies) {
+        Object.values(data.movies).forEach((movieList) => {
+            movieList.forEach((movie) => {
+                movie.visible = true;
+            });
+        });
+    }
 
 
 
@@ -115,6 +116,9 @@ async function loadData() {
         } else {
             data.reversedStack = false;
         }
+        if (typeof savedData.onlyEssentialMovies === 'boolean') {
+            data.onlyEssentialMovies = savedData.onlyEssentialMovies;
+        }
     } else {
         data.activeMovieStack = null;
         data.reversedStack = false;
@@ -123,15 +127,9 @@ async function loadData() {
 
     // characters
 
-    // characters forgotten
-    characters_forgotten = ["sersi", "thena", "kingo", "druig", "makkari", "phastos", "marc-spector", "talos", "giah"]
-    characters_forgotten.forEach(character => {
-        const index = characters.findIndex(c => c.id === character);
-        if (index !== -1) {
-            characters.splice(index, 1);
-        }
-    })
-
+    if (currentLoadId !== window.__marvelHubLoadDataRunId) {
+        return;
+    }
 
     characters.forEach(character => {
         releaseStack.forEach(movie => {
@@ -146,10 +144,15 @@ async function loadData() {
 
     data.characters = characters
 
+    if (currentLoadId !== window.__marvelHubLoadDataRunId) {
+        return;
+    }
 
     localStorage.clear();
     localStorage.setItem('marvel-hub', JSON.stringify(data))
     console.log(data)
 }
 
-loadData();
+if (!window.__marvelHubSkipAutoLoadData) {
+    loadData();
+}

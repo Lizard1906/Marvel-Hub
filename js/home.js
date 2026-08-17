@@ -26,11 +26,15 @@ function createSwiperSlide(movie) {
 }
 
 infinityMovies.forEach((movie) => {
-    swiperWrapperInfinity.appendChild(createSwiperSlide(movie));
+    if (movie.visible) {
+        swiperWrapperInfinity.appendChild(createSwiperSlide(movie));
+    }
 });
 
 multiverseMovies.forEach((movie) => {
-    swiperWrapperMultiverse.appendChild(createSwiperSlide(movie));
+    if (movie.visible) {
+        swiperWrapperMultiverse.appendChild(createSwiperSlide(movie));
+    }
 });
 
 var swiperInfinity = new Swiper(".infinitySwiper", {
