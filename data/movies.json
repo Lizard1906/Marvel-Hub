@@ -1543,9 +1543,6 @@
             "moviesToWatch": [
                 {
                     "id": "wandavision"
-                },
-                {
-                    "id": "doctor-strange-2"
                 }
             ],
             "mainCharacters": [
@@ -1555,7 +1552,7 @@
                     "id": "agatha-harkness"
                 },
                 {
-                    "name": "Teen",
+                    "name": "Billy Maximoff",
                     "actor": "Joe Locke",
                     "id": "billy-maximoff"
                 }

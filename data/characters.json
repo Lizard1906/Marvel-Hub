@@ -360,18 +360,6 @@
         ]
     },
     {
-        "id": "riri-williams",
-        "name": "Riri Williams",
-        "actor": [
-            {
-                "name": "Dominique Thorne",
-                "birth": "01/11/1998",
-                "originCountry": "USA",
-                "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
-            }
-        ]
-    },
-    {
         "id": "valkyrie",
         "name": "Valkyrie",
         "actor": [
@@ -428,6 +416,30 @@
                 "birth": "11/12/1996",
                 "originCountry": "USA",
                 "info": "https://en.wikipedia.org/wiki/Hailee_Steinfeld"
+            }
+        ]
+    },
+    {
+        "id": "shang-chi",
+        "name": "Shang-Chi",
+        "actor": [
+            {
+                "name": "Simu Liu",
+                "birth": "19/04/1989",
+                "originCountry": "China",
+                "info": "https://en.wikipedia.org/wiki/Simu_Liu"
+            }
+        ]
+    },
+    {
+        "id": "marc-spector",
+        "name": "Marc Spector",
+        "actor": [
+            {
+                "name": "Oscar Isaac",
+                "birth": "09/03/1979",
+                "originCountry": "Guatemala",
+                "info": "https://en.wikipedia.org/wiki/Oscar_Isaac"
             }
         ]
     },
@@ -504,54 +516,6 @@
         ]
     },
     {
-        "id": "shang-chi",
-        "name": "Shang-Chi",
-        "actor": [
-            {
-                "name": "Simu Liu",
-                "birth": "19/04/1989",
-                "originCountry": "China",
-                "info": "https://en.wikipedia.org/wiki/Simu_Liu"
-            }
-        ]
-    },
-    {
-        "id": "wade-wilson",
-        "name": "Wade Wilson",
-        "actor": [
-            {
-                "name": "Ryan Reynolds",
-                "birth": "23/10/1976",
-                "originCountry": "Canada",
-                "info": "https://en.wikipedia.org/wiki/Ryan_Reynolds"
-            }
-        ]
-    },
-    {
-        "id": "logan",
-        "name": "Logan",
-        "actor": [
-            {
-                "name": "Hugh Jackman",
-                "birth": "12/10/1968",
-                "originCountry": "Australia",
-                "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
-            }
-        ]
-    },
-    {
-        "id": "gambit",
-        "name": "Gambit",
-        "actor": [
-            {
-                "name": "Channing Tatum",
-                "birth": "26/04/1980",
-                "originCountry": "USA",
-                "info": "https://en.wikipedia.org/wiki/Channing_Tatum"
-            }
-        ]
-    },
-    {
         "id": "peter-parker-sm",
         "name": "Peter Parker",
         "actor": [
@@ -624,14 +588,38 @@
         ]
     },
     {
-        "id": "america-chavez",
-        "name": "America Chavez",
+        "id": "wade-wilson",
+        "name": "Wade Wilson",
         "actor": [
             {
-                "name": "Xochitl Gomez",
-                "birth": "29/04/2006",
+                "name": "Ryan Reynolds",
+                "birth": "23/10/1976",
+                "originCountry": "Canada",
+                "info": "https://en.wikipedia.org/wiki/Ryan_Reynolds"
+            }
+        ]
+    },
+    {
+        "id": "logan",
+        "name": "Logan",
+        "actor": [
+            {
+                "name": "Hugh Jackman",
+                "birth": "12/10/1968",
+                "originCountry": "Australia",
+                "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
+            }
+        ]
+    },
+    {
+        "id": "gambit",
+        "name": "Gambit",
+        "actor": [
+            {
+                "name": "Channing Tatum",
+                "birth": "26/04/1980",
                 "originCountry": "USA",
-                "info": "https://en.wikipedia.org/wiki/Xochitl_Gomez"
+                "info": "https://en.wikipedia.org/wiki/Channing_Tatum"
             }
         ]
     },
@@ -756,50 +744,14 @@
         ]
     },
     {
-        "id": "marc-spector",
-        "name": "Marc Spector",
+        "id": "riri-williams",
+        "name": "Riri Williams",
         "actor": [
             {
-                "name": "Oscar Isaac",
-                "birth": "09/03/1979",
-                "originCountry": "Guatemala",
-                "info": "https://en.wikipedia.org/wiki/Oscar_Isaac"
-            }
-        ]
-    },
-    {
-        "id": "talos",
-        "name": "Talos",
-        "actor": [
-            {
-                "name": "Ben Mendelsohn",
-                "birth": "03/04/1969",
-                "originCountry": "Australia",
-                "info": "https://en.wikipedia.org/wiki/Ben_Mendelsohn"
-            }
-        ]
-    },
-    {
-        "id": "giah",
-        "name": "G'iah",
-        "actor": [
-            {
-                "name": "Emilia Clarke",
-                "birth": "23/10/1986",
-                "originCountry": "UK",
-                "info": "https://en.wikipedia.org/wiki/Emilia_Clarke"
-            }
-        ]
-    },
-    {
-        "id": "reed-richards",
-        "name": "Reed Richards",
-        "actor": [
-            {
-                "name": "Pedro Pascal",
-                "birth": "02/04/1975",
-                "originCountry": "Chile",
-                "info": "https://en.wikipedia.org/wiki/Pedro_Pascal"
+                "name": "Dominique Thorne",
+                "birth": "01/11/1998",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
             }
         ]
     },
@@ -812,6 +764,18 @@
                 "birth": "18/04/1988",
                 "originCountry": "UK",
                 "info": "https://en.wikipedia.org/wiki/Vanessa_Kirby"
+            }
+        ]
+    },
+    {
+        "id": "reed-richards",
+        "name": "Reed Richards",
+        "actor": [
+            {
+                "name": "Pedro Pascal",
+                "birth": "02/04/1975",
+                "originCountry": "Chile",
+                "info": "https://en.wikipedia.org/wiki/Pedro_Pascal"
             }
         ]
     },
@@ -836,6 +800,42 @@
                 "birth": "19/03/1977",
                 "originCountry": "USA",
                 "info": "https://en.wikipedia.org/wiki/Ebon_Moss-Bachrach"
+            }
+        ]
+    },
+    {
+        "id": "america-chavez",
+        "name": "America Chavez",
+        "actor": [
+            {
+                "name": "Xochitl Gomez",
+                "birth": "29/04/2006",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Xochitl_Gomez"
+            }
+        ]
+    },
+    {
+        "id": "talos",
+        "name": "Talos",
+        "actor": [
+            {
+                "name": "Ben Mendelsohn",
+                "birth": "03/04/1969",
+                "originCountry": "Australia",
+                "info": "https://en.wikipedia.org/wiki/Ben_Mendelsohn"
+            }
+        ]
+    },
+    {
+        "id": "giah",
+        "name": "G'iah",
+        "actor": [
+            {
+                "name": "Emilia Clarke",
+                "birth": "23/10/1986",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Emilia_Clarke"
             }
         ]
     },
