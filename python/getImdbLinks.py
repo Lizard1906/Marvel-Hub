@@ -1,14 +1,14 @@
 from googlesearch import search
 
 # abrir o js original
-with open("data/js/insertData.js", "r", encoding="utf-8") as file:
+with open("js/loadData.js", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
 
 isCheckingMovies = True
 imdb_link = None
 # abrir o novo js
-with open("data/js/insertData.js", "w", encoding="utf-8") as file:
+with open("js/loadData.js", "w", encoding="utf-8") as file:
     for line in lines:
         if (isCheckingMovies==False):
             file.write(line)

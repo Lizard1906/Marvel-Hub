@@ -4,7 +4,7 @@ var url = window.location.href;
 var id = url.split('?')[1];
 console.log(id)
 
-document.getElementById('jumbotron').style.backgroundImage = 'url("data/Images/Characters/Photo/' + id + '.png';
+document.getElementById('jumbotron').style.backgroundImage = 'url("Images/Characters/Photo/' + id + '.png';
 
 const allCharacters = [...data.characters];
 console.log(allCharacters)
@@ -31,11 +31,11 @@ allCharacters.forEach((character, index) => {
 
 
     if (prevCharacter != null) {
-        document.getElementById('prev-arrow').setAttribute('href', 'characterDetails?' + prevCharacter);
+        document.getElementById('prev-arrow').setAttribute('href', 'characterDetails.html?' + prevCharacter);
         document.getElementById('prev-arrow').classList.remove('d-none');
     }
     if (nextCharacter != null) {
-        document.getElementById('next-arrow').setAttribute('href', 'characterDetails?' + nextCharacter);
+        document.getElementById('next-arrow').setAttribute('href', 'characterDetails.html?' + nextCharacter);
         document.getElementById('next-arrow').classList.remove('d-none');
     }
 });
@@ -46,7 +46,7 @@ console.log(foundCharacter)
 function updateActorDetails(actor) {
 
     const actor_img_link = actor.name.toLowerCase().replaceAll(' ', '-')
-    document.getElementById('character-img').style.backgroundImage = 'url("data/Images/Characters/Actors/' + actor_img_link + '.png")';
+    document.getElementById('character-img').style.backgroundImage = 'url("Images/Characters/Actors/' + actor_img_link + '.png")';
     document.getElementById('actor-name').innerText = actor.name;
     // calculate age
     const dateParams = actor.birth.split('/')
@@ -60,7 +60,7 @@ function updateActorDetails(actor) {
         age--;
     }
     document.getElementById('actor-birthday').innerText = actor.birth + " (" + age + "y)";
-    document.getElementById('actor-nationality').setAttribute('src', 'data/Images/Characters/Flags/' + actor.originCountry + '.png');
+    document.getElementById('actor-nationality').setAttribute('src', 'Images/Characters/Flags/' + actor.originCountry + '.png');
     document.getElementById('actor-url').setAttribute('href', actor.info);
     document.title = foundCharacter.name;
 }
@@ -85,11 +85,11 @@ function createSwiperSlide(movie) {
     swiperSlide.classList.add("swiper-slide");
 
     const link = document.createElement("a");
-    link.href = 'movieDetails?' + movie.id;
+    link.href = 'movieDetails.html?' + movie.id;
     link.style.textDecoration = "none";
 
     const poster = document.createElement("img");
-    poster.src = "data/Images/Movies/MovieDetails/Poster/" + movie.id + ".png";
+    poster.src = "Images/Movies/MovieDetails/Poster/" + movie.id + ".png";
 
     // const movieName = document.createElement("p");
     // movieName.textContent = movie.title;

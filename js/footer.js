@@ -10,24 +10,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="container footer-header">
                     <div class="row">
                         <div class="col-lg-4 col-12 p-3 pt-2 pb-2">
-                            <a href="movies" style="text-decoration: none;">
-                                <div class="footer-image-link" id="movies-link" style="background-image: url(data/Images/Footer/movies.png);">
+                            <a href="movies.html" style="text-decoration: none;">
+                                <div class="footer-image-link" id="movies-link" style="background-image: url(Images/Footer/movies.png);">
                                     Movies
                                 </div>
                             </a>
                         </div>
 
                         <div class="col-lg-4 col-12 p-3 pt-2 pb-2">
-                            <a href="home" style="text-decoration: none;">
-                                <div class="footer-image-link" id="home-link" style="background-image: url(data/Images/Footer/hub.png);">
+                            <a href="home.html" style="text-decoration: none;">
+                                <div class="footer-image-link" id="home-link" style="background-image: url(Images/Footer/hub.png);">
                                     Home
                                 </div>
                             </a>
                         </div>
 
                         <div class="col-lg-4 col-12 p-3 pt-2 pb-2">
-                            <a href="characters" style="text-decoration: none;">
-                                <div class="footer-image-link" id="characters-link" style="background-image: url(data/Images/Footer/characters.png);">
+                            <a href="characters.html" style="text-decoration: none;">
+                                <div class="footer-image-link" id="characters-link" style="background-image: url(Images/Footer/characters.png);">
                                     Characters
                                 </div>
                             </a>
@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <div class="row">
                         <div class="col-4">
-                            <a href="index" class="footer-logo-div">
-                                <img src="data/Images/Footer/logo.png" class="footer-logo-link">
+                            <a href="./" class="footer-logo-div">
+                                <img src="Images/Footer/logo.png" class="footer-logo-link">
                             </a>
                         </div>
                     </div>

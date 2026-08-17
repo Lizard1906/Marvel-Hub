@@ -1,0 +1,848 @@
+[
+    {
+        "id": "tony-stark",
+        "name": "Tony Stark",
+        "actor": [
+            {
+                "name": "Robert Downey Jr",
+                "birth": "04/04/1965",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Robert_Downey_Jr."
+            }
+        ]
+    },
+    {
+        "id": "steve-rogers",
+        "name": "Steve Rogers",
+        "actor": [
+            {
+                "name": "Chris Evans",
+                "birth": "13/06/1981",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Chris_Evans_(actor)"
+            }
+        ]
+    },
+    {
+        "id": "thor",
+        "name": "Thor Odinson",
+        "actor": [
+            {
+                "name": "Chris Hemsworth",
+                "birth": "11/08/1983",
+                "originCountry": "Australia",
+                "info": "https://en.wikipedia.org/wiki/Chris_Hemsworth"
+            }
+        ]
+    },
+    {
+        "id": "bruce-banner",
+        "name": "Bruce Banner",
+        "actor": [
+            {
+                "name": "Mark Ruffalo",
+                "birth": "22/11/1967",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Mark_Ruffalo"
+            },
+            {
+                "name": "Edward Norton",
+                "birth": "18/08/1969",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Edward_Norton"
+            }
+        ]
+    },
+    {
+        "id": "natasha-romanoff",
+        "name": "Natasha Romanoff",
+        "actor": [
+            {
+                "name": "Scarlett Johansson",
+                "birth": "22/11/1984",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Scarlett_Johansson"
+            }
+        ]
+    },
+    {
+        "id": "clint-barton",
+        "name": "Clint Barton",
+        "actor": [
+            {
+                "name": "Jeremy Renner",
+                "birth": "07/01/1971",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Jeremy_Renner"
+            }
+        ]
+    },
+    {
+        "id": "nick-fury",
+        "name": "Nick Fury",
+        "actor": [
+            {
+                "name": "Samuel L. Jackson",
+                "birth": "21/12/1948",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Samuel_L._Jackson"
+            }
+        ]
+    },
+    {
+        "id": "maria-hill",
+        "name": "Maria Hill",
+        "actor": [
+            {
+                "name": "Cobie Smulders",
+                "birth": "03/04/1982",
+                "originCountry": "Canada",
+                "info": "https://en.wikipedia.org/wiki/Cobie_Smulders"
+            }
+        ]
+    },
+    {
+        "id": "loki",
+        "name": "Loki",
+        "actor": [
+            {
+                "name": "Tom Hiddleston",
+                "birth": "09/02/1981",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Tom_Hiddleston"
+            }
+        ]
+    },
+    {
+        "id": "bucky-barnes",
+        "name": "Bucky Barnes",
+        "actor": [
+            {
+                "name": "Sebastian Stan",
+                "birth": "13/08/1982",
+                "originCountry": "Romania",
+                "info": "https://en.wikipedia.org/wiki/Sebastian_Stan"
+            }
+        ]
+    },
+    {
+        "id": "jane-foster",
+        "name": "Jane Foster",
+        "actor": [
+            {
+                "name": "Natalie Portman",
+                "birth": "09/06/1981",
+                "originCountry": "Israel",
+                "info": "https://en.wikipedia.org/wiki/Natalie_Portman"
+            }
+        ]
+    },
+    {
+        "id": "peggy-carter",
+        "name": "Peggy Carter",
+        "actor": [
+            {
+                "name": "Hayley Atwell",
+                "birth": "05/04/1982",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Hayley_Atwell"
+            }
+        ]
+    },
+    {
+        "id": "peter-quill",
+        "name": "Peter Quill",
+        "actor": [
+            {
+                "name": "Chris Pratt",
+                "birth": "21/06/1979",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Chris_Pratt"
+            }
+        ]
+    },
+    {
+        "id": "gamora",
+        "name": "Gamora",
+        "actor": [
+            {
+                "name": "Zoe Saldaña",
+                "birth": "19/06/1978",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Zoe_Saldaña"
+            }
+        ]
+    },
+    {
+        "id": "drax",
+        "name": "Drax",
+        "actor": [
+            {
+                "name": "Dave Bautista",
+                "birth": "18/01/1969",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Dave_Bautista"
+            }
+        ]
+    },
+    {
+        "id": "rocket",
+        "name": "Rocket",
+        "actor": [
+            {
+                "name": "Bradley Cooper",
+                "birth": "05/01/1975",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Bradley_Cooper"
+            }
+        ]
+    },
+    {
+        "id": "groot",
+        "name": "Groot",
+        "actor": [
+            {
+                "name": "Vin Diesel",
+                "birth": "18/07/1967",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Vin_Diesel"
+            }
+        ]
+    },
+    {
+        "id": "mantis",
+        "name": "Mantis",
+        "actor": [
+            {
+                "name": "Pom Klementieff",
+                "birth": "03/05/1986",
+                "originCountry": "Canada",
+                "info": "https://en.wikipedia.org/wiki/Pom_Klementieff"
+            }
+        ]
+    },
+    {
+        "id": "james-rhodes",
+        "name": "James Rhodes",
+        "actor": [
+            {
+                "name": "Don Cheadle",
+                "birth": "29/11/1964",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Don_Cheadle"
+            },
+            {
+                "name": "Terrence Howard",
+                "birth": "11/03/1969",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Terrence_Howard"
+            }
+        ]
+    },
+    {
+        "id": "sam-wilson",
+        "name": "Sam Wilson",
+        "actor": [
+            {
+                "name": "Anthony Mackie",
+                "birth": "23/09/1978",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Anthony_Mackie"
+            }
+        ]
+    },
+    {
+        "id": "wanda-maximoff",
+        "name": "Wanda Maximoff",
+        "actor": [
+            {
+                "name": "Elizabeth Olsen",
+                "birth": "16/02/1989",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Elizabeth_Olsen"
+            }
+        ]
+    },
+    {
+        "id": "vision",
+        "name": "Vision",
+        "actor": [
+            {
+                "name": "Paul Bettany",
+                "birth": "27/05/1971",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Paul_Bettany"
+            }
+        ]
+    },
+    {
+        "id": "scott-lang",
+        "name": "Scott Lang",
+        "actor": [
+            {
+                "name": "Paul Rudd",
+                "birth": "06/04/1969",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Paul_Rudd"
+            }
+        ]
+    },
+    {
+        "id": "hope-van-dyne",
+        "name": "Hope van Dyne",
+        "actor": [
+            {
+                "name": "Evangeline Lilly",
+                "birth": "03/08/1979",
+                "originCountry": "Canada",
+                "info": "https://en.wikipedia.org/wiki/Evangeline_Lilly"
+            }
+        ]
+    },
+    {
+        "id": "doctor-strange",
+        "name": "Doctor Strange",
+        "actor": [
+            {
+                "name": "Benedict Cumberbatch",
+                "birth": "19/07/1976",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Benedict_Cumberbatch"
+            }
+        ]
+    },
+    {
+        "id": "wong",
+        "name": "Wong",
+        "actor": [
+            {
+                "name": "Benedict Wong",
+                "birth": "03/06/1971",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Benedict_Wong"
+            }
+        ]
+    },
+    {
+        "id": "peter-parker",
+        "name": "Peter Parker",
+        "actor": [
+            {
+                "name": "Tom Holland",
+                "birth": "01/06/1996",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Tom_Holland"
+            }
+        ]
+    },
+    {
+        "id": "t-challa",
+        "name": "T'Challa",
+        "actor": [
+            {
+                "name": "Chadwick Boseman",
+                "birth": "29/11/1976",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Chadwick_Boseman"
+            }
+        ]
+    },
+    {
+        "id": "shuri",
+        "name": "Shuri",
+        "actor": [
+            {
+                "name": "Letitia Wright",
+                "birth": "31/10/1993",
+                "originCountry": "Guyana",
+                "info": "https://en.wikipedia.org/wiki/Letitia_Wright"
+            }
+        ]
+    },
+    {
+        "id": "riri-williams",
+        "name": "Riri Williams",
+        "actor": [
+            {
+                "name": "Dominique Thorne",
+                "birth": "01/11/1998",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Dominique_Thorne"
+            }
+        ]
+    },
+    {
+        "id": "valkyrie",
+        "name": "Valkyrie",
+        "actor": [
+            {
+                "name": "Tessa Thompson",
+                "birth": "03/10/1983",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Tessa_Thompson"
+            }
+        ]
+    },
+    {
+        "id": "carol-danvers",
+        "name": "Carol Danvers",
+        "actor": [
+            {
+                "name": "Brie Larson",
+                "birth": "01/10/1989",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Brie_Larson"
+            }
+        ]
+    },
+    {
+        "id": "monica-rambeau",
+        "name": "Monica Rambeau",
+        "actor": [
+            {
+                "name": "Teyonah Parris",
+                "birth": "22/09/1987",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Teyonah_Parris"
+            }
+        ]
+    },
+    {
+        "id": "kamala-khan",
+        "name": "Kamala Khan",
+        "actor": [
+            {
+                "name": "Iman Vellani",
+                "birth": "12/08/2002",
+                "originCountry": "Pakistan",
+                "info": "https://en.wikipedia.org/wiki/Iman_Vellani"
+            }
+        ]
+    },
+    {
+        "id": "kate-bishop",
+        "name": "Kate Bishop",
+        "actor": [
+            {
+                "name": "Hailee Steinfeld",
+                "birth": "11/12/1996",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Hailee_Steinfeld"
+            }
+        ]
+    },
+    {
+        "id": "joaquin-torres",
+        "name": "Joaquin Torres",
+        "actor": [
+            {
+                "name": "Danny Ramirez",
+                "birth": "17/09/1992",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Danny_Ramirez"
+            }
+        ]
+    },
+    {
+        "id": "john-walker",
+        "name": "John Walker",
+        "actor": [
+            {
+                "name": "Wyatt Russell",
+                "birth": "10/07/1986",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Wyatt_Russell"
+            }
+        ]
+    },
+    {
+        "id": "yelena-belova",
+        "name": "Yelena Belova",
+        "actor": [
+            {
+                "name": "Florence Pugh",
+                "birth": "03/01/1996",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Florence_Pugh"
+            }
+        ]
+    },
+    {
+        "id": "alexei-shostakov",
+        "name": "Alexei Shostakov",
+        "actor": [
+            {
+                "name": "David Harbour",
+                "birth": "10/04/1975",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/David_Harbour"
+            }
+        ]
+    },
+    {
+        "id": "ava-starr",
+        "name": "Ava Starr",
+        "actor": [
+            {
+                "name": "Hannah John-Kamen",
+                "birth": "07/09/1989",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Hannah_John-Kamen"
+            }
+        ]
+    },
+    {
+        "id": "bob",
+        "name": "Bob",
+        "actor": [
+            {
+                "name": "Lewis Pullman",
+                "birth": "29/01/1993",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Lewis_Pullman"
+            }
+        ]
+    },
+    {
+        "id": "shang-chi",
+        "name": "Shang-Chi",
+        "actor": [
+            {
+                "name": "Simu Liu",
+                "birth": "19/04/1989",
+                "originCountry": "China",
+                "info": "https://en.wikipedia.org/wiki/Simu_Liu"
+            }
+        ]
+    },
+    {
+        "id": "wade-wilson",
+        "name": "Wade Wilson",
+        "actor": [
+            {
+                "name": "Ryan Reynolds",
+                "birth": "23/10/1976",
+                "originCountry": "Canada",
+                "info": "https://en.wikipedia.org/wiki/Ryan_Reynolds"
+            }
+        ]
+    },
+    {
+        "id": "logan",
+        "name": "Logan",
+        "actor": [
+            {
+                "name": "Hugh Jackman",
+                "birth": "12/10/1968",
+                "originCountry": "Australia",
+                "info": "https://en.wikipedia.org/wiki/Hugh_Jackman"
+            }
+        ]
+    },
+    {
+        "id": "gambit",
+        "name": "Gambit",
+        "actor": [
+            {
+                "name": "Channing Tatum",
+                "birth": "26/04/1980",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Channing_Tatum"
+            }
+        ]
+    },
+    {
+        "id": "peter-parker-sm",
+        "name": "Peter Parker",
+        "actor": [
+            {
+                "name": "Tobey Maguire",
+                "birth": "27/06/1975",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Tobey_Maguire"
+            }
+        ]
+    },
+    {
+        "id": "peter-parker-asm",
+        "name": "Peter Parker",
+        "actor": [
+            {
+                "name": "Andrew Garfield",
+                "birth": "20/08/1983",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Andrew_Garfield"
+            }
+        ]
+    },
+    {
+        "id": "matt-murdock",
+        "name": "Matt Murdock",
+        "actor": [
+            {
+                "name": "Charlie Cox",
+                "birth": "15/12/1982",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Charlie_Cox"
+            }
+        ]
+    },
+    {
+        "id": "frank-castle",
+        "name": "Frank Castle",
+        "actor": [
+            {
+                "name": "Jon Bernthal",
+                "birth": "20/09/1976",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Jon_Bernthal"
+            }
+        ]
+    },
+    {
+        "id": "jennifer-walters",
+        "name": "Jennifer Walters",
+        "actor": [
+            {
+                "name": "Tatiana Maslany",
+                "birth": "22/09/1985",
+                "originCountry": "Canada",
+                "info": "https://en.wikipedia.org/wiki/Tatiana_Maslany"
+            }
+        ]
+    },
+    {
+        "id": "maya-lopez",
+        "name": "Maya Lopez",
+        "actor": [
+            {
+                "name": "Alaqua Cox",
+                "birth": "30/11/2000",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Alaqua_Cox"
+            }
+        ]
+    },
+    {
+        "id": "america-chavez",
+        "name": "America Chavez",
+        "actor": [
+            {
+                "name": "Xochitl Gomez",
+                "birth": "29/04/2006",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Xochitl_Gomez"
+            }
+        ]
+    },
+    {
+        "id": "agatha-harkness",
+        "name": "Agatha Harkness",
+        "actor": [
+            {
+                "name": "Kathryn Hahn",
+                "birth": "23/07/1973",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Kathryn_Hahn"
+            }
+        ]
+    },
+    {
+        "id": "billy-maximoff",
+        "name": "Billy Maximoff",
+        "actor": [
+            {
+                "name": "Joe Locke",
+                "birth": "24/09/2003",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Joe_Locke"
+            },
+            {
+                "name": "Julian Hilliard",
+                "birth": "20/06/2011",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Julian_Hilliard"
+            }
+        ]
+    },
+    {
+        "id": "sersi",
+        "name": "Sersi",
+        "actor": [
+            {
+                "name": "Gemma Chan",
+                "birth": "29/11/1982",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Gemma_Chan"
+            }
+        ]
+    },
+    {
+        "id": "thena",
+        "name": "Thena",
+        "actor": [
+            {
+                "name": "Angelina Jolie",
+                "birth": "04/06/1975",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Angelina_Jolie"
+            }
+        ]
+    },
+    {
+        "id": "kingo",
+        "name": "Kingo",
+        "actor": [
+            {
+                "name": "Kumail Nanjiani",
+                "birth": "21/02/1978",
+                "originCountry": "Pakistan",
+                "info": "https://en.wikipedia.org/wiki/Kumail_Nanjiani"
+            }
+        ]
+    },
+    {
+        "id": "druig",
+        "name": "Druig",
+        "actor": [
+            {
+                "name": "Barry Keoghan",
+                "birth": "18/10/1992",
+                "originCountry": "Ireland",
+                "info": "https://en.wikipedia.org/wiki/Barry_Keoghan"
+            }
+        ]
+    },
+    {
+        "id": "makkari",
+        "name": "Makkari",
+        "actor": [
+            {
+                "name": "Lauren Ridloff",
+                "birth": "06/07/1978",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Lauren_Ridloff"
+            }
+        ]
+    },
+    {
+        "id": "phastos",
+        "name": "Phastos",
+        "actor": [
+            {
+                "name": "Brian Tyree Henry",
+                "birth": "31/03/1982",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Brian_Tyree_Henry"
+            }
+        ]
+    },
+    {
+        "id": "marc-spector",
+        "name": "Marc Spector",
+        "actor": [
+            {
+                "name": "Oscar Isaac",
+                "birth": "09/03/1979",
+                "originCountry": "Guatemala",
+                "info": "https://en.wikipedia.org/wiki/Oscar_Isaac"
+            }
+        ]
+    },
+    {
+        "id": "talos",
+        "name": "Talos",
+        "actor": [
+            {
+                "name": "Ben Mendelsohn",
+                "birth": "03/04/1969",
+                "originCountry": "Australia",
+                "info": "https://en.wikipedia.org/wiki/Ben_Mendelsohn"
+            }
+        ]
+    },
+    {
+        "id": "giah",
+        "name": "G'iah",
+        "actor": [
+            {
+                "name": "Emilia Clarke",
+                "birth": "23/10/1986",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Emilia_Clarke"
+            }
+        ]
+    },
+    {
+        "id": "reed-richards",
+        "name": "Reed Richards",
+        "actor": [
+            {
+                "name": "Pedro Pascal",
+                "birth": "02/04/1975",
+                "originCountry": "Chile",
+                "info": "https://en.wikipedia.org/wiki/Pedro_Pascal"
+            }
+        ]
+    },
+    {
+        "id": "sue-storm",
+        "name": "Sue Storm",
+        "actor": [
+            {
+                "name": "Vanessa Kirby",
+                "birth": "18/04/1988",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Vanessa_Kirby"
+            }
+        ]
+    },
+    {
+        "id": "johnny-storm",
+        "name": "Johnny Storm",
+        "actor": [
+            {
+                "name": "Joseph Quinn",
+                "birth": "26/01/1994",
+                "originCountry": "UK",
+                "info": "https://en.wikipedia.org/wiki/Joseph_Quinn"
+            }
+        ]
+    },
+    {
+        "id": "ben-grimm",
+        "name": "Ben Grimm",
+        "actor": [
+            {
+                "name": "Ebon Moss-Bachrach",
+                "birth": "19/03/1977",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Ebon_Moss-Bachrach"
+            }
+        ]
+    },
+    {
+        "id": "simon-williams",
+        "name": "Simon Williams",
+        "actor": [
+            {
+                "name": "Yahya Abdul-Mateen II",
+                "birth": "15/07/1986",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Yahya_Abdul-Mateen_II"
+            }
+        ]
+    },
+    {
+        "id": "jean-grey",
+        "name": "Jean Grey",
+        "actor": [
+            {
+                "name": "Sadie Sink",
+                "birth": "16/04/2002",
+                "originCountry": "USA",
+                "info": "https://en.wikipedia.org/wiki/Sadie_Sink"
+            }
+        ]
+    }
+]
