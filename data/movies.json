@@ -2962,7 +2962,50 @@
                 "trailer": "#"
             },
             "visible": true,
-            "moviesToWatch": [],
+            "moviesToWatch": [
+                {
+                    "id": "captain-america-1"
+                },
+                {
+                    "id": "avengers-1"
+                },
+                {
+                    "id": "avengers-2"
+                },
+                {
+                    "id": "avengers-4"
+                },
+                {
+                    "id": "loki-1"
+                },
+                {
+                    "id": "loki-2"
+                },
+                {
+                    "id": "shang-chi-1"
+                },
+                {
+                    "id": "spider-man-3"
+                },
+                {
+                    "id": "doctor-strange-2"
+                },
+                {
+                    "id": "black-panther-2"
+                },
+                {
+                    "id": "deadpool-3"
+                },
+                {
+                    "id": "captain-america-4"
+                },
+                {
+                    "id": "thunderbolts"
+                },
+                {
+                    "id": "the-fantastic-four"
+                }
+            ],
             "mainCharacters": [
                 {
                     "name": "Thor",
