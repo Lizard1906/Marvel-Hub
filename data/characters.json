@@ -756,6 +756,18 @@
         ]
     },
     {
+        "id": "namor",
+        "name": "Namor",
+        "actor": [
+            {
+                "name": "Tenoch Huerta",
+                "birth": "29/01/1981",
+                "originCountry": "Mexico",
+                "info": "https://en.wikipedia.org/wiki/Tenoch_Huerta"
+            }
+        ]
+    },
+    {
         "id": "sue-storm",
         "name": "Sue Storm",
         "actor": [

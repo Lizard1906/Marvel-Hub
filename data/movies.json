@@ -2180,6 +2180,11 @@
                     "id": "shuri"
                 },
                 {
+                    "name": "Namor",
+                    "actor": "Tenoch Huerta",
+                    "id": "namor"
+                },
+                {
                     "name": "Riri Williams",
                     "actor": "Dominique Thorne",
                     "id": "riri-williams"
@@ -3038,6 +3043,11 @@
                     "name": "Shuri",
                     "actor": "Letitia Wright",
                     "id": "shuri"
+                },
+                {
+                    "name": "Namor",
+                    "actor": "Tenoch Huerta",
+                    "id": "namor"
                 },
                 {
                     "name": "Shang-Chi",
