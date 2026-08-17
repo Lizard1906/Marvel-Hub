@@ -17,7 +17,7 @@ function createSwiperSlide(movie) {
 
     const poster = document.createElement("img");
     poster.classList.add("poster-img");
-    poster.src = "data/Images/Movies/MovieDetails/Poster/" + movie.id + ".png";
+    poster.src = "Images/Movies/MovieDetails/Poster/" + movie.id + ".png";
 
     link.appendChild(poster);
     swiperSlide.appendChild(link);
@@ -26,11 +26,15 @@ function createSwiperSlide(movie) {
 }
 
 infinityMovies.forEach((movie) => {
-    swiperWrapperInfinity.appendChild(createSwiperSlide(movie));
+    if (movie.visible) {
+        swiperWrapperInfinity.appendChild(createSwiperSlide(movie));
+    }
 });
 
 multiverseMovies.forEach((movie) => {
-    swiperWrapperMultiverse.appendChild(createSwiperSlide(movie));
+    if (movie.visible) {
+        swiperWrapperMultiverse.appendChild(createSwiperSlide(movie));
+    }
 });
 
 var swiperInfinity = new Swiper(".infinitySwiper", {
