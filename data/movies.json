@@ -1512,6 +1512,11 @@
                     "name": "Billy Maximoff",
                     "actor": "Julian Hilliard",
                     "id": "billy-maximoff"
+                },
+                {
+                    "name": "Tommy Maximoff",
+                    "actor": "Jett Klyne",
+                    "id": "tommy-maximoff"
                 }
             ]
         },
@@ -1553,6 +1558,44 @@
                     "name": "Teen",
                     "actor": "Joe Locke",
                     "id": "billy-maximoff"
+                }
+            ]
+        },
+        {
+            "id": "visionquest",
+            "title": "VisionQuest",
+            "data": {
+                "releaseDate": "10-14-2026",
+                "movieDate": {
+                    "year": 2026,
+                    "season": "fall"
+                },
+                "length": 315,
+                "episodes": 8,
+                "director": "Terry Matalas +3",
+                "imdb": {
+                    "link": "https://www.imdb.com/title/tt23112594/",
+                    "value": null
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=oSVTAUKyrL8"
+            },
+            "visible": false,
+            "moviesToWatch": [
+                {
+                    "id": "wandavision"
+                }
+            ],
+            "mainCharacters": [
+                {
+                    "name": "Vision",
+                    "actor": "Paul Bettany",
+                    "id": "vision"
+                },
+                {
+                    "name": "Tommy Maximoff",
+                    "actor": "Ruaridh Mollica",
+                    "id": "tommy-maximoff"
                 }
             ]
         },
@@ -1891,6 +1934,11 @@
                     "name": "Billy Maximoff",
                     "actor": "Julian Hilliard",
                     "id": "billy-maximoff"
+                },
+                {
+                    "name": "Tommy Maximoff",
+                    "actor": "Jett Klyne",
+                    "id": "tommy-maximoff"
                 },
                 {
                     "name": "Captain Carter",

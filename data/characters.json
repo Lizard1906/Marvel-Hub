@@ -666,6 +666,24 @@
         ]
     },
     {
+        "id": "tommy-maximoff",
+        "name": "Tommy Maximoff",
+        "actor": [
+            {
+                "name": "Ruaridh Mollica",
+                "birth": "14/10/1999",
+                "originCountry": "Scotland",
+                "info": "https://en.wikipedia.org/wiki/Ruaridh_Mollica"
+            },
+            {
+                "name": "Jett Klyne",
+                "birth": "15/06/2009",
+                "originCountry": "Canada",
+                "info": "https://en.wikipedia.org/wiki/Jett_Klyne"
+            }
+        ]
+    },
+    {
         "id": "sersi",
         "name": "Sersi",
         "actor": [
