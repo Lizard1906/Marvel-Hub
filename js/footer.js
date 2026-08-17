@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <div class="row">
                         <div class="col-4">
-                            <a href="index.html" class="footer-logo-div">
+                            <a href="./" class="footer-logo-div">
                                 <img src="Images/Footer/logo.png" class="footer-logo-link">
                             </a>
                         </div>
