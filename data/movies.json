@@ -1512,6 +1512,11 @@
                     "name": "Billy Maximoff",
                     "actor": "Julian Hilliard",
                     "id": "billy-maximoff"
+                },
+                {
+                    "name": "Tommy Maximoff",
+                    "actor": "Jett Klyne",
+                    "id": "tommy-maximoff"
                 }
             ]
         },
@@ -1538,9 +1543,6 @@
             "moviesToWatch": [
                 {
                     "id": "wandavision"
-                },
-                {
-                    "id": "doctor-strange-2"
                 }
             ],
             "mainCharacters": [
@@ -1550,9 +1552,47 @@
                     "id": "agatha-harkness"
                 },
                 {
-                    "name": "Teen",
+                    "name": "Billy Maximoff",
                     "actor": "Joe Locke",
                     "id": "billy-maximoff"
+                }
+            ]
+        },
+        {
+            "id": "visionquest",
+            "title": "VisionQuest",
+            "data": {
+                "releaseDate": "10-14-2026",
+                "movieDate": {
+                    "year": 2026,
+                    "season": "fall"
+                },
+                "length": 315,
+                "episodes": 8,
+                "director": "Terry Matalas +3",
+                "imdb": {
+                    "link": "https://www.imdb.com/title/tt23112594/",
+                    "value": null
+                },
+                "streaming": "disney+",
+                "trailer": "https://www.youtube.com/watch?v=oSVTAUKyrL8"
+            },
+            "visible": false,
+            "moviesToWatch": [
+                {
+                    "id": "wandavision"
+                }
+            ],
+            "mainCharacters": [
+                {
+                    "name": "Vision",
+                    "actor": "Paul Bettany",
+                    "id": "vision"
+                },
+                {
+                    "name": "Tommy Maximoff",
+                    "actor": "Ruaridh Mollica",
+                    "id": "tommy-maximoff"
                 }
             ]
         },
@@ -1893,6 +1933,11 @@
                     "id": "billy-maximoff"
                 },
                 {
+                    "name": "Tommy Maximoff",
+                    "actor": "Jett Klyne",
+                    "id": "tommy-maximoff"
+                },
+                {
                     "name": "Captain Carter",
                     "actor": "Hayley Atwell",
                     "id": "peggy-carter"
@@ -2133,6 +2178,11 @@
                     "name": "Black Panther",
                     "actor": "Letitia Wright",
                     "id": "shuri"
+                },
+                {
+                    "name": "Namor",
+                    "actor": "Tenoch Huerta",
+                    "id": "namor"
                 },
                 {
                     "name": "Riri Williams",
@@ -2912,7 +2962,50 @@
                 "trailer": "#"
             },
             "visible": true,
-            "moviesToWatch": [],
+            "moviesToWatch": [
+                {
+                    "id": "captain-america-1"
+                },
+                {
+                    "id": "avengers-1"
+                },
+                {
+                    "id": "avengers-2"
+                },
+                {
+                    "id": "avengers-4"
+                },
+                {
+                    "id": "loki-1"
+                },
+                {
+                    "id": "loki-2"
+                },
+                {
+                    "id": "shang-chi-1"
+                },
+                {
+                    "id": "spider-man-3"
+                },
+                {
+                    "id": "doctor-strange-2"
+                },
+                {
+                    "id": "black-panther-2"
+                },
+                {
+                    "id": "deadpool-3"
+                },
+                {
+                    "id": "captain-america-4"
+                },
+                {
+                    "id": "thunderbolts"
+                },
+                {
+                    "id": "the-fantastic-four"
+                }
+            ],
             "mainCharacters": [
                 {
                     "name": "Thor",
@@ -2993,6 +3086,11 @@
                     "name": "Shuri",
                     "actor": "Letitia Wright",
                     "id": "shuri"
+                },
+                {
+                    "name": "Namor",
+                    "actor": "Tenoch Huerta",
+                    "id": "namor"
                 },
                 {
                     "name": "Shang-Chi",
